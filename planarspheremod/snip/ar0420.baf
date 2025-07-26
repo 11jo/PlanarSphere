@@ -7,4 +7,4 @@ THEN
 		CreateCreatureDoor("psTeos",[314.422],0)
 		ActionOverride("psTeos",SetDialog("psTeosEn"))
 		ActionOverride("psTeos",StartDialogNoSet(Player1))
-End
+END

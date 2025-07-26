@@ -1,7 +1,7 @@
 IF
 	True()
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		CutSceneID(Player1)
 		ClearAllActions()
 		
@@ -9,4 +9,4 @@ Then
 		Wait(5)
 		ActionOverride("psTeos",StartDialogNoSet("psBelle"))
 		EndCutSceneMode()
-End
+END

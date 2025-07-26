@@ -1,16 +1,16 @@
 IF
 	RandomNum(5,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		CreateVisualEffectObject("SPCRTWPN",Myself)
 		Wait(2)
 		RandomWalk()
-End
+END
 
-If
+IF
 	RandomNum(4,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		CreateVisualEffectObject("SPHANDAT",Myself)
 		Wait(1)
 		CreateVisualEffectObject("SPFINODI",Myself)
@@ -18,12 +18,12 @@ Then
 		CreateVisualEffectObject("SPCRTWPN",Myself)
 		Wait(2)
 		RandomWalk()
-End
+END
 
-If
+IF
 	RandomNum(3,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		CreateVisualEffectObject("SPCALLLI",Myself)
 		CreateVisualEffectObject("SPBOOM",Myself)
 		Wait(1)
@@ -32,4 +32,4 @@ Then
 		CreateVisualEffectObject("SPPLANAR",Myself)
 		Wait(2)
 		RandomWalk()
-End
+END

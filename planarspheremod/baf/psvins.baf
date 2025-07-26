@@ -1,7 +1,7 @@
-If
+IF
 	Global("psSpellUp","LOCALS",0)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
@@ -12,55 +12,55 @@ Then
 		ReallyForceSpell(Myself,WIZARD_TELEPORT_FIELD)
 		SetGlobalTimer("psTimeToNextProtCast","LOCALS",60)
 		SetGlobal("psSpellUp","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(6,1)
 		GlobalLT("psVecnaProtectionCounter","LOCALS",8)
 		GlobalTimerExpired("psTimeToNextProtCast","LOCALS")
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		SetGlobalTimer("psTimeToNextProtCast","LOCALS",60)
 		ForceSpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
 		ForceSpell(Myself,WIZARD_STONE_SKIN)
-End
+END
 
-If
+IF
 	RandomNum(10,1)
 	GlobalLT("psVecnaTimestopCounter","LOCALS",7)
 	GlobalTimerExpired("psVecnaTimestopTimer","LOCALS")
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		SetGlobalTimer("psVecnaTimestopTimer","LOCALS",18)
 		ForceSpell(Myself,WIZARD_TIME_STOP)
 		IncrementGlobal("psVecnaTimestopCounter","LOCALS",1)
 		Continue()
-End
+END
 
 
-If
+IF
 	RandomNum(5,1)
 	GlobalLT("psVecnaWiltingCounter","LOCALS",12)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
 		IncrementGlobal("psVecnaWiltingCounter","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(12,1)
 	GlobalLT("psVecnaPlanatarCounter","LOCALS",3)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_SUMMON_PLANATAR_EVIL)
 		IncrementGlobal("psVecnaPlanatarCounter","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(15,1)
 	GlobalLT("psVecnaSpellstrikeCounter","LOCALS",3)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(Player1,WIZARD_SPELL_STRIKE)
 		ReallyForceSpell(Player2,WIZARD_SPELL_STRIKE)
 		ReallyForceSpell(Player3,WIZARD_SPELL_STRIKE)
@@ -68,13 +68,13 @@ Then
 		ReallyForceSpell(Player5,WIZARD_SPELL_STRIKE)
 		ReallyForceSpell(Player6,WIZARD_SPELL_STRIKE)
 		IncrementGlobal("psVecnaSpellstrikeCounter","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(10,1)
 	GlobalLT("psVecnaDispelCounter","LOCALS",4)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(Player1,WIZARD_TRUE_DISPEL_MAGIC)
 		ReallyForceSpell(Player2,WIZARD_TRUE_DISPEL_MAGIC)
 		ReallyForceSpell(Player3,WIZARD_TRUE_DISPEL_MAGIC)
@@ -82,60 +82,60 @@ Then
 		ReallyForceSpell(Player5,WIZARD_TRUE_DISPEL_MAGIC)
 		ReallyForceSpell(Player6,WIZARD_TRUE_DISPEL_MAGIC)		
 		IncrementGlobal("psVecnaDispelCounter","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(6,1)
 	GlobalLT("psVecnaBigbysCounter","LOCALS",6)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_BIGBYS_CRUSHING_HAND)
 		IncrementGlobal("psVecnaBigbysCounter","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(4,1)
 	GlobalLT("psSpellTriggerCounter","LOCALS",5)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CHAOS)
 		IncrementGlobal("psSpellTriggerCounter","LOCALS",1)
-End
+END
 
-If
+IF
 	RandomNum(10,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAZE)
-End
+END
 
-If
+IF
 	RandomNum(5,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
-End
+END
 
-If
+IF
 	RandomNum(5,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_SUN_FIRE)
-End
+END
 
-If
+IF
 	RandomNum(2,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_FLAME_ARROW)
-End
+END
 
-If
+IF
 	RandomNum(2,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		MoveToObject(Player1)
 		Continue()
-End
+END

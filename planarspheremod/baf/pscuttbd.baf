@@ -1,7 +1,7 @@
-If
+IF
 	True()
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		CutSceneID(Player1)
 		ClearAllActions()
 		
@@ -10,4 +10,4 @@ Then
 		DisplayStringHead("psBelle",@617)
 		Wait(4)
 		ActionOverride("psBelle",StartDialogNoSet(Player1))
-End
+END

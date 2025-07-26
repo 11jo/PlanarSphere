@@ -1,7 +1,7 @@
-If
+IF
 	True()
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		CutSceneID(Player1)
 		MoveViewPoint([2408.1743],INSTANT)
 		JumpToPoint([2409.1843])
@@ -26,4 +26,4 @@ Then
 		Wait(4)
 		DisplayStringHead("psApp02",@548)
 		EndCutSceneMode()
-End
+END

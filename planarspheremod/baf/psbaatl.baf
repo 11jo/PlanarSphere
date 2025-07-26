@@ -2,8 +2,8 @@ IF
 	HPLT(Myself,150)
 	GlobalLT("psBaatSummonedCounter","LOCALS",3)
 	See(NearestEnemyOf(Myself))
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(Myself,CLERIC_HEAL)
 		IncrementGlobal("psBaatSummonedCounter","LOCALS",1)
 		CreateCreatureObject("psBaat01",NearestEnemyOf(Myself),0,0,0)

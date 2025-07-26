@@ -1,7 +1,7 @@
-If
+IF
 	Global("duCasterStart","LOCALS",0)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		SetGlobal("duCasterStart","LOCALS",1)
 		SetGlobal("duSpellTrigger","LOCALS",0)
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
@@ -10,138 +10,138 @@ Then
 		ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
 		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
 		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
-End
+END
 
-If
+IF
 	TookDamage()
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
 		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
 		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
 		Continue()
-End
+END
 
-If
+IF
 	RandomNum(12,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(12,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(Myself,WIZARD_STONE_SKIN)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(12,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(12,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(Myself,WIZARD_TIME_STOP)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(8,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_COMET)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(8,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_SPELL_STRIKE)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(5,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(3,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
 	Wait(2)
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_CONFUSION)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(8,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_MORDENKAINENS_SWORD)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(5,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_TRUE_DISPEL_MAGIC)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(2,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(2,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(8,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_THE_ELEMENTS)
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_DELAYED_BLAST_FIREBALL)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(7,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_BIGBYS_CLENCHED_FIST)
 	Continue()
-End
+END
 
-If
+IF
 	RandomNum(15,1)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 	ForceSpell(NearestEnemyOf(Myself),WIZARD_SUMMON_PLANATAR_EVIL)
 	Continue()
-End
+END

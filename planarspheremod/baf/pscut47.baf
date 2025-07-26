@@ -59,4 +59,4 @@ THEN
 		Kill("OBSERVE")
 		SmallWait(2)
 		Kill("OBSERVE")
-End
+END

@@ -3,7 +3,7 @@ IF
 	!Global("psElminsterSpawnToggle","GLOBAL",1)		//Unless elminster is spawning
 	!Global("psGiveToesArtifactCounter","GLOBAL",1)		//or you are in the cutscene
 THEN
-	Response #100
+	RESPONSE #100
 		SetGlobal("psDeactivatedToggle","AR0410",0)
 		Activate("psApp06a")
 		Activate("psApp06b")

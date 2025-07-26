@@ -1,6 +1,6 @@
 IF
 	!See(NearestEnemyOf(Myself))
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		MoveToObject(Player1)
-End
+END

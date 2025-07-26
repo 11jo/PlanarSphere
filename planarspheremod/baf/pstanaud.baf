@@ -2,7 +2,7 @@ IF
 	HPLT(Myself,150)
 	GlobalLT("psRestore","LOCALS",2)
 THEN
-	Response #100
+	RESPONSE #100
 		ReallyForceSpell(Myself,CLERIC_HEAL)
 		ReallyForceSpell(Myself,WIZARD_TENSERS_TRANSFORMATION)
 		
@@ -16,8 +16,8 @@ END
 
 IF
 	Global("psUDSpellUp","LOCALS",0)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		ReallyForceSpell(Myself,CLERIC_AURA_OF_FLAMING_DEATH)
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
@@ -115,8 +115,8 @@ IF
 	RandomNum(35,1)
 	Global("psUDTimestop","LOCALS",0)
 	See(NearestEnemyOf(Myself))
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		SetGlobal("psUDTimestop","LOCALS",1)
 		ForceSpell(Myself,WIZARD_TIME_STOP)
 END

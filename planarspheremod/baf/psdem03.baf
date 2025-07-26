@@ -8,8 +8,8 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		Attack(NearestEnemyOf(Myself))
 		Continue()
-End
+END

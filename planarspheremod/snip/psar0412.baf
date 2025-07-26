@@ -11,7 +11,7 @@ IF
 	Global("psTeosInitialDialogToggle","GLOBAL",1)
 	Global("psDwarfSpawnToggle","GLOBAL",0)
 THEN
-	Response #100
+	RESPONSE #100
 		SetGlobal("psDwarfSpawnToggle","GLOBAL",1)
 		CreateCreature("psDwarf1",[1700.800],0)
 		CreateCreature("psDwarf1",[1900.800],0)

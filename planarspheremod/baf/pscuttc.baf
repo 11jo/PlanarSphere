@@ -1,9 +1,9 @@
 //Turn teos into a chicken and give him to the player as an item.
 
-If
+IF
 	True()
-Then
-	Response #100	
+THEN
+	RESPONSE #100	
 		CutSceneID(Player1)
 		ClearAllActions()
 		
@@ -17,4 +17,4 @@ Then
 		ActionOverride("psTeos",DestroySelf())
 		
 		EndCutSceneMode()
-End
+END

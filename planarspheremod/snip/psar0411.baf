@@ -1,19 +1,19 @@
 IF
 	Global("psBelleGoneCounter","GLOBAL",2)
 	Global("psTeosSpawnsAgainCounter","GLOBAL",0)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		SetGlobal("psTeosSpawnsAgainCounter","GLOBAL",1)
 		CreateCreatureDoor("psTeos",[2415.2258],0)
 		ActionOverride("psTeos",SetDialog("psTeosRe"))
 		Continue()     // existing area scripts contain OnCreation
-End
+END
 
 IF
 	Dead("psBelle")
 	Global("psBelleGoneCounter","GLOBAL",0)
-Then
-	Response #100
+THEN
+	RESPONSE #100
 		SetGlobal("psBelleGoneCounter","GLOBAL",1)
 		Continue()     // existing area scripts contain OnCreation
 END
@@ -22,12 +22,12 @@ IF
 	Global("psTeosPetCounter","GLOBAL",2)
 	Global("psTeosTheChickenSpawnedToggle","GLOBAL",0)
 THEN
-	Response #100
+	RESPONSE #100
 		CreateCreatureObject("psTeosCh","psBelle",0,0,0)
 		ActionOverride("psTeosCh",Polymorph(CHICKEN))
 		SetGlobal("psTeosTheChickenSpawnedToggle","GLOBAL",1)
 		Continue()     // existing area scripts contain OnCreation
-End
+END
 
 IF
 	Global("psTeosNotAccepted","GLOBAL",2)
