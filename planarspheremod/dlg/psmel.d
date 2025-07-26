@@ -1,6 +1,6 @@
 BEGIN ~psMel~
 
-IF ~Global("psMelsIntro", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+IF ~Global("psMelsIntro","GLOBAL",0)~ THEN BEGIN 0 // from:
   SAY @0
   IF ~~ THEN GOTO 1
 END
@@ -28,7 +28,7 @@ END
 
 IF ~~ THEN BEGIN 4 // from: 3.0
   SAY @46
-  IF ~~ THEN DO ~SetGlobal("psMelsIntro", "GLOBAL", 1)
+  IF ~~ THEN DO ~SetGlobal("psMelsIntro","GLOBAL",1)
 StartCutScene("psCut02")~ EXIT
 END
 
@@ -38,7 +38,7 @@ IF ~~ THEN BEGIN 5 // from: 2.1
 END
 
 
-IF ~Global("psMelsIntro", "GLOBAL", 1)~ THEN BEGIN psMelsIntro-0 // from:
+IF ~Global("psMelsIntro","GLOBAL",1)~ THEN BEGIN psMelsIntro-0 // from:
   SAY @9
   ++ @10 GOTO psMelsIntro-1
 END
@@ -94,7 +94,7 @@ IF ~~ THEN BEGIN psMelsIntro-9 // from: 8.0
   SAY @25
   IF ~~ THEN DO ~
 SetGlobal("psNightmareOfTheSoulToggle","GLOBAL",1)
-SetGlobal("psMelsIntro", "GLOBAL", 2)
+SetGlobal("psMelsIntro","GLOBAL",2)
 
 StartCutSceneMode()
 Wait(2)
@@ -130,13 +130,13 @@ END
 
 
 
-IF ~Global("psElminsterDead", "GLOBAL", 1)~ THEN BEGIN 22 // from:
+IF ~Global("psElminsterDead","GLOBAL",1)~ THEN BEGIN 22 // from:
   SAY @39 = @40
   IF ~~ DO ~StartCutScene("psCut05")~ EXIT
 END
 
 
-IF ~Global("psMystrasInTrouble", "GLOBAL", 1)~ THEN BEGIN 24 // from:
+IF ~Global("psMystrasInTrouble","GLOBAL",1)~ THEN BEGIN 24 // from:
   SAY @43 = @44
   IF ~~ THEN DO ~StartCutScene("psCut07")~ EXIT
 END
@@ -144,7 +144,7 @@ END
 CHAIN
 IF ~Global("psElminsterFoughtMelCounter","GLOBAL",2)~ THEN ~psMel~ deathtalk @34 = @35 = @36
 == ~psElmin~ @37 = @38
-DO ~ActionOverride("psElmin", ApplySpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT))
-ActionOverride("psElmin", DestroyItem("MINHP1"))
-ActionOverride("psElmin", DestroyItem("IMMUNE1"))
+DO ~ActionOverride("psElmin",ApplySpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT))
+ActionOverride("psElmin",DestroyItem("MINHP1"))
+ActionOverride("psElmin",DestroyItem("IMMUNE1"))
 StartCutScene("psCut04")~ EXIT

@@ -70,10 +70,10 @@ DestroySelf()~ EXIT
 END
 
 
-IF ~Global("psFinalQuestToKillMelCounter", "GLOBAL", 6)~ THEN BEGIN end
+IF ~Global("psFinalQuestToKillMelCounter","GLOBAL",6)~ THEN BEGIN end
 SAY @16
 IF ~~ THEN DO ~
 Wait(1)
-MoveViewObject(Player1, INSTANT)
+MoveViewObject(Player1,INSTANT)
 DestroySelf()~ EXIT
 END

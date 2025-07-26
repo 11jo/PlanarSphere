@@ -1,6 +1,6 @@
 BEGIN ~psMysEnd~
 
-IF ~Global("psFinalQuestToKillMelCounter", "GLOBAL", 4)~ THEN BEGIN 1
+IF ~Global("psFinalQuestToKillMelCounter","GLOBAL",4)~ THEN BEGIN 1
   SAY @0 = @1
   IF ~~ THEN DO ~
 StartCutSceneMode()

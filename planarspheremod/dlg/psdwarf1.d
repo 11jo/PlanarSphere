@@ -2,8 +2,8 @@ BEGIN ~psDwarf1~
 
 IF ~
 OR(2)
-Global("psFinalQuestToKillMelCounter", "GLOBAL", 0)
-!GlobalLT("psFinalQuestToKillMelCounter", "GLOBAL", 7)~ THEN BEGIN endOfTheWorld
+Global("psFinalQuestToKillMelCounter","GLOBAL",0)
+!GlobalLT("psFinalQuestToKillMelCounter","GLOBAL",7)~ THEN BEGIN endOfTheWorld
 SAY @10
 ++ @11 GOTO endOfTheWorld-2
 END
@@ -19,7 +19,7 @@ SAY @15
 IF ~~ THEN EXIT
 END
 
-IF ~Global("psItemCreationBookToggle","GLOBAL", 0)~ THEN BEGIN intro
+IF ~Global("psItemCreationBookToggle","GLOBAL",0)~ THEN BEGIN intro
 SAY @0
 ++ @1 GOTO intro-2
 END
@@ -34,7 +34,7 @@ SAY @4
 ++ @5 EXIT
 END
 
-IF ~Global("psItemCreationBookToggle","GLOBAL", 1)~ THEN BEGIN haveBook
+IF ~Global("psItemCreationBookToggle","GLOBAL",1)~ THEN BEGIN haveBook
 SAY @6
 ++ @7 GOTO haveBook-2
 END

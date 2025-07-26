@@ -40,7 +40,7 @@ THEN
 		ActionOverride("psSPTar5",DestroySelf())
 		ActionOverride("psMel",ReallyForceSpell(Myself,HOLY_LIGHT_FROM_ABOVE))
 		Wait(2)
-		ActionOverride("psMel", SetDialog("psMelEnd")
+		ActionOverride("psMel",SetDialog("psMelEnd")
 		ActionOverride("psMel",StartDialogueNoSet(Player1))
 		EndCutSceneMode()
 END

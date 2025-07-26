@@ -1,10 +1,10 @@
 IF
 	See(NearestEnemyOf(Myself))
-	Global("PrepCler","LOCALS",0)
+	Global("psPrepCler","LOCALS",0)
 THEN
 	RESPONSE #100
 		ForceSpell(Myself,CLERIC_ARMOR_OF_FAITH)
-		SetGlobal("PrepCler","LOCALS",1)
+		SetGlobal("psPrepCler","LOCALS",1)
 END
 
 IF

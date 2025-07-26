@@ -1,10 +1,10 @@
 IF
 	OnCreation()
-	Global("psAr1NotExplored", "ARpsq1", 0)
+	Global("psAr1NotExplored","ARpsq1",0)
 THEN
 	RESPONSE #100
 		Explore()
-		SetGlobal("psAr1NotExplored", "ARpsq1", 1)
+		SetGlobal("psAr1NotExplored","ARpsq1",1)
 		Continue()
 END
 
@@ -14,7 +14,7 @@ IF
 THEN
 	RESPONSE #100
 		StartCutSceneMode()
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		SetGlobal("psForcedEncounterToggle","GLOBAL",1)
 		SetGlobal("psForcedEncounterCutSceneToggle","GLOBAL",1)
 		Explore()

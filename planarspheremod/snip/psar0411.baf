@@ -1,43 +1,43 @@
 IF
-	Global("psBelleGoneCounter", "GLOBAL", 2)
-	Global("psTeosSpawnsAgainCounter", "GLOBAL", 0)
+	Global("psBelleGoneCounter","GLOBAL",2)
+	Global("psTeosSpawnsAgainCounter","GLOBAL",0)
 Then
 	Response #100
-		SetGlobal("psTeosSpawnsAgainCounter", "GLOBAL", 1)
-		CreateCreatureDoor("psTeos", [2415.2258], 0)
-		ActionOverride("psTeos", SetDialog("psTeosRe"))
+		SetGlobal("psTeosSpawnsAgainCounter","GLOBAL",1)
+		CreateCreatureDoor("psTeos",[2415.2258],0)
+		ActionOverride("psTeos",SetDialog("psTeosRe"))
 		Continue()     // existing area scripts contain OnCreation
 End
 
 IF
 	Dead("psBelle")
-	Global("psBelleGoneCounter", "GLOBAL", 0)
+	Global("psBelleGoneCounter","GLOBAL",0)
 Then
 	Response #100
-		SetGlobal("psBelleGoneCounter", "GLOBAL", 1)
+		SetGlobal("psBelleGoneCounter","GLOBAL",1)
 		Continue()     // existing area scripts contain OnCreation
 END
 
 IF
-	Global("psTeosPetCounter", "GLOBAL", 2)
-	Global("psTeosTheChickenSpawnedToggle", "GLOBAL", 0)
+	Global("psTeosPetCounter","GLOBAL",2)
+	Global("psTeosTheChickenSpawnedToggle","GLOBAL",0)
 THEN
 	Response #100
-		CreateCreatureObject("psTeosCh", "psBelle", 0, 0, 0)
-		ActionOverride("psTeosCh", Polymorph(CHICKEN))
-		SetGlobal("psTeosTheChickenSpawnedToggle", "GLOBAL", 1)
+		CreateCreatureObject("psTeosCh","psBelle",0,0,0)
+		ActionOverride("psTeosCh",Polymorph(CHICKEN))
+		SetGlobal("psTeosTheChickenSpawnedToggle","GLOBAL",1)
 		Continue()     // existing area scripts contain OnCreation
 End
 
 IF
-	Global("psTeosNotAccepted", "GLOBAL", 2)
-	Global("psTeosInitialDialogToggle", "GLOBAL", 1)
+	Global("psTeosNotAccepted","GLOBAL",2)
+	Global("psTeosInitialDialogToggle","GLOBAL",1)
 THEN
 	RESPONSE #100
-		SetGlobal("psTeosNotAccepted", "GLOBAL", 3)
-		CreateCreatureDoor("psTeos", [3000.2600], 0)
+		SetGlobal("psTeosNotAccepted","GLOBAL",3)
+		CreateCreatureDoor("psTeos",[3000.2600],0)
 		Wait(1)
-		ActionOverride("psTeos", StartDialogNoSet(Player1))
+		ActionOverride("psTeos",StartDialogNoSet(Player1))
 		Continue()     // existing area scripts contain OnCreation
 END
 
@@ -69,7 +69,7 @@ END
 IF
 	Global("psFinalCutsceneToggle","GLOBAL",0)
 	Global("psRetrievedKeyTalkedToMysToggle","GLOBAL",1)
-	AreaCheckObject("ar0411", Player1)
+	AreaCheckObject("ar0411",Player1)
 THEN
 	RESPONSE #100
 		SetGlobal("psFinalCutsceneToggle","GLOBAL",1)
@@ -85,12 +85,12 @@ END
 
 IF
 	Global("psFinalQuestToKillMelCounter","GLOBAL",6)
-	AreaCheckObject("ar0411", Player1)
+	AreaCheckObject("ar0411",Player1)
 THEN
 	RESPONSE #100
 		SetGlobal("psFinalQuestToKillMelCounter","GLOBAL",7)
 		CreateCreatureObjectOffScreen("psBelle",Player1,0,0,0) // Cowled Wizard
-		ActionOverride("psBelle", StartDialogNoSet(Player1))
+		ActionOverride("psBelle",StartDialogNoSet(Player1))
 		Continue()     // existing area scripts contain OnCreation
 END
 
@@ -107,7 +107,7 @@ END
 IF
 	GlobalTimerExpired("psTimeToAdventurerSpawn","GLOBAL")
 	Global("psAdventurerSpawnToggle","AR0411",0)
-	AreaCheckObject("ar0411", Player1)
+	AreaCheckObject("ar0411",Player1)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("psTimeToFanaticSpawn","GLOBAL",TWO_DAYS)
@@ -119,7 +119,7 @@ END
 IF
 	GlobalTimerExpired("psTimeToFanaticSpawn","GLOBAL")
 	Global("psFanaticSpawnToggle","AR0411",0)
-	AreaCheckObject("ar0411", Player1)
+	AreaCheckObject("ar0411",Player1)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("psTimeToDegoSpawn","GLOBAL",FOUR_DAYS)
@@ -131,7 +131,7 @@ END
 IF
 	GlobalTimerExpired("psTimeToDegoSpawn","GLOBAL")
 	Global("psDegoSpawnToggle","AR0411",0)
-	AreaCheckObject("ar0411", Player1)
+	AreaCheckObject("ar0411",Player1)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("psTimeToBroomSpawn","GLOBAL",FOUR_DAYS)
@@ -143,7 +143,7 @@ END
 IF
 	GlobalTimerExpired("psTimeToBroomSpawn","GLOBAL")
 	Global("psBroomSpawnCounter","AR0411",0)
-	AreaCheckObject("ar0411", Player1)	
+	AreaCheckObject("ar0411",Player1)	
 THEN
 	RESPONSE #100
 		SetGlobal("psBroomSpawnCounter","AR0411",1)

@@ -74,7 +74,7 @@ SetGlobal("psBaatQuestAccepted","GLOBAL",1)~ EXIT
 END
 
 IF ~!NumTimesTalkedTo(0)
-Global("psBaatQuestAccepted", "GLOBAL", 0)~ THEN BEGIN returned
+Global("psBaatQuestAccepted","GLOBAL",0)~ THEN BEGIN returned
 SAY @51
 ++ @52 GOTO 9
 ++ @53 GOTO freak
@@ -132,7 +132,7 @@ IF ~~ THEN BEGIN 15 // from: 14.0
   IF ~~ THEN DO ~SetGlobal("psKWQC","GLOBAL",3)~ EXIT
 END
 
-IF ~Global("psKWQC", "GLOBAL", 3) !Dead("psWeil")~ THEN BEGIN weilNotDead
+IF ~Global("psKWQC","GLOBAL",3) !Dead("psWeil")~ THEN BEGIN weilNotDead
 SAY @46
 ++ @47 GOTO 20
 ++ @48 GOTO iAmAMoron
@@ -166,7 +166,7 @@ IF ~~ THEN BEGIN 19 // from: 18.0
 GiveItemCreate("psAmul01",Player1,1,0,0)
 GiveItemCreate("sppsmsr",Player1,1,0,0)
 GiveItemCreate("sppsbta",Player1,1,0,0)
-SetGlobal("psKWQC", "GLOBAL", 4)~ EXIT
+SetGlobal("psKWQC","GLOBAL",4)~ EXIT
 END
 
 IF ~~ THEN BEGIN 20 // from: 18.1
@@ -174,7 +174,7 @@ IF ~~ THEN BEGIN 20 // from: 18.1
   IF ~~ THEN DO ~Enemy()~ EXIT
 END
 
-IF ~Global("psKWQC", "GLOBAL", 4)~ THEN BEGIN goAwayMortal
+IF ~Global("psKWQC","GLOBAL",4)~ THEN BEGIN goAwayMortal
 SAY @50
 IF ~~ THEN EXIT
 END

@@ -1,9 +1,9 @@
 BEGIN ~psMelEnd~
 
-IF ~Global("psLadySpokeToYou", "GLOBAL", 1)~ THEN BEGIN 14 // from:
+IF ~Global("psLadySpokeToYou","GLOBAL",1)~ THEN BEGIN 14 // from:
   SAY @17 = @18 = @19
 IF ~~ THEN DO ~
-SetGlobal("psLadySpokeToYou", "GLOBAL", 2)
+SetGlobal("psLadySpokeToYou","GLOBAL",2)
 StartCutSceneMode()
 StartCutScene("psCut12")~ EXIT
 END
@@ -88,7 +88,7 @@ END
 
 
 
-IF ~Global("psFinalQuestToKillMelCounter", "GLOBAL", 2)~ THEN BEGIN melsEnd // from:
+IF ~Global("psFinalQuestToKillMelCounter","GLOBAL",2)~ THEN BEGIN melsEnd // from:
   SAY @20 = @21 =  @22
   IF ~~ THEN GOTO 15
 END
@@ -115,27 +115,27 @@ CreateCreature("psSPTar3",[920.869],4)
 CreateCreature("psSPTar4",[707.874],4)
 CreateCreature("psSPTar5",[684.736],4)
 Wait(1)
-ActionOverride(Player1, JumpToPoint([678.883]))
-ActionOverride(Player2, JumpToPoint([613.727]))
-ActionOverride(Player3, JumpToPoint([761.629]))
-ActionOverride(Player4, JumpToPoint([954.669]))
-ActionOverride(Player5, JumpToPoint([1017.799]))
-ActionOverride(Player6, JumpToPoint([869.906]))
+ActionOverride(Player1,JumpToPoint([678.883]))
+ActionOverride(Player2,JumpToPoint([613.727]))
+ActionOverride(Player3,JumpToPoint([761.629]))
+ActionOverride(Player4,JumpToPoint([954.669]))
+ActionOverride(Player5,JumpToPoint([1017.799]))
+ActionOverride(Player6,JumpToPoint([869.906]))
 SmallWait(1)
-ActionOverride(Player1, FaceObject("psMel")
-ActionOverride(Player2, FaceObject("psMel")
-ActionOverride(Player3, FaceObject("psMel")
-ActionOverride(Player4, FaceObject("psMel")
-ActionOverride(Player5, FaceObject("psMel")
-ActionOverride(Player6, FaceObject("psMel")
-SetGlobal("psOpenPortalToggle", "AR0452", 1)
+ActionOverride(Player1,FaceObject("psMel")
+ActionOverride(Player2,FaceObject("psMel")
+ActionOverride(Player3,FaceObject("psMel")
+ActionOverride(Player4,FaceObject("psMel")
+ActionOverride(Player5,FaceObject("psMel")
+ActionOverride(Player6,FaceObject("psMel")
+SetGlobal("psOpenPortalToggle","AR0452",1)
 StartCutSceneMode()
 StartCutScene("psCut25")~ EXIT
 END
 
 
 CHAIN
-IF ~Global("psFinalQuestToKillMelCounter", "GLOBAL", 5)~ THEN ~psMelEnd~ melsToast
+IF ~Global("psFinalQuestToKillMelCounter","GLOBAL",5)~ THEN ~psMelEnd~ melsToast
 @50
 == ~psLordAo~ @51 = @52 = @53 = @54
 == ~psMelEnd~ @55 = @56 = @57 DO

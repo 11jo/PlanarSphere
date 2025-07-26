@@ -1,11 +1,11 @@
 IF
-	Global("Prep","LOCALS",0)
+	Global("psPrep","LOCALS",0)
 THEN
 	RESPONSE #100
 		ApplySpell(Myself,WIZARD_STONE_SKIN)
 		ApplySpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
 		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
-		SetGlobal("Prep","LOCALS",1)
+		SetGlobal("psPrep","LOCALS",1)
 END
 
 
@@ -13,7 +13,7 @@ IF
 	!Dead("psDem03")
 THEN
 	RESPONSE #100
-		ForceSpell("psDem03", WIZARD_MAGIC_MISSILE)
+		ForceSpell("psDem03",WIZARD_MAGIC_MISSILE)
 		Wait(10)
 END
 
@@ -21,7 +21,7 @@ IF
 	!Dead("psDem02")
 THEN
 	RESPONSE #100
-		ForceSpell("psDem02", WIZARD_MAGIC_MISSILE)
+		ForceSpell("psDem02",WIZARD_MAGIC_MISSILE)
 		Wait(10)
 END
 
@@ -48,23 +48,23 @@ IF
 	See(NearestEnemyOf(Myself))
 	CheckStatLT(Myself,1,STONESKINS)
 	TookDamage()
-	Global("Prep2","LOCALS",0)
+	Global("psPrep2","LOCALS",0)
 	HaveSpell(WIZARD_STONE_SKIN)
 THEN
 	RESPONSE #100
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
-		SetGlobal("Prep2","LOCALS",1)
+		SetGlobal("psPrep2","LOCALS",1)
 END
 
 IF
 	See(NearestEnemyOf(Myself))
 	CheckStatLT(Myself,1,STONESKINS)
 	HitBy([ANYONE],CRUSHING)
-	Global("Prep2","LOCALS",1)
+	Global("psPrep2","LOCALS",1)
 THEN
 	RESPONSE #100
 		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
-		SetGlobal("Prep2","LOCALS",2)
+		SetGlobal("psPrep2","LOCALS",2)
 END
 
 IF

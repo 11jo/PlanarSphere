@@ -7,7 +7,7 @@ THEN
 		StartCutSceneMode()
 		CutSceneId("psTeos")
 		SetGlobal("psGiveToesArtifactToggle","GLOBAL",1)
-		SetGlobal("psTeosCutSceneDialogToggle", "GLOBAL", 1)
+		SetGlobal("psTeosCutSceneDialogToggle","GLOBAL",1)
 		Wait(2)
 		CreateVisualEffectObject("SPDIMNDR",Player1)
 		CreateVisualEffectObject("SPDIMNDR",Player2)

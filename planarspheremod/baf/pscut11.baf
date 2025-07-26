@@ -46,7 +46,7 @@ THEN
 		CreateVisualEffect("HELLOLY",[1050.1451])
 		CreateVisualEffect("HELLOLY",[1199.1310])
 		CreateVisualEffect("HELLOLY",[1039.1160])
-		ActionOverride("psMel", SetDialog("psMelEnd")
+		ActionOverride("psMel",SetDialog("psMelEnd")
 		ActionOverride("psMel",StartDialogueNoSet(Player1))
 END
 

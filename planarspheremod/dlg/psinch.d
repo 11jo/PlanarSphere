@@ -7,5 +7,5 @@ END
 
 IF ~~ THEN BEGIN inchAttack
 SAY @3
-IF ~~ THEN DO ~ActionOverride("OBSERVE", DestroySelf())~ EXIT
+IF ~~ THEN DO ~ActionOverride("OBSERVE",DestroySelf())~ EXIT
 END

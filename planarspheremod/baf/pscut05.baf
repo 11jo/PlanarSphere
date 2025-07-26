@@ -15,7 +15,7 @@ THEN
 		CreateCreature("psPrst2",[607.567],0)
 		CreateCreature("psPrst3",[634.691],0)
 		EndCutSceneMode()
-		SetGlobal("psChosenDead", "GLOBAL", 1)		
+		SetGlobal("psChosenDead","GLOBAL",1)		
 		ActionOverride("psKhel",StartDialogueNoSet(Player1))
 END
 

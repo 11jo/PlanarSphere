@@ -1,7 +1,7 @@
 IF
 	Global("SpawnTeosAssasin","GLOBAL",1)
 	!Dead("MGTEOS01") // Teos
-	AreaCheckObject("ar0411", Player1)
+	AreaCheckObject("ar0411",Player1)
 THEN
 	RESPONSE #100
 		SetGlobal("SpawnTeosAssasin","GLOBAL",2)

@@ -67,9 +67,9 @@ THEN
 		CreateVisualEffect("SPFLADOW",[658.723])
 		CreateVisualEffect("SPFLADOW",[571.778])
 		Wait(2)
-		SetGlobal("psPassOutInHold", "GLOBAL", 1)
-		SetGlobal("psMystrasInTrouble", "GLOBAL", 2)
-		CreateCreatureObject("psNarr", Player1, 0, 0, 0)
+		SetGlobal("psPassOutInHold","GLOBAL",1)
+		SetGlobal("psMystrasInTrouble","GLOBAL",2)
+		CreateCreatureObject("psNarr",Player1,0,0,0)
 		EndCutSceneMode()
 		ActionOverride("psNarr",StartDialogueNoSet(Player1))
 END

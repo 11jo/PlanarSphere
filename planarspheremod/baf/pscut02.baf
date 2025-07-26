@@ -7,8 +7,8 @@ THEN
 		Wait(1)
 		CutSceneId("psMel")
 		Wait(1)
-		ActionOverride("psTeos", ForceSpell(Myself,WIZARD_DIMENSION_DOOR))
-		ActionOverride("psTeos", DestroySelf())
+		ActionOverride("psTeos",ForceSpell(Myself,WIZARD_DIMENSION_DOOR))
+		ActionOverride("psTeos",DestroySelf())
 		ActionOverride("psMel",ForceSpell("CSCowl6",CUTSCENE_POWERWORD_KILL))
 		ActionOverride("psMel",ReallyForceSpellRES("SPWI918","CSCowl5")) // Bigby's Crushing Hand
 		ActionOverride("CSCowl5",ForceSpell("psMel",WIZARD_DISINTEGRATE))
@@ -34,7 +34,7 @@ THEN
 		ActionOverride("psMel",ForceSpell("CSCowl1",FLASHY_DEATH_1))
 		ActionOverride("CSCowl1",ForceSpell("psMel",WIZARD_CHROMATIC_ORB))
 		ActionOverride("psMel",ForceSpell("CSCowl4",WIZARD_MELF_ACID_ARROW))
-		ActionOverride("psMel",ForceSpell("Player1",0))
+		ActionOverride("psMel",ForceSpell(Player1,0))
 		ActionOverride("psMel",StartDialogueNoSet(Player1))
 END
 

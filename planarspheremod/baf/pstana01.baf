@@ -5,11 +5,11 @@ THEN
 		Attack("psBaatUD")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaatUD", TANARI_VAMPIRIC_TOUCH)
+		ReallyForceSpell("psBaatUD",TANARI_VAMPIRIC_TOUCH)
 		Attack("psBaatUD")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaatUD", TANARI_DEATH_GAZE)
+		ReallyForceSpell("psBaatUD",TANARI_DEATH_GAZE)
 		Attack("psBaatUD")
 		Continue()
 END
@@ -21,11 +21,11 @@ THEN
 		Attack("psBaat01")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat01", TANARI_VAMPIRIC_TOUCH)
+		ReallyForceSpell("psBaat01",TANARI_VAMPIRIC_TOUCH)
 		Attack("psBaat01")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat01", TANARI_DEATH_GAZE)
+		ReallyForceSpell("psBaat01",TANARI_DEATH_GAZE)
 		Attack("psBaat01")
 		Continue()
 END
@@ -37,11 +37,11 @@ THEN
 		Attack("psBaat02")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat02", TANARI_VAMPIRIC_TOUCH)
+		ReallyForceSpell("psBaat02",TANARI_VAMPIRIC_TOUCH)
 		Attack("psBaat02")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat02", TANARI_DEATH_GAZE)
+		ReallyForceSpell("psBaat02",TANARI_DEATH_GAZE)
 		Attack("psBaat02")
 		Continue()
 END
@@ -53,11 +53,11 @@ THEN
 		Attack("psBaat03")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat03", TANARI_VAMPIRIC_TOUCH)
+		ReallyForceSpell("psBaat03",TANARI_VAMPIRIC_TOUCH)
 		Attack("psBaat03")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat03", TANARI_DEATH_GAZE)
+		ReallyForceSpell("psBaat03",TANARI_DEATH_GAZE)
 		Attack("psBaat03")
 		Continue()
 END
@@ -69,11 +69,11 @@ THEN
 		Attack("psBaat04")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat04", TANARI_VAMPIRIC_TOUCH)
+		ReallyForceSpell("psBaat04",TANARI_VAMPIRIC_TOUCH)
 		Attack("psBaat04")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaat04", TANARI_DEATH_GAZE)
+		ReallyForceSpell("psBaat04",TANARI_DEATH_GAZE)
 		Attack("psBaat04")
 		Continue()
 END
@@ -85,43 +85,43 @@ THEN
 		Attack("psBaatL")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaatL", TANARI_VAMPIRIC_TOUCH)
+		ReallyForceSpell("psBaatL",TANARI_VAMPIRIC_TOUCH)
 		Attack("psBaatL")
 		Continue()
 	RESPONSE #10
-		ReallyForceSpell("psBaatL", TANARI_DEATH_GAZE)
+		ReallyForceSpell("psBaatL",TANARI_DEATH_GAZE)
 		Attack("psBaatL")
 		Continue()
 END
 
 IF
-	See(NearestEnemyOf(myself))
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
-		Attack(NearestEnemyOf(myself))
+		Attack(NearestEnemyOf(Myself))
 	RESPONSE #10
-		ReallyForceSpell(NearestEnemyOf(myself), TANARI_VAMPIRIC_TOUCH)
-		Attack(NearestEnemyOf(myself))
+		ReallyForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)
+		Attack(NearestEnemyOf(Myself))
 	RESPONSE #10
-		ReallyForceSpell(NearestEnemyOf(myself), TANARI_DEATH_GAZE)
-		Attack(NearestEnemyOf(myself))
+		ReallyForceSpell(NearestEnemyOf(Myself),TANARI_DEATH_GAZE)
+		Attack(NearestEnemyOf(Myself))
 		Continue()
 END
 
 IF
-	See(NearestEnemyOf(myself))
+	See(NearestEnemyOf(Myself))
 	RandomNum(3,1)
 THEN
 	RESPONSE #100
-		ForceSpell(NearestEnemyOf(Myself), TANARI_PARALYZE)
+		ForceSpell(NearestEnemyOf(Myself),TANARI_PARALYZE)
 		Continue()
 END
 
 IF
-	RandomNum(6, 1)
-	See(NearestEnemyOf(myself))
+	RandomNum(6,1)
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
-		ForceSpell(NearestEnemyOf(myself), WIZARD_DELAYED_BLAST_FIREBALL)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_DELAYED_BLAST_FIREBALL)
 		Continue()
 END

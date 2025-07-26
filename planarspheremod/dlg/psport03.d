@@ -14,7 +14,7 @@ END
 IF ~~ THEN BEGIN 2 // from: 1.0
   SAY @4
   IF ~~ THEN DO ~
-SetGlobal("psFinalQuestToKillMelCounter", "GLOBAL", 3)
+SetGlobal("psFinalQuestToKillMelCounter","GLOBAL",3)
 //FadeToColor([30.0],0)
 Wait(1)
 ActionOverride(Player1,LeaveAreaLUA("AR0412","",[951.1387],0))

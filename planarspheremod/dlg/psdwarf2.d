@@ -1,6 +1,6 @@
 BEGIN ~psDwarf2~
 
-IF ~Global("psItemCreationBookToggle","GLOBAL", 0)~ THEN BEGIN intro
+IF ~Global("psItemCreationBookToggle","GLOBAL",0)~ THEN BEGIN intro
 SAY @0
 ++ @1 GOTO intro-2
 END
@@ -10,7 +10,7 @@ SAY @2
 IF ~~ THEN EXIT
 END
 
-IF ~Global("psItemCreationBookToggle","GLOBAL", 1)~ THEN BEGIN information
+IF ~Global("psItemCreationBookToggle","GLOBAL",1)~ THEN BEGIN information
 SAY @3
 ++ @4 GOTO information-2
 ++ @18 EXIT

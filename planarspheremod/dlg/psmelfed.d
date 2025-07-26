@@ -1,6 +1,6 @@
 BEGIN ~psMelFED~
 
-IF ~Global("psMelKilledKnights", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+IF ~Global("psMelKilledKnights","GLOBAL",0)~ THEN BEGIN 0 // from:
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -18,13 +18,13 @@ END
 IF ~~ THEN BEGIN 3 // from: 2.0
   SAY @4
   IF ~~ THEN DO ~
-SetGlobal("psKnightsToFightMelToggle", "GLOBAL", 1)
+SetGlobal("psKnightsToFightMelToggle","GLOBAL",1)
 StartCutSceneMode()
 StartCutScene("psCut14")~ EXIT
 END
 
 
-IF ~Global("psMelKilledKnights", "GLOBAL", 1)~ THEN BEGIN 6
+IF ~Global("psMelKilledKnights","GLOBAL",1)~ THEN BEGIN 6
   SAY @7
   IF ~~ THEN DO ~StartCutSceneMode()
 Wait(2)

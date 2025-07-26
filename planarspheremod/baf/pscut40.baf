@@ -13,8 +13,8 @@ THEN
 		Explore()
 		FadeFromColor([30.0],0)
 		MoveViewObject(Player1,INSTANT)
-		SetGlobal("psFinalQuestToKillMelCounter", "GLOBAL", 6)
-		ActionOverride("psLordAo", StartDialogNoSet(Player1))
+		SetGlobal("psFinalQuestToKillMelCounter","GLOBAL",6)
+		ActionOverride("psLordAo",StartDialogNoSet(Player1))
 		EndCutSceneMode()
 		DestroySelf()
 END

@@ -45,7 +45,7 @@ IF ~~ THEN BEGIN 8 // from: 7.0
   IF ~~ THEN EXIT
 END
 
-IF ~!Global("psFinalQuestToKillMelCounter", "GLOBAL", 7)~ THEN BEGIN 9 // from:
+IF ~!Global("psFinalQuestToKillMelCounter","GLOBAL",7)~ THEN BEGIN 9 // from:
   SAY @17
   IF ~~ THEN REPLY @18 GOTO 10
   ++ @32 GOTO giveMeRobes
@@ -100,7 +100,7 @@ SAY @36
 ++ @38 DO ~Enemy()~ EXIT
 END
 
-IF ~Global("psFinalQuestToKillMelCounter", "GLOBAL", 7)~ THEN BEGIN savedWorld
+IF ~Global("psFinalQuestToKillMelCounter","GLOBAL",7)~ THEN BEGIN savedWorld
 SAY @39
 ++ @40 GOTO savedWorld-2
 END

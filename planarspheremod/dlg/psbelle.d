@@ -1,34 +1,34 @@
 BEGIN ~psBelle~
 
-IF ~Global("psRemoveBelleCounter", "GLOBAL", 6)~ THEN BEGIN favor
+IF ~Global("psRemoveBelleCounter","GLOBAL",6)~ THEN BEGIN favor
 SAY @92 = @93
 IF ~~ THEN EXIT
 END
 
-IF ~Global("psTeosDisintegratedToggle", "GLOBAL", 1)~ THEN BEGIN hahaHesDead
+IF ~Global("psTeosDisintegratedToggle","GLOBAL",1)~ THEN BEGIN hahaHesDead
 SAY @90 = @91
-IF ~~ THEN DO ~ActionOverride("psBelle", ForceSpell(Myself, DRYAD_TELEPORT))
-SetGlobal("psTeosDisintegratedToggle", "GLOBAL", 0)
+IF ~~ THEN DO ~ActionOverride("psBelle",ForceSpell(Myself,DRYAD_TELEPORT))
+SetGlobal("psTeosDisintegratedToggle","GLOBAL",0)
 Wait(2)
 DestroySelf()~ EXIT
 END
 
-IF ~Global("psTeosEatenCounter", "GLOBAL", 1)~ THEN BEGIN TeosEatenWrapup
+IF ~Global("psTeosEatenCounter","GLOBAL",1)~ THEN BEGIN TeosEatenWrapup
 SAY @79
-IF ~~ THEN DO ~SetGlobal("psTeosEatenCounter", "GLOBAL", 2)~ EXIT
+IF ~~ THEN DO ~SetGlobal("psTeosEatenCounter","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("psTeosEatenWimpedOutCounter", "GLOBAL", 1)~ THEN BEGIN TeosEatenWimp
+IF ~Global("psTeosEatenWimpedOutCounter","GLOBAL",1)~ THEN BEGIN TeosEatenWimp
 SAY @80
-IF ~~ THEN DO ~SetGlobal("psTeosEatenWimpedOutCounter", "GLOBAL", 2)~ EXIT
+IF ~~ THEN DO ~SetGlobal("psTeosEatenWimpedOutCounter","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("psTeosPetCounter", "GLOBAL", 1)~ THEN BEGIN TeosPetWrapup
+IF ~Global("psTeosPetCounter","GLOBAL",1)~ THEN BEGIN TeosPetWrapup
 SAY @81
-IF ~~ THEN DO ~SetGlobal("psTeosPetCounter", "GLOBAL", 2)~ EXIT
+IF ~~ THEN DO ~SetGlobal("psTeosPetCounter","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("psTeosEatenCounter", "GLOBAL", 2)~ THEN BEGIN TeosEatenAftermath
+IF ~Global("psTeosEatenCounter","GLOBAL",2)~ THEN BEGIN TeosEatenAftermath
 SAY @82
 ++ @83 GOTO TeosEatenAftermath-2
 END
@@ -38,12 +38,12 @@ SAY @84
 IF ~~ THEN EXIT
 END
 
-IF ~Global("psTeosEatenWimpedOutCounter", "GLOBAL", 2)~ THEN BEGIN TeosEatenWimp-2
+IF ~Global("psTeosEatenWimpedOutCounter","GLOBAL",2)~ THEN BEGIN TeosEatenWimp-2
 SAY @85
 IF ~~ THEN EXIT
 END
 
-IF ~Global("psTeosPetCounter", "GLOBAL", 2)~ THEN BEGIN TeosPetWrapup-2
+IF ~Global("psTeosPetCounter","GLOBAL",2)~ THEN BEGIN TeosPetWrapup-2
 SAY @86
 ++ @87 GOTO TeosPetWrapup-3
 END
@@ -88,7 +88,7 @@ JumpToPoint([3563.2234])~ EXIT
 END
 
 IF ~Global("psRetrievedKeyTalkedToMysToggle","GLOBAL",2)
-Global("psToldBelleTheTruthToggle", "GLOBAL", 0)~ THEN BEGIN 6
+Global("psToldBelleTheTruthToggle","GLOBAL",0)~ THEN BEGIN 6
 SAY @9
 ++ @10 GOTO 7
 END
@@ -137,12 +137,12 @@ END
 
 IF ~~ THEN BEGIN 15
 SAY @27
-IF ~~ THEN DO ~SetGlobal("psToldBelleTheTruthToggle", "GLOBAL", 1)~ EXIT
+IF ~~ THEN DO ~SetGlobal("psToldBelleTheTruthToggle","GLOBAL",1)~ EXIT
 END
 
 IF ~PartyHasItem("psTChick")~ THEN BEGIN endOfTeos
 SAY @29
-++ @30 DO ~CreateCreatureObject("psTeosCh", Player1, 0, 0, 0)
+++ @30 DO ~CreateCreatureObject("psTeosCh",Player1,0,0,0)
 TakePartyItem("psTChick")
 DestroyItem("psTChick")
 StartDialogNoSet("psTeos")~ GOTO endOfTeos-Stupid
@@ -152,15 +152,15 @@ END
 IF ~~ THEN BEGIN endOfTeos-TeosEaten
 SAY @39
 ++ @63 DO ~
-SetGlobal("psTeosEatenCounter", "GLOBAL", 1)
-FadeToColor([20.0], 0)
+SetGlobal("psTeosEatenCounter","GLOBAL",1)
+FadeToColor([20.0],0)
 Wait(3)
-ActionOverride(Player1, ReallyForceSpell(Myself, WISH_HEAL_PARTY))
-FadeFromColor([20.0], 0)
-ActionOverride("psTeosCh", DestroySelf())~ EXIT
+ActionOverride(Player1,ReallyForceSpell(Myself,WISH_HEAL_PARTY))
+FadeFromColor([20.0],0)
+ActionOverride("psTeosCh",DestroySelf())~ EXIT
 END
 
-IF ~Global("psRemoveBelleCounter", "GLOBAL", 1)~ THEN BEGIN dealWithBelle
+IF ~Global("psRemoveBelleCounter","GLOBAL",1)~ THEN BEGIN dealWithBelle
 SAY @47
 ++ @48 GOTO dealWithBelle2
 ++ @62 EXIT
@@ -174,22 +174,22 @@ END
 IF ~~ THEN BEGIN dealWithBelle3
 SAY @51
 ++ @52 GOTO dealWithBelle-ForceOut
-IF ~Gender(Player1, MALE)~ THEN REPLY @53 GOTO dealWithBelle-ReconcileMale
-IF ~Gender(Player1, FEMALE)~ THEN REPLY @53 GOTO dealWithBelle-ReconcileFemale
+IF ~Gender(Player1,MALE)~ THEN REPLY @53 GOTO dealWithBelle-ReconcileMale
+IF ~Gender(Player1,FEMALE)~ THEN REPLY @53 GOTO dealWithBelle-ReconcileFemale
 ++ @54 GOTO dealWithBelle-Kill
 END
 
 IF ~~ THEN BEGIN dealWithBelle-ForceOut
 SAY @56
-IF ~Gender(Player1, MALE)~ THEN REPLY @57 GOTO dealWithBelle-ForceOutMale
-IF ~Gender(Player1, FEMALE)~ THEN REPLY @57 GOTO dealWithBelle-ForceOutFemale
+IF ~Gender(Player1,MALE)~ THEN REPLY @57 GOTO dealWithBelle-ForceOutMale
+IF ~Gender(Player1,FEMALE)~ THEN REPLY @57 GOTO dealWithBelle-ForceOutFemale
 END
 
 IF ~~ THEN BEGIN dealWithBelle-ForceOutMale
 SAY @58
 IF ~~ THEN DO ~
-SetGlobal("psBelleGoneCounter", "GLOBAL", 1)
-ForceSpell(Myself, DRYAD_TELEPORT)
+SetGlobal("psBelleGoneCounter","GLOBAL",1)
+ForceSpell(Myself,DRYAD_TELEPORT)
 Wait(2)
 DestroySelf()~ EXIT
 END
@@ -197,8 +197,8 @@ END
 IF ~~ THEN BEGIN dealWithBelle-ForceOutFemale
 SAY @59
 IF ~~ THEN DO ~
-SetGlobal("psBelleGoneCounter", "GLOBAL", 1)
-ForceSpell(Myself, DRYAD_TELEPORT)
+SetGlobal("psBelleGoneCounter","GLOBAL",1)
+ForceSpell(Myself,DRYAD_TELEPORT)
 Wait(2)
 DestroySelf()~ EXIT
 END
@@ -206,8 +206,8 @@ END
 IF ~~ THEN BEGIN dealWithBelle-ReconcileMale
 SAY @60
 ++ @64 GOTO dealWithBelle-Reconcile2
-++ @65 DO ~ForceSpell(Player1, WIZARD_MAGIC_MISSILE)
-DisplayStringHead(Myself, @66)~ EXIT
+++ @65 DO ~ForceSpell(Player1,WIZARD_MAGIC_MISSILE)
+DisplayStringHead(Myself,@66)~ EXIT
 END
 
 IF ~~ THEN BEGIN dealWithBelle-ReconcileFemale
@@ -237,18 +237,18 @@ END
 
 IF ~~ THEN BEGIN dealWithBelle-Reconcile6
 SAY @76
-++ @77 DO ~SetGlobal("psRemoveBelleCounter", "GLOBAL", 4)~ EXIT
+++ @77 DO ~SetGlobal("psRemoveBelleCounter","GLOBAL",4)~ EXIT
 END
 
 IF ~~ THEN BEGIN dealWithBelle-Kill
 SAY @55
-IF ~~ THEN DO ~SetGlobal("psRemoveBelleCounter", "GLOBAL", 2)
+IF ~~ THEN DO ~SetGlobal("psRemoveBelleCounter","GLOBAL",2)
 Enemy()~ EXIT
 END
 
 
 IF ~Global("psRetrievedKeyTalkedToMysToggle","GLOBAL",2)
-Global("psToldBelleTheTruthToggle", "GLOBAL", 1)~ THEN BEGIN nothing
+Global("psToldBelleTheTruthToggle","GLOBAL",1)~ THEN BEGIN nothing
 SAY @78
 IF ~~ THEN EXIT
 END
@@ -260,12 +260,12 @@ IF ~~ THEN ~psBelle~ endOfTeos-Stupid @31
 END
 ++ @36 GOTO endOfTeos-TeosEaten
 ++ @37 GOTO endOfTeos-Coward
-++ @38 DO ~SetGlobal("psTeosPetCounter", "GLOBAL", 1)~ GOTO endOfTeos-TeosPet
+++ @38 DO ~SetGlobal("psTeosPetCounter","GLOBAL",1)~ GOTO endOfTeos-TeosPet
 
 CHAIN
 IF ~~ THEN ~psBelle~ endOfTeos-Coward @40
-== ~psTeosEn~ @41 DO ~SetGlobal("psTeosEatenWimpedOutCounter", "GLOBAL", 1)
-ActionOverride("psTeosCh", DestroySelf())~ EXIT
+== ~psTeosEn~ @41 DO ~SetGlobal("psTeosEatenWimpedOutCounter","GLOBAL",1)
+ActionOverride("psTeosCh",DestroySelf())~ EXIT
 
 CHAIN
 IF ~~ THEN ~psBelle~ endOfTeos-TeosPet @42

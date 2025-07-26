@@ -42,7 +42,7 @@ IF ~~ THEN BEGIN 6 // from: 3.1
 CreateVisualEffect("SPCALLLI",[1170.571])
 CreateVisualEffect("SPCALLLI",[1095.520])
 CreateCreature("psMDivi",[1130.480],0)
-SetGlobal("psGovtBuildingMageSpawnCounter", "GLOBAL", 1)
+SetGlobal("psGovtBuildingMageSpawnCounter","GLOBAL",1)
 DestroySelf()~ EXIT
 END
 

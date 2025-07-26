@@ -12,7 +12,7 @@ THEN
 		ActionOverride("psSPTar4",ReallyForceSpell(Player1,BEHOLDER_BLAST_VISUAL2))
 		Wait(1)
 		CreateVisualEffectObject("PSQRUN","psMel")
-		CreateVisualEffectObject("PSQRUN","Player1")
+		CreateVisualEffectObject("PSQRUN",Player1)
 		CreateVisualEffectObject("SPFLSRIN","psMel")
 		ActionOverride("psSPTar1",ReallyForceSpell("psMel",4646))
 		ActionOverride("psSPTar3",ReallyForceSpell("psMel",4646))

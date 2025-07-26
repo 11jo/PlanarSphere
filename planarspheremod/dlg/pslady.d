@@ -1,7 +1,7 @@
 BEGIN ~psLady~
 
 IF ~Global("psMelsFinalSpellSceneToggle","GLOBAL",1)
-Global("psLadySpokeToYou", "GLOBAL", 0)
+Global("psLadySpokeToYou","GLOBAL",0)
 Global("psLadySpokenToMelToggle","GLOBAL",1)~ THEN BEGIN 13
   SAY @19
   IF ~PartyHasItem("psKey")~ THEN REPLY @20 GOTO 14
@@ -19,7 +19,7 @@ IF ~~ THEN BEGIN 15
 TakePartyItem("psKey")
 DestroyItem("pskey")
 CreateVisualEffect("SPFIREPI",[963.1592])
-SetGlobal("psLadySpokeToYou", "GLOBAL", 1)
+SetGlobal("psLadySpokeToYou","GLOBAL",1)
 StartCutScene("psCut11")~ EXIT
 END
 
@@ -99,7 +99,7 @@ IF ~~ THEN BEGIN 21 // from: 11.0
   IF ~~ THEN DO ~
 	StartCutSceneMode()
 	CutSceneID(Player1)
-	SetGlobal("psFinalQuestToKillMelCounter", "GLOBAL", 4)
+	SetGlobal("psFinalQuestToKillMelCounter","GLOBAL",4)
 	GiveItemCreate("psSW2H01",Player1,1,0,0)
 	Wait(2)
 	CreateVisualEffectObject("SPPLANAR",Myself)
@@ -108,10 +108,10 @@ IF ~~ THEN BEGIN 21 // from: 11.0
 	EndCutSceneMode()
 	CreateCreature("psMysEnd",[689.1266],4)
 	DestroySelf()
-	ActionOverride("psMysEnd", StartDialogNoSet(Player1)~ EXIT
+	ActionOverride("psMysEnd",StartDialogNoSet(Player1)~ EXIT
 END
 
-IF ~Global("psClimaxOfFinalSpellToggle", "GLOBAL", 2)
+IF ~Global("psClimaxOfFinalSpellToggle","GLOBAL",2)
 Global("psLadySpokenToMelToggle","GLOBAL",1)
 Global("psFinalQuestToKillMelCounter","GLOBAL",1)~ THEN BEGIN hurryup
 SAY @31
@@ -119,9 +119,9 @@ IF ~~ THEN EXIT
 END
 
 CHAIN
-IF ~Global("psClimaxOfFinalSpellToggle", "GLOBAL", 1)~ THEN ~psLady~ ladyofPain @26 = @27 ==
+IF ~Global("psClimaxOfFinalSpellToggle","GLOBAL",1)~ THEN ~psLady~ ladyofPain @26 = @27 ==
 ~psMelLad~ @28 = @29 = @30 DO ~
 SetGlobal("psLadySpokenToMelToggle","GLOBAL",1)
-SetGlobal("psClimaxOfFinalSpellToggle", "GLOBAL", 2)
+SetGlobal("psClimaxOfFinalSpellToggle","GLOBAL",2)
 StartCutSceneMode()
 StartCutScene("psCut10")~ EXIT

@@ -5,9 +5,9 @@ THEN
 	RESPONSE #100
 		StartCutSceneMode()
 		CutSceneID(Player1)
-		DisplayStringHead(Player1, @533)
+		DisplayStringHead(Player1,@533)
 		Wait(10)
-		FadeToColor([20.0], 0)
+		FadeToColor([20.0],0)
 		Wait(1)
 		ActionOverride(Player1,LeaveAreaLUA("ARPSQ1","",[257.730],10))
 		ActionOverride(Player2,LeaveAreaLUA("ARPSQ1","",[216.693],10))

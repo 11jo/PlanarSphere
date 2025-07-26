@@ -82,7 +82,7 @@ THEN
 		ActionOverride("OBSERVE",DestroySelf())
 
 		Wait(10)
-		ActionOverride("psLady", StartDialogNoSet(Player1))
+		ActionOverride("psLady",StartDialogNoSet(Player1))
 END
 
 

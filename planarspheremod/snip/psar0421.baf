@@ -21,7 +21,7 @@ THEN
 		CreateCreature("psPort01",[2008.1570],0) // Planar Portal
 		FadeFromColor([30.0],0)
 		Wait(2)
-		ActionOverride("psDream", StartDialogNoSet(Player1))
+		ActionOverride("psDream",StartDialogNoSet(Player1))
 		EndCutSceneMode()
 		CreateVisualEffectObject("HELLOLY",Player1)
 		CreateVisualEffectObject("HELLOLY",Player2)

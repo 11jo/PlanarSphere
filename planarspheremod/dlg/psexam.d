@@ -1,6 +1,6 @@
 BEGIN ~psExam~
 
-IF ~Global("psExamStarted", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+IF ~Global("psExamStarted","GLOBAL",0)~ THEN BEGIN 0 // from:
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END

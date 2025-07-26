@@ -1,19 +1,19 @@
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	Global("psGlobeSpellCounter", "LOCALS", 8)
+	Global("psGlobeSpellCounter","LOCALS",8)
 THEN
 	RESPONSE #100
-		ReallyForceSpell(Myself, WIZARD_SUN_FIRE)
+		ReallyForceSpell(Myself,WIZARD_SUN_FIRE)
 		DestroySelf()
 END
 
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	RandomNum(6, 1)
+	RandomNum(6,1)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe3Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(1)
 		ReallyForceSpell(Player1,CLERIC_SILENCE_15_FOOT)
 		ReallyForceSpell(Player2,CLERIC_SILENCE_15_FOOT)
@@ -25,11 +25,11 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	RandomNum(6, 2)
+	RandomNum(6,2)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe3Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(1)
 		ReallyForceSpell(Player1,CLERIC_ENTANGLE)
 		ReallyForceSpell(Player2,CLERIC_ENTANGLE)
@@ -41,11 +41,11 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	RandomNum(6, 3)
+	RandomNum(6,3)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe3Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(1)
 		ReallyForceSpell(Player1,CLERIC_CHARM_PERSON)
 		ReallyForceSpell(Player2,CLERIC_CHARM_PERSON)
@@ -57,11 +57,11 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	RandomNum(6, 4)
+	RandomNum(6,4)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe3Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(2)
 		ReallyForceSpell(Player1,CLERIC_HOLD_PERSON)
 		ReallyForceSpell(Player2,CLERIC_HOLD_PERSON)
@@ -73,11 +73,11 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	RandomNum(6, 5)
+	RandomNum(6,5)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe3Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(3)
 		ReallyForceSpell(Player1,CLERIC_MENTAL_DOMINATION)
 		ReallyForceSpell(Player2,CLERIC_MENTAL_DOMINATION)
@@ -90,11 +90,11 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe3Timer","LOCALS")
-	RandomNum(6, 6)
+	RandomNum(6,6)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe3Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(1)
 		ReallyForceSpell(Player1,CLERIC_RIGID_THINKING)
 		ReallyForceSpell(Player2,CLERIC_RIGID_THINKING)

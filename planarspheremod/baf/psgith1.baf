@@ -15,7 +15,7 @@ THEN
 END
 
 IF
-	See(NearestEnemyOf(myself))
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
 		Attack(NearestEnemyOf(Myself))

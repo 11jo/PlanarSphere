@@ -1,9 +1,9 @@
 IF
-	Global("psFinalQuestToKillMelCounter", "GLOBAL", 7)		//Re-activates the various .cre's if Mel is toast
-	Global("psReactivateAR1000", "AR1000", 0)
+	Global("psFinalQuestToKillMelCounter","GLOBAL",7)		//Re-activates the various .cre's if Mel is toast
+	Global("psReactivateAR1000","AR1000",0)
 THEN
 	RESPONSE #100
-		SetGlobal("psReactivateAR1000", "AR1000", 1)
+		SetGlobal("psReactivateAR1000","AR1000",1)
 		Activate("vvamn1")		//The three stupid soldiers at start
 		Activate("vvamn2")
 		Activate("vvamn3")
@@ -14,22 +14,22 @@ THEN
 END
 
 IF
-	Global("psTeosNotAccepted", "GLOBAL", 1)
-	Global("psTeosSpawnedInGovernmentToggle", "GLOBAL", 0)
+	Global("psTeosNotAccepted","GLOBAL",1)
+	Global("psTeosSpawnedInGovernmentToggle","GLOBAL",0)
 THEN
 	RESPONSE #100
-		SetGlobal("psTeosSpawnedInGovernmentToggle", "GLOBAL", 1)
-		CreateCreatureDoor("psTeos", [2784.976], 0)
+		SetGlobal("psTeosSpawnedInGovernmentToggle","GLOBAL",1)
+		CreateCreatureDoor("psTeos",[2784.976],0)
         Continue()     // existing area scripts contain OnCreation
 END
 
 IF
-	Global("psTeosNotAccepted", "GLOBAL", 4)
-	Global("psTeosSpawnedInGovernmentToggle", "GLOBAL", 1)
+	Global("psTeosNotAccepted","GLOBAL",4)
+	Global("psTeosSpawnedInGovernmentToggle","GLOBAL",1)
 THEN
 	RESPONSE #100
-		SetGlobal("psTeosSpawnedInGovernmentToggle", "GLOBAL", 2)
-		ActionOverride("psTeos", DestroySelf())
+		SetGlobal("psTeosSpawnedInGovernmentToggle","GLOBAL",2)
+		ActionOverride("psTeos",DestroySelf())
         Continue()     // existing area scripts contain OnCreation
 END
 

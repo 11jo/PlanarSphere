@@ -34,19 +34,19 @@ END
 IF ~~ THEN BEGIN easiest // from: 3.0
   SAY @9
   IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 2500, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-ChangeAIScript("psVEasy", 0)
+GiveItemCreate("MISC07","psVecna",2500,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+ChangeAIScript("psVEasy",0)
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN easy
 SAY @9
 IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 5000, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-ChangeAIScript("psVNorm", 0)
+GiveItemCreate("MISC07","psVecna",5000,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+ChangeAIScript("psVNorm",0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("psModron",[1389.1483],0)~ EXIT
 END
@@ -54,11 +54,11 @@ END
 IF ~~ THEN BEGIN normal
 SAY @9
 IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 7500, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqpyro", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-ChangeAIScript("psVCore", 0)
+GiveItemCreate("MISC07","psVecna",7500,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqpyro","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+ChangeAIScript("psVCore",0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("psModron",[1169.1104],0)
 CreateCreatureDoor("psModron",[1189.1483],0)
@@ -68,12 +68,12 @@ END
 IF ~~ THEN BEGIN hard
 SAY @9
 IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 10000, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqpyro", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-GiveItemCreate("psPot05", "psVecna", 1, 0, 0)
-ChangeAIScript("psVHard", 0)
+GiveItemCreate("MISC07","psVecna",10000,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqpyro","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+GiveItemCreate("psPot05","psVecna",1,0,0)
+ChangeAIScript("psVHard",0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("Lich01",[1169.1104],0)
 CreateCreatureDoor("psModron",[1389.1483],0)~ EXIT
@@ -82,14 +82,14 @@ END
 IF ~~ THEN BEGIN hardest
 SAY @9
 IF ~~ THEN DO ~		
-GiveItemCreate("MISC07", "psVecna", 15000, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqpyro", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-GiveItemCreate("psPot05", "psVecna", 1, 0, 0)
-GiveItemCreate("psClck01", "psVecna", 1, 0, 0)
+GiveItemCreate("MISC07","psVecna",15000,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqpyro","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+GiveItemCreate("psPot05","psVecna",1,0,0)
+GiveItemCreate("psClck01","psVecna",1,0,0)
 FillSlot(SLOT_CLOAK)
-ChangeAIScript("psVIns", 0)
+ChangeAIScript("psVIns",0)
 CreateCreatureDoor("Lich01",[1169.1104],0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("psModron",[1389.1483],0)
@@ -99,19 +99,19 @@ END
 IF ~~ THEN BEGIN easiest-2 // from: 3.0
   SAY @9
   IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 2500, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-ChangeAIScript("psVEasy", 0)
+GiveItemCreate("MISC07","psVecna",2500,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+ChangeAIScript("psVEasy",0)
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN easy-2
 SAY @9
 IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 5000, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-ChangeAIScript("psVNorm", 0)
+GiveItemCreate("MISC07","psVecna",5000,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+ChangeAIScript("psVNorm",0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("psModron",[1389.1483],0)~ EXIT
 END
@@ -119,11 +119,11 @@ END
 IF ~~ THEN BEGIN normal-2
 SAY @9
 IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 7500, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqpyro", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-ChangeAIScript("psVCore", 0)
+GiveItemCreate("MISC07","psVecna",7500,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqpyro","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+ChangeAIScript("psVCore",0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("psModron",[1169.1104],0)
 CreateCreatureDoor("psModron",[1189.1483],0)
@@ -133,12 +133,12 @@ END
 IF ~~ THEN BEGIN hard-2
 SAY @9
 IF ~~ THEN DO ~
-GiveItemCreate("MISC07", "psVecna", 10000, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqpyro", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-GiveItemCreate("psPot05", "psVecna", 1, 0, 0)
-ChangeAIScript("psVHard", 0)
+GiveItemCreate("MISC07","psVecna",10000,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqpyro","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+GiveItemCreate("psPot05","psVecna",1,0,0)
+ChangeAIScript("psVHard",0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("Lich01",[1169.1104],0)
 CreateCreatureDoor("psModron",[1389.1483],0)~ EXIT
@@ -147,14 +147,14 @@ END
 IF ~~ THEN BEGIN hardest-2
 SAY @9
 IF ~~ THEN DO ~		
-GiveItemCreate("MISC07", "psVecna", 15000, 0, 0)
-GiveItemCreate("psWand03", "psVecna", 1, 0, 0)
-GiveItemCreate("psqpyro", "psVecna", 1, 0, 0)
-GiveItemCreate("psqsMin", "psVecna", 1, 0, 0)
-GiveItemCreate("psPot05", "psVecna", 1, 0, 0)
-GiveItemCreate("psClck01", "psVecna", 1, 0, 0)
+GiveItemCreate("MISC07","psVecna",15000,0,0)
+GiveItemCreate("psWand03","psVecna",1,0,0)
+GiveItemCreate("psqpyro","psVecna",1,0,0)
+GiveItemCreate("psqsMin","psVecna",1,0,0)
+GiveItemCreate("psPot05","psVecna",1,0,0)
+GiveItemCreate("psClck01","psVecna",1,0,0)
 FillSlot(SLOT_CLOAK)
-ChangeAIScript("psVIns", 0)
+ChangeAIScript("psVIns",0)
 CreateCreatureDoor("Lich01",[1169.1104],0)
 CreateCreatureDoor("psModron",[1369.1104],0)
 CreateCreatureDoor("psModron",[1389.1483],0)

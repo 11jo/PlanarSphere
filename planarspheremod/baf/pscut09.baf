@@ -90,7 +90,7 @@ THEN
 		MoveViewPoint([966.1161],VERY_FAST)
 		CreateVisualEffect("SPPLANAR",[966.1161])
 		Wait(1)
-		SetGlobal("psClimaxOfFinalSpellToggle", "GLOBAL", 1)
+		SetGlobal("psClimaxOfFinalSpellToggle","GLOBAL",1)
 		CreateCreature("psLady",[966.1161],4)
 		Wait(1)
 		ActionOverride("psLady",StartDialogueNoSet("psMel"))

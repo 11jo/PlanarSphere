@@ -1,21 +1,21 @@
 IF
 	Global("psItemCreationBookToggle","GLOBAL",1)
-	Global("psFurnaceSpawnedToggle", "GLOBAL", 0)
+	Global("psFurnaceSpawnedToggle","GLOBAL",0)
 THEN
 	RESPONSE #100
-		SetGlobal("psFurnaceSpawnedToggle", "GLOBAL", 1)
+		SetGlobal("psFurnaceSpawnedToggle","GLOBAL",1)
 		CreateCreatureImpassable("psFurn",[1885.891],4)
 END
 
 IF
-	Global("psTeosInitialDialogToggle", "GLOBAL", 1)
-	Global("psDwarfSpawnToggle", "GLOBAL", 0)
+	Global("psTeosInitialDialogToggle","GLOBAL",1)
+	Global("psDwarfSpawnToggle","GLOBAL",0)
 THEN
 	Response #100
-		SetGlobal("psDwarfSpawnToggle", "GLOBAL", 1)
-		CreateCreature("psDwarf1", [1700.800], 0)
-		CreateCreature("psDwarf1", [1900.800], 0)
-		CreateCreature("psDwarf2", [1700.1000], 0)
+		SetGlobal("psDwarfSpawnToggle","GLOBAL",1)
+		CreateCreature("psDwarf1",[1700.800],0)
+		CreateCreature("psDwarf1",[1900.800],0)
+		CreateCreature("psDwarf2",[1700.1000],0)
 END
 
 IF
@@ -29,15 +29,15 @@ THEN
 		MoveViewPoint([971.1312],INSTANT)
 		CreateCreature("psMel",[971.1312],4) // Mage
 		CreateCreature("psSPTar1",[951.1387],4) // Spell Globe
-		ActionOVerride("psSPTar1", Polymorph(WIZARD_EYE))
+		ActionOVerride("psSPTar1",Polymorph(WIZARD_EYE))
 		CreateCreature("psSPTar2",[869.1327],4) // Spell Globe
-		ActionOVerride("psSPTar2", Polymorph(WIZARD_EYE))
+		ActionOVerride("psSPTar2",Polymorph(WIZARD_EYE))
 		CreateCreature("psSPTar3",[919.1242],4) // Spell Globe
-		ActionOVerride("psSPTar3", Polymorph(WIZARD_EYE))
+		ActionOVerride("psSPTar3",Polymorph(WIZARD_EYE))
 		CreateCreature("psSPTar4",[1031.1243],4) // Spell Globe
-		ActionOVerride("psSPTar4", Polymorph(WIZARD_EYE))
+		ActionOVerride("psSPTar4",Polymorph(WIZARD_EYE))
 		CreateCreature("psSPTar5",[1049.1327],4) // Spell Globe
-		ActionOVerride("psSPTar5", Polymorph(WIZARD_EYE))
+		ActionOVerride("psSPTar5",Polymorph(WIZARD_EYE))
 		CreateCreature("OBSERVE",[796.1406],4) // No such index
 		CreateCreature("OBSERVE",[783.1200],4) // No such index
 		CreateCreature("OBSERVE",[1050.1451],4) // No such index
@@ -94,5 +94,5 @@ THEN
 		CreateCreature("psLordAo",[2097.1824],4) // Lord Ao
 		CreateCreature("psMel",[2096.1462],4) // Melanthium
 		Wait(1)
-		ActionOverride("psMel",StartDialogue("psMelEnd", "psLordAo"))
+		ActionOverride("psMel",StartDialogue("psMelEnd","psLordAo"))
 END

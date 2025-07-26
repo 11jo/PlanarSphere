@@ -25,7 +25,7 @@ THEN
 		DisplayStringHead(Myself,4475) //  Die, insolent whelps!
 		ForceSpell("psKOrd03",TRANSFORMATION_DEATH)
 		Wait(1)
-		SetGlobal("psMelKilledKnights", "GLOBAL", 1)
+		SetGlobal("psMelKilledKnights","GLOBAL",1)
 		StartDialogueNoSet(Player1)
 END
 

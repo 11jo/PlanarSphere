@@ -33,17 +33,17 @@ END
 
 IF ~~ THEN BEGIN whyHere
 SAY @11 = @12
-++ @13 DO ~StartStore("psWauk", LastTalkedToBy())~ EXIT
+++ @13 DO ~StartStore("psWauk",LastTalkedToBy())~ EXIT
 ++ @14 GOTO howLong
 END
 
 IF ~~ THEN BEGIN howLong
 SAY @15
-++ @16 DO ~StartStore("psWauk", LastTalkedToBy())~ EXIT
+++ @16 DO ~StartStore("psWauk",LastTalkedToBy())~ EXIT
 END
 
 IF ~!NumTimesTalkedTo(0)~ THEN BEGIN moronic
 SAY @17
-++ @18 DO ~StartStore("psWauk", LastTalkedToBy())~ EXIT
+++ @18 DO ~StartStore("psWauk",LastTalkedToBy())~ EXIT
 ++ @19 GOTO bye
 END

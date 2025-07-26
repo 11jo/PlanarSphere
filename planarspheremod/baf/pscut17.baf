@@ -24,7 +24,7 @@ THEN
 		ActionOverride("psMel",ApplySpell(Myself,4645))
 		SmallWait(1)
 		FadeFromColor([30.0],0)
-		ActionOverride("psMel",StartDialogue("psMelWin", "psMel"))
+		ActionOverride("psMel",StartDialogue("psMelWin","psMel"))
 END
 
 

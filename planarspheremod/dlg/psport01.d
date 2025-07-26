@@ -1,6 +1,6 @@
 BEGIN ~psPort01~
 
-IF ~!Global("psFearSpawned", "GLOBAL", 1)~ THEN BEGIN 0 // from:
+IF ~!Global("psFearSpawned","GLOBAL",1)~ THEN BEGIN 0 // from:
   SAY @0
   IF ~~ THEN GOTO 1
 END
@@ -61,7 +61,7 @@ CreateVisualEffect("SPFLAMES",[2163.1835])
 CreateVisualEffect("SPFLAMES",[2326.1726])
 Wait(1)
 CreateCreature("psFear",[2250.1784],0)
-SetGlobal("psFearSpawned", "GLOBAL", 1)
+SetGlobal("psFearSpawned","GLOBAL",1)
 Wait(1)
 EndCutSceneMode()
 ~ EXIT
@@ -78,13 +78,13 @@ IF ~~ THEN BEGIN 10 // from: 9.0
   ++ @16 EXIT
 END
 
-IF ~Global("psFearSpawned", "GLOBAL", 1)
+IF ~Global("psFearSpawned","GLOBAL",1)
 !Dead("psFear")~ THEN BEGIN fightFear
 SAY @20
 IF ~~ THEN EXIT
 END
 
-IF ~Global("psFearSpawned", "GLOBAL", 1)
+IF ~Global("psFearSpawned","GLOBAL",1)
 Dead("psFear")~ THEN BEGIN 11 // from:
   SAY @17
   IF ~~ GOTO 12
@@ -98,7 +98,7 @@ END
 IF ~~ THEN BEGIN 13 // from: 12.0
   SAY @19
   IF ~~ THEN DO ~
-SetGlobal("psElminsterSpawnToggle", "GLOBAL", 1) 
+SetGlobal("psElminsterSpawnToggle","GLOBAL",1) 
 FadeToColor([30.0],0)
 StartCutScene("psCut21")~ EXIT
 END

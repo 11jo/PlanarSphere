@@ -1,6 +1,6 @@
 BEGIN ~psTeos~
 
-IF ~Global("psTeosInitialDialogToggle", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+IF ~Global("psTeosInitialDialogToggle","GLOBAL",0)~ THEN BEGIN 0 // from:
   SAY @0
   ++ @1 GOTO 1
   ++ @2 GOTO 7
@@ -50,12 +50,12 @@ END
 IF ~~ THEN BEGIN 7 // from: 6.0 4.1 2.1 1.1 0.1
   SAY @20 = @68
   IF ~~ THEN DO ~
-SetGlobal("psTeosNotAccepted", "GLOBAL", 1)
-SetGlobal("psTeosInitialDialogToggle", "GLOBAL", 1)
+SetGlobal("psTeosNotAccepted","GLOBAL",1)
+SetGlobal("psTeosInitialDialogToggle","GLOBAL",1)
 DestroySelf()~ EXIT
 END
 
-IF ~Global("psTeosNotAccepted", "GLOBAL", 1)~ THEN BEGIN secondChance
+IF ~Global("psTeosNotAccepted","GLOBAL",1)~ THEN BEGIN secondChance
 SAY @69
 ++ @70 GOTO secondChanceAccepted
 ++ @71 GOTO excuseMe
@@ -70,10 +70,10 @@ END
 IF ~~ THEN BEGIN secondChanceAccepted
 SAY @72
 IF ~~ THEN DO ~
-ReallyForceSpell(myself, WIZARD_DIMENSION_DOOR)
+ReallyForceSpell(Myself,WIZARD_DIMENSION_DOOR)
 Wait(1)
-SetGlobal("psTeosNotAccepted", "GLOBAL", 2)
-SetGlobal("psTeosInitialDialogToggle", "GLOBAL", 1)
+SetGlobal("psTeosNotAccepted","GLOBAL",2)
+SetGlobal("psTeosInitialDialogToggle","GLOBAL",1)
 ActionOverride(Player1,LeaveAreaLUA("AR0411","",[2836.2779],2))
 ActionOverride(Player2,LeaveAreaLUA("AR0411","",[2907.2803],2))
 ActionOverride(Player3,LeaveAreaLUA("AR0411","",[2995.2809],2))
@@ -82,10 +82,10 @@ ActionOverride(Player5,LeaveAreaLUA("AR0411","",[3113.2736],4))
 ActionOverride(Player6,LeaveAreaLUA("AR0411","",[3116.2677],2))~ EXIT
 END
 
-IF ~Global("psTeosNotAccepted", "GLOBAL", 3)~ THEN BEGIN secondChanceAcceptedYay
+IF ~Global("psTeosNotAccepted","GLOBAL",3)~ THEN BEGIN secondChanceAcceptedYay
 SAY @83
 ++ @70 GOTO 2
-++ @84 DO ~ReallyForceSpell(myself, WIZARD_DIMENSION_DOOR)
+++ @84 DO ~ReallyForceSpell(Myself,WIZARD_DIMENSION_DOOR)
 Wait(1)
 DestroySelf()~ EXIT
 END
@@ -145,10 +145,10 @@ CreateCreature("psGlab",[342.1311],4)
 Deactivate("obsGol01")
 GiveItemCreate("psBadge",Player1,1,0,0)
 SetGlobalTimer("psTimeToAdventurerSpawn","GLOBAL",TWO_DAYS) 	//Starts timer for adventurer fight
-SetGlobal("psTeosInitialDialogToggle", "GLOBAL", 1)
-SetGlobal("psTeosNotAccepted", "GLOBAL", 4)
-SetGlobal("CowledWarning", "GLOBAL", 10)		//Allows you to cast spells in the city
-TriggerActivation("Sahaugin Trigger", FALSE)	//So fishies wont spawn in with Weil
+SetGlobal("psTeosInitialDialogToggle","GLOBAL",1)
+SetGlobal("psTeosNotAccepted","GLOBAL",4)
+SetGlobal("CowledWarning","GLOBAL",10)		//Allows you to cast spells in the city
+TriggerActivation("Sahaugin Trigger",FALSE)	//So fishies wont spawn in with Weil
 JumpToPoint([2415.2258])~ EXIT
 END
 
@@ -264,7 +264,7 @@ END
 
 
 
-IF ~Global("psTeosCutSceneDialogToggle", "GLOBAL", 1)~ THEN BEGIN psTeosCut
+IF ~Global("psTeosCutSceneDialogToggle","GLOBAL",1)~ THEN BEGIN psTeosCut
   SAY @59
   IF ~~ THEN GOTO psTeosCut2
 END

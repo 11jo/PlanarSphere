@@ -36,14 +36,14 @@ THEN
 		ActionOverride("psMel",ForceSpell("psPrst3",WIZARD_FLAME_ARROW))
 		ActionOverride("psKhel",ForceSpell("psMel",WIZARD_FLAME_ARROW))
 		ActionOverride("psKhel",ForceSpell("psMel",WIZARD_FLAME_ARROW))
-		ActionOverride("psKhel",ForceSpell("psMel", WIZARD_SPELL_STRIKE))
+		ActionOverride("psKhel",ForceSpell("psMel",WIZARD_SPELL_STRIKE))
 		ActionOverride("psMel",ForceSpell("psKhel",WIZARD_DISINTEGRATE2_IGNORE_RESISTANCE))
 		ActionOverride("psKhel",ForceSpell("psMel",WIZARD_POLYMORPH_OTHER))
 		ScreenShake([20.20],10)
 		Wait(2)
 		ScreenShake([20.20],10)
-		SetGlobal("psMystrasInTrouble", "GLOBAL", 1)
-		SetGlobal("psElminsterDead", "GLOBAL", 2)
+		SetGlobal("psMystrasInTrouble","GLOBAL",1)
+		SetGlobal("psElminsterDead","GLOBAL",2)
 		ActionOverride("psMel",StartDialogueNoSet(Player1))
 END
 

@@ -1,19 +1,19 @@
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	Global("psGlobeSpellCounter", "LOCALS", 8)
+	Global("psGlobeSpellCounter","LOCALS",8)
 THEN
 	RESPONSE #100
-		ReallyForceSpell(Myself, WIZARD_SUN_FIRE)
+		ReallyForceSpell(Myself,WIZARD_SUN_FIRE)
 		DestroySelf()
 END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumLT(43, 7)
+	RandomNumLT(43,7)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(4)
 		ReallyForceSpell(Player1,WIZARD_SKULL_TRAP)
 		ReallyForceSpell(Player2,WIZARD_SKULL_TRAP)
@@ -25,12 +25,12 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumGT(43, 6)
-	RandomNumLT(43, 13)
+	RandomNumGT(43,6)
+	RandomNumLT(43,13)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(1)
 		ReallyForceSpell(Player1,WIZARD_AGANNAZAR_SCORCHER)
 		ReallyForceSpell(Player2,WIZARD_AGANNAZAR_SCORCHER)
@@ -42,12 +42,12 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumGT(43, 12)
-	RandomNumLT(43, 19)
+	RandomNumGT(43,12)
+	RandomNumLT(43,19)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(1)
 		ReallyForceSpell(Player1,WIZARD_MELF_ACID_ARROW)
 		ReallyForceSpell(Player2,WIZARD_MELF_ACID_ARROW)
@@ -59,12 +59,12 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumGT(43, 18)
-	RandomNumLT(43, 25)
+	RandomNumGT(43,18)
+	RandomNumLT(43,25)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(3)
 		ReallyForceSpell(Player1,WIZARD_LIGHTNING_BOLT)
 		ReallyForceSpell(Player2,WIZARD_LIGHTNING_BOLT)
@@ -76,12 +76,12 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumGT(43, 24)
-	RandomNumLT(43, 35)
+	RandomNumGT(43,24)
+	RandomNumLT(43,35)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(2)
 		ReallyForceSpell(Player1,WIZARD_FLAME_ARROW)
 		ReallyForceSpell(Player2,WIZARD_FLAME_ARROW)
@@ -94,12 +94,12 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumGT(43, 34)
-	RandomNumLT(43, 38)
+	RandomNumGT(43,34)
+	RandomNumLT(43,38)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		Wait(5)
 		ReallyForceSpell(Player1,WIZARD_FIREBALL)
 		ReallyForceSpell(Player2,WIZARD_FIREBALL)
@@ -111,11 +111,11 @@ END
 
 IF
 	!GlobalTimerNotExpired("Globe1Timer","LOCALS")
-	RandomNumGT(43, 37)
+	RandomNumGT(43,37)
 THEN
 	RESPONSE #100
 		SetGlobalTimer("Globe1Timer","LOCALS",6)
-		IncrementGlobal("psGlobeSpellCounter", "LOCALS", 1)
+		IncrementGlobal("psGlobeSpellCounter","LOCALS",1)
 		ReallyForceSpell(Player1,WIZARD_MAGIC_MISSILE)
 		ReallyForceSpell(Player2,WIZARD_MAGIC_MISSILE)
 		ReallyForceSpell(Player3,WIZARD_MAGIC_MISSILE)

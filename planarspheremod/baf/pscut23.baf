@@ -6,11 +6,11 @@ THEN
 		StartCutSceneMode()
 		CutSceneId(Player1)
 
-		ActionOverride(Player2, FaceObject("psMel"))
-		ActionOverride(Player3, FaceObject("psMel"))
-		ActionOverride(Player4, FaceObject("psMel"))
-		ActionOverride(Player5, FaceObject("psMel"))
-		ActionOverride(Player6, FaceObject("psMel"))
+		ActionOverride(Player2,FaceObject("psMel"))
+		ActionOverride(Player3,FaceObject("psMel"))
+		ActionOverride(Player4,FaceObject("psMel"))
+		ActionOverride(Player5,FaceObject("psMel"))
+		ActionOverride(Player6,FaceObject("psMel"))
 
 		MoveViewPoint([817.769],INSTANT)
 		CreateCreature("psSPTar1",[822.659],4)

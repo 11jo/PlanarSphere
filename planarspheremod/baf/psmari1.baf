@@ -43,10 +43,10 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	!GlobalTimerNotExpired("prep","LOCALS")
+	!GlobalTimerNotExpired("psPrep","LOCALS")
 THEN
 	RESPONSE #100
-		SetGlobalTimer("prep","LOCALS",1000)
+		SetGlobalTimer("psPrep","LOCALS",1000)
 		DisplayString(Myself,2469) // Spell Trigger - Protection from Magical Weapons
 		ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
 		DisplayString(Myself,40248) // Spell Trigger - True Sight
@@ -65,10 +65,10 @@ END
 IF
 	See(NearestEnemyOf(Myself))
 	CheckStatLT(Myself,1,STONESKINS)
-	!GlobalTimerNotExpired("onecontin","LOCALS")
+	!GlobalTimerNotExpired("psonecontin","LOCALS")
 THEN
 	RESPONSE #100
-		SetGlobalTimer("onecontin","LOCALS",1000)
+		SetGlobalTimer("psonecontin","LOCALS",1000)
 		DisplayString(Myself,29736) // Contingency - Stoneskin
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 END
@@ -88,10 +88,10 @@ END
 IF
 	See(NearestEnemyOf(Myself))
 	CheckStatLT(Myself,1,STONESKINS)
-	!GlobalTimerNotExpired("stoneskin","LOCALS")
+	!GlobalTimerNotExpired("psstoneskin","LOCALS")
 THEN
 	RESPONSE #100
-		SetGlobalTimer("stoneskin","LOCALS",15)
+		SetGlobalTimer("psstoneskin","LOCALS",15)
 		SpellNoDec(Myself,WIZARD_STONE_SKIN)
 END
 

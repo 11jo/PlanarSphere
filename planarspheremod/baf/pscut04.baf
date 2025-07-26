@@ -42,7 +42,7 @@ THEN
 		ActionOverride("psMel",ForceSpell("psElmin",DO_SOME_EFFECTS))
 		ScreenShake([20.20],10)
 		ActionOverride("psMel",ForceSpell("psElmin",SURE_STONE_SHATTER))
-		SetGlobal("psElminsterDead", "GLOBAL", 1)
+		SetGlobal("psElminsterDead","GLOBAL",1)
 		ActionOverride("psMel",StartDialogueNoSet(Player1))
 END
 

@@ -169,7 +169,7 @@ IF ~~ THEN BEGIN 31 // from: 27.2
   IF ~~ THEN GOTO 29
 END
 
-IF ~Global("psRetrieveSpellKeyCounter", "GLOBAL", 1)~ THEN BEGIN whyReturned
+IF ~Global("psRetrieveSpellKeyCounter","GLOBAL",1)~ THEN BEGIN whyReturned
 SAY @50
 ++ @51 GOTO sighs
 ++ @52 GOTO imFine

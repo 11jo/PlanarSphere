@@ -1,6 +1,6 @@
 BEGIN ~psMelLad~ 
 
-IF ~Global("psClimaxOfFinalSpellToggle", "GLOBAL", 0)~ THEN BEGIN 0 // from:
+IF ~Global("psClimaxOfFinalSpellToggle","GLOBAL",0)~ THEN BEGIN 0 // from:
   SAY @0
   ++ @1  GOTO 1
 END

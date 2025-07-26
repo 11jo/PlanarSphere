@@ -1,30 +1,30 @@
 IF
-	HPLT(Myself, 150)
-	GlobalLT("psRestore", "LOCALS", 2)
+	HPLT(Myself,150)
+	GlobalLT("psRestore","LOCALS",2)
 THEN
 	Response #100
-		ReallyForceSpell(Myself, CLERIC_HEAL)
-		ReallyForceSpell(Myself, WIZARD_TENSERS_TRANSFORMATION)
+		ReallyForceSpell(Myself,CLERIC_HEAL)
+		ReallyForceSpell(Myself,WIZARD_TENSERS_TRANSFORMATION)
 		
-		ReallyForceSpell(Myself, CLERIC_AURA_OF_FLAMING_DEATH)
-		ReallyForceSpell(Myself, WIZARD_STONE_SKIN)
-		ReallyForceSpell(Myself, WIZARD_GLOBE_OF_INVULNERABILITY)
-		ReallyForceSpell(Myself, CLERIC_PHYSICAL_MIRROR)
-		ReallyForceSpell(Myself, WIZARD_MIRROR_IMAGE)
-		IncrementGlobal("psRestore", "LOCALS", 1)
+		ReallyForceSpell(Myself,CLERIC_AURA_OF_FLAMING_DEATH)
+		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		ReallyForceSpell(Myself,CLERIC_PHYSICAL_MIRROR)
+		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
+		IncrementGlobal("psRestore","LOCALS",1)
 END		
 
 IF
-	Global("psUDSpellUp", "LOCALS", 0)
+	Global("psUDSpellUp","LOCALS",0)
 Then
 	Response #100
-		ReallyForceSpell(Myself, CLERIC_AURA_OF_FLAMING_DEATH)
-		ReallyForceSpell(Myself, WIZARD_STONE_SKIN)
-		ReallyForceSpell(Myself, WIZARD_GLOBE_OF_INVULNERABILITY)
-		ReallyForceSpell(Myself, CLERIC_PHYSICAL_MIRROR)
-		ReallyForceSpell(Myself, WIZARD_MIRROR_IMAGE)
-		SetGlobal("psUDSpellUp", "LOCALS", 1)
-		Attack(NearestEnemyOf(myself))
+		ReallyForceSpell(Myself,CLERIC_AURA_OF_FLAMING_DEATH)
+		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		ReallyForceSpell(Myself,CLERIC_PHYSICAL_MIRROR)
+		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
+		SetGlobal("psUDSpellUp","LOCALS",1)
+		Attack(NearestEnemyOf(Myself))
 END
 
 
@@ -77,46 +77,46 @@ THEN
 END
 
 IF
-	See(NearestEnemyOf(myself))
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
-		Attack(NearestEnemyOf(myself))
+		Attack(NearestEnemyOf(Myself))
 END
 
 IF
-	See(NearestEnemyOf(myself))
+	See(NearestEnemyOf(Myself))
 	RandomNum(3,1)
 THEN
 	RESPONSE #100
-		ForceSpell(NearestEnemyOf(Myself), WIZARD_METEOR_SWARM)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_METEOR_SWARM)
 		Continue()
 END
 
 IF
-	RandomNum(6, 1)
-	See(NearestEnemyOf(myself))
+	RandomNum(6,1)
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
-		ForceSpell(NearestEnemyOf(myself), WIZARD_WAIL_OF_THE_BANSHEE)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_WAIL_OF_THE_BANSHEE)
 		Continue()
 END
 
 IF
-	RandomNum(15, 1)
-	GlobalLT("psPlanatarSummon", "LOCALS", 2)
-	See(NearestEnemyOf(myself))
+	RandomNum(15,1)
+	GlobalLT("psPlanatarSummon","LOCALS",2)
+	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100
-		ForceSpell(NearestEnemyOf(myself), WIZARD_SUMMON_PLANATAR_EVIL)
-		IncrementGlobal("psPlanatarSummon", "LOCALS", 1)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_SUMMON_PLANATAR_EVIL)
+		IncrementGlobal("psPlanatarSummon","LOCALS",1)
 END
 
 IF
-	RandomNum(35, 1)
-	Global("psUDTimestop", "LOCALS", 0)
+	RandomNum(35,1)
+	Global("psUDTimestop","LOCALS",0)
 	See(NearestEnemyOf(Myself))
 Then
 	Response #100
-		SetGlobal("psUDTimestop", "LOCALS", 1)
-		ForceSpell(Myself, WIZARD_TIME_STOP)
+		SetGlobal("psUDTimestop","LOCALS",1)
+		ForceSpell(Myself,WIZARD_TIME_STOP)
 END

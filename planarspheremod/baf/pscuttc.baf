@@ -7,14 +7,14 @@ Then
 		CutSceneID(Player1)
 		ClearAllActions()
 		
-		ForceSpell("psTeos", CHICKEN_CHANGE)
+		ForceSpell("psTeos",CHICKEN_CHANGE)
 		
-		DisplayStringHead("psTeos", @604)
+		DisplayStringHead("psTeos",@604)
 		Wait(4)
-		DisplayStringHead(Player1, @605)
+		DisplayStringHead(Player1,@605)
 		Wait(2)
-		GiveItemCreate("psTChick", Player1, 1, 0, 0)
-		ActionOverride("psTeos", DestroySelf())
+		GiveItemCreate("psTChick",Player1,1,0,0)
+		ActionOverride("psTeos",DestroySelf())
 		
 		EndCutSceneMode()
 End
