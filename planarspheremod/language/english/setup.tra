@@ -1601,7 +1601,7 @@ This huge axe was created by <CHARNAME> in <PRO_HISHER> Planar sphere in Amn.
   STATISTICS:
   Special:  When drunk, the imbiber will re-memorize 1 lost spell of 6th level or lower.
   
-  Usable By::
+  Usable By:
 	Mages~
 @347  = ~Elixir of Elysium~
 @348  = ~A powerful potion made from the blood of a lesser Deva. Inside the dull red glass resides a small fraction of the power of Mount Celestia, one of the upper planes of the multiverse. When drunk, the sheer glory of Elysium flows through the drinker. Due to the nature of the upper planes, for a evil individual to consume this potion would result in instant death.
@@ -1613,7 +1613,7 @@ This huge axe was created by <CHARNAME> in <PRO_HISHER> Planar sphere in Amn.
   All attacks made by the drinker do maximum damage every hit.
   Duration: half an hour
   
-  Usable By::
+  Usable By:
   Lawful good fighters only.~
 @349  = ~Aura of Power~
 @350  = ~Aura of Power
