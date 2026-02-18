@@ -25,17 +25,17 @@ ALWAYS
     LAF autotra_workaround END
 
 
-  ACTION_DEFINE_ARRAY fl#noconvert BEGIN insatll END
+  ACTION_DEFINE_ARRAY ps_noconvert BEGIN install END
 
- ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+ ACTION_DEFINE_ARRAY ps_reload BEGIN setup END
 
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
       STR_VAR
         tra_path = EVAL ~planarspheremod/language/autotra~
-        noconvert_array = fl#noconvert
-        reload_array = fl#reload
+        noconvert_array = ps_noconvert
+        reload_array = ps_reload
  END
 
 //
@@ -392,14 +392,20 @@ COPY ~PlanarSphereMod/cre/psKhel.cre~ ~override/psKhel.cre~
 COPY ~PlanarSphereMod/cre/psSPrst.cre~ ~override/psSPrst.cre~
   SAY NAME1 @545
   SAY NAME2 @545
+  REMOVE_CRE_ITEM ~SLNG01~ ~weapon1~
+  ADD_CRE_ITEM ~SLNG01~ #0 #0 #0 ~unstealable~ ~weapon2~ EQUIP
 
 COPY ~PlanarSphereMod/cre/psSplit1.cre~ ~override/psSplit1.cre~
   SAY NAME1 @3
   SAY NAME2 @3
+  REMOVE_CRE_ITEM ~POTN55~
+  ADD_CRE_ITEM ~POTN55~ #10 #0 #0 ~unstealable~ ~qitem1~ // Quick item 1
 
 COPY ~PlanarSphereMod/cre/psSplit2.cre~ ~override/psSplit2.cre~
   SAY NAME1 @4
   SAY NAME2 @4
+  REMOVE_CRE_ITEM ~POTN55~
+  ADD_CRE_ITEM ~POTN55~ #10 #0 #0 ~unstealable~ ~qitem1~ // Quick item 1
 
 COPY ~PlanarSphereMod/cre/psSplit3.cre~ ~override/psSplit3.cre~
   SAY NAME1 @5
@@ -1867,11 +1873,12 @@ COPY ~PlanarSphereMod/itm/psBook04.itm~ ~override/psBook04.itm~
 
 // Spell Files
 
-
+/*
 COPY ~PlanarSphereMod/spl/pswi423.spl~ ~override/pswi423.spl~
   SAY NAME1 @628
   SAY UNIDENTIFIED_DESC @629
   SAY DESC @629
+*/
 
 COPY ~PlanarSphereMod/spl/SPCL650.spl~ ~override/SPCL650.spl~
   SAY NAME1 @88
@@ -2469,6 +2476,9 @@ COMPILE ~PlanarSphereMod/baf~  // Full Scripts
 COMPILE ~PlanarSphereMod/baf/psCut41.baf~
 USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
+COPY_EXISTING ~TEMAMN01.CRE~ ~override/TEMAMN01.CRE~
+  WRITE_ASCII 0x280 ~TEMAMN01~ (32) // Script name / Death variable
+
 COMPILE ~PlanarSphereMod/baf/psCut42.baf~
 USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
@@ -2492,8 +2502,13 @@ USING ~PlanarSphereMod/language/autotra/%s/ar0300.tra~
 
 // Extending existing scripts and possibly existing scripts
 
+/*
 COMPILE ~PlanarSphereMod/snip/ar0419.baf~
 COMPILE ~PlanarSphereMod/snip/ar0420.baf~
+*/
+
+EXTEND_TOP ~AR0420.bcs~ ~PlanarSphereMod/snip/ar0420.baf~
+EXTEND_TOP ~AR0419.bcs~ ~PlanarSphereMod/snip/ar0419.baf~
 
 
 EXTEND_TOP ~AR0412.bcs~ ~PlanarSphereMod/snip/psAR0412.baf~
@@ -2577,6 +2592,13 @@ THEN BEGIN
   COPY_EXISTING + ~Projectl.IDS~   ~script compiler~
 END
 
+// PVRZ
+ ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+ 
+ COPY ~PlanarSphereMod/PVRZ~ ~override~
+ 
+END
+
 
 
 
@@ -2623,10 +2645,3 @@ EXTEND_TOP ~BALDUR.BCS~ ~PlanarSphereMod/Raw/sBALDURs.bcs~
 
 COPY_EXISTING ~BALDUR25.bcs~ ~override/BALDUR25.bcs~
 EXTEND_TOP ~BALDUR25.BCS~ ~PlanarSphereMod/Raw/sBALDURs.bcs~
-
-// PVRZ
- ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
- 
- COPY ~PlanarSphereMod/PVRZ~ ~override~
- 
-END

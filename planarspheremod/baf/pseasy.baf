@@ -65,7 +65,7 @@ IF
 	GlobalLT("psMelCastRageCounter","LOCALS",1)
 THEN
 	RESPONSE #100
-		ForceSpellRes("SPPSMRA",NearestEnemyOf(Myself))
+		ForceSpellRES("SPPSMRA",NearestEnemyOf(Myself))
 		IncrementGlobal("psMelCastRageCounter","LOCALS",1)
 END
 
@@ -83,7 +83,7 @@ IF
 	GlobalLT("psMelCastRainCounter","LOCALS",1)
 THEN
 	RESPONSE #100
-		ForceSpellRes("SPPSMELR",NearestEnemyOf(Myself))
+		ForceSpellRES("SPPSMELR",NearestEnemyOf(Myself))
 		IncrementGlobal("psMelCastRainCounter","LOCALS",1)
 END
 

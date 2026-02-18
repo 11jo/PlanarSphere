@@ -1,6 +1,18 @@
 # Planarsphere
 
-![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20russian%20%7C%20&color=informational)
+[![Release](https://img.shields.io/github/v/release/The-Gate-Project/PlanarSphere?include_prereleases&color=41788a)](https://github.com/The-Gate-Project/PlanarSphere/releases)
+[![Published](https://img.shields.io/github/release-date-pre/The-Gate-Project/PlanarSphere?display_date=published_at&label=published&color=014a69)](https://github.com/The-Gate-Project/PlanarSphere/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/The-Gate-Project/PlanarSphere/total?color=41788a)](https://github.com/The-Gate-Project/PlanarSphere/releases)
+
+[![Language](https://img.shields.io/badge/language-english%20%7C%20schinese%20%7C%20russian-014a69)](https://github.com/The-Gate-Project/PlanarSphere/releases)
+[![Games](https://img.shields.io/badge/games-BG2:ToB%20%7C%20BGT%20%7C%20BG2:EE%20%7C%20EET-41788a)](https://github.com/The-Gate-Project/PlanarSphere/releases)
+
+<!--
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FThe-Gate-Project%2FPlanarSphere&countColor=41788a&style=flat)
+
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69)](https://github.com/The-Gate-Project/PlanarSphere/releases)
+-->
 
 **Autor** : **Inferno**
 
@@ -16,6 +28,8 @@
 
 
 [See readme-planarsphere.html](https://the-gate-project.github.io/PlanarSphere/planarspheremod/readme/readme-planarsphere.html)
+or
+[See readme-planarsphere.html](https://htmlpreview.github.io/?https://github.com/11jo/PlanarSphere/blob/main/planarspheremod/readme/readme-planarsphere.html)
 
 
 
