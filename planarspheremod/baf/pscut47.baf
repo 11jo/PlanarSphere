@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		Wait(2)
 		DisplayStringHead("TALKNI01",@59)
 		Wait(5)

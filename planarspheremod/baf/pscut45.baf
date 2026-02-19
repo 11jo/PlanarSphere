@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		ActionOverride("C6KNGT2",Attack("CLSTKN01"))
 		ActionOverride("C6KNGT1",Attack("C6KNGT3"))
 		ActionOverride("CLSTKN01",Attack("C6KNGT2"))

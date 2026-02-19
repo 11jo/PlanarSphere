@@ -2,18 +2,14 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		Wait(2)
 		CreateCreatureImpassable("OBSERVE",[3156.2090],0)	//Baat Leader
 		CreateCreatureImpassable("OBSERVE",[2978.2252],0) //Tana Leader
 		CreateCreatureImpassable("OBSERVE",[3114.1717],0)
-		CreateCreatureImpassable("OBSERVE",[2693.2090],0)	
+		CreateCreatureImpassable("OBSERVE",[2693.2090],0)
 		CreateCreatureImpassable("OBSERVE",[3490.1825],0)		//Tana UD tele spot
-		CreateCreatureImpassable("OBSERVE",[1964.2705],0)		
-
-
-
-
+		CreateCreatureImpassable("OBSERVE",[1964.2705],0)
 
 
 		CreateCreature("psBaatL",[3156.2090],3)	//Leader
@@ -31,13 +27,12 @@ THEN
 
 		CreateCreature("C6KNGT3",[2440.2257],7)	//Knights to be killed
 		CreateCreature("CLSTKN01",[2490.2288],7)
-		
+
 		CreateCreature("HELMKNI1",[3000.1862],3)	//Knights who talk in last scene		
 		CreateCreature("TALKNI01",[2945.1910],12)
 
 		ActionOverride("HELMKNI1",FaceObject("TALKNI01")
 		ActionOverride("TALKNI01",FaceObject("HELMKNI1")
-		
 
 		MoveViewPoint([3050.2150],INSTANT)
 		FadeFromColor([20.0],0)
@@ -61,7 +56,7 @@ THEN
 		SmallWait(1)
 		CreateVisualEffect("SPPORTAL",[3109.2199])	
 		CreateCreature("psKob02",[3109.2199],3)
-		
+
 		Wait(3)
 		DisplayStringHead("psKob01",@32)
 		Wait(3)
@@ -73,7 +68,7 @@ THEN
 		Wait(2)
 		DisplayStringHead("psKob01",@91)
 		Wait(3)
-		
+
 		ActionOverride("psTanaL",ForceSpell("psBaatL",TRAP_FIREBALL))
 		Wait(3)
 		DisplayStringHead("psBaatL",@35)

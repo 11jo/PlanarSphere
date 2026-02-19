@@ -44,7 +44,7 @@ END
 IF ~~ THEN BEGIN 8 // from: 7.0
   SAY @14
   IF ~~ THEN DO ~StartCutSceneMode()
-  CutSceneID(Player1)
+  CutSceneId(Player1)
 MoveViewPoint([2250.1784],VERY_FAST)
 Wait(1)
 CreateVisualEffect("SPCALLLI",[2179.1725])

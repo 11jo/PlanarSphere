@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		ClearAllActions()
 
 		CreateCreature("OBSERVE",[3950.1761],14)
@@ -95,4 +95,3 @@ THEN
 		FadeToColor([20.0],0)
 		StartCutScene("psCut41")
 END
-

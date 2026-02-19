@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		FadeToColor([20.0],0)
 		JumpToPoint([1855.2757])
 		ActionOverride(Player2,JumpToPoint([1855.2757]))
@@ -22,7 +22,7 @@ THEN
 		ActionOverride(Player4,MoveToPoint([1610.3022]))
 		ActionOverride(Player5,MoveToPoint([1540.2860]))		
 		ActionOverride(Player6,MoveToPoint([1672.3008]))
-		
+
 		DisplayStringHead("psSPrst",@539)
 		Wait(5)
 		DisplayStringHead("psSplit1",@540)

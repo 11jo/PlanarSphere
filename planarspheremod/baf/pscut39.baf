@@ -3,7 +3,7 @@ IF
 	Global("psExtraPlanarAR300NotSpawned","AR0300",0)
 THEN
 	RESPONSE #100
-	CutSceneID(Player1)
+	CutSceneId(Player1)
 	Explore()
 	ActionOverride("psNarr",DestroySelf())
 	SetGlobal("psExtraPlanarAR300NotSpawned","AR0300",1)
@@ -31,7 +31,7 @@ THEN
 	ActionOverride("psGith2",Attack("psFlay2")
 	ActionOverride("psFlay2",Attack("psGith1")
 	ActionOverride("psFlay1",Attack("psGithCa")
-	
+
 	Wait(10)
 
 	CreateCreature("OBSERVE",[3439.1286],4)

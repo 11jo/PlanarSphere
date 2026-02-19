@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		MoveViewPoint([2408.1743],INSTANT)
 		JumpToPoint([2409.1843])
 		ActionOverride("psWeil",MoveToPoint([2560.1641]))

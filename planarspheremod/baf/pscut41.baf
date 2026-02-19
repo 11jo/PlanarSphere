@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		ClearAllActions()
 		CreateCreature("OBSERVE",[2870.1550],0)
 		CreateCreature("psBaat01",[2916.1598],7)

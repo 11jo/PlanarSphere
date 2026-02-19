@@ -2,9 +2,9 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		ClearAllActions()
-		
+
 		DisplayStringHead("psCowl01",@621)
 		Wait(2)
 		DisplayStringHead("psApp08",@610)

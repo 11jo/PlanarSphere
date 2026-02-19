@@ -2,9 +2,9 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		ClearAllActions()
-		
+
 		DisplayStringHead("psTeos",@616)
 		ActionOverride("psBelle",ForceSpell("psTeos",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
 		DisplayStringHead("psBelle",@617)

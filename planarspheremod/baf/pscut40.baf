@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID("psMel")
+		CutSceneId("psMel")
 		Wait(1)
 		CreateVisualEffectObject("SPGRWHRL",Myself)
 		Wait(1)

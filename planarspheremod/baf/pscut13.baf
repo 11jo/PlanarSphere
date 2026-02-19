@@ -2,7 +2,7 @@ IF
 	TRUE()
 THEN
 	RESPONSE #100
-		CutSceneID("psDemi")
+		CutSceneId("psDemi")
 		Wait(1)
 		ReallyForceSpell("psPeas1",WIZARD_BIGBYS_CRUSHING_HAND)
 		Wait(2)

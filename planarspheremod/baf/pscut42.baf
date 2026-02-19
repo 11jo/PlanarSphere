@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		CreateCreature("OBSERVE",[2150.2400],0)
 		CreateCreature("psTana01",[2203.2429],7)
 		CreateCreature("psTana02",[2121.2575],8)
@@ -42,4 +42,3 @@ THEN
 		ActionOverride("OBSERVE",DestroySelf())
 		StartCutScene("psCut44")
 END
-

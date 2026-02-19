@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID("psMystra")
+		CutSceneId("psMystra")
 		MoveViewObject(Myself,INSTANT)
 		CreateVisualEffectObject("SPFLSRIN",Myself)
 		Wait(2)

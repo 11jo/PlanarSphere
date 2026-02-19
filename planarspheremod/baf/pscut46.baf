@@ -2,7 +2,7 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 
 		MoveViewPoint([2940.1878],VERY_FAST)
 		Wait(3)		
@@ -19,14 +19,14 @@ THEN
 		Wait(2)
 		CreateVisualEffect("SPPORTAL",[3114.1717])
 		Wait(2)
-		
+
 		CreateCreature("psTalAc1",[1960.2653],10)
 		CreateCreature("psTalAc2",[2021.2694],10)
 		CreateCreature("psTalAc3",[1998.2672],10)
 		CreateCreature("psTalAc4",[1949.2772],10)
 		CreateCreature("psTalAc5",[1891.2728],10)
 		CreateCreature("psTalAc6",[1889.2778],10)
-		
+
 		MoveViewPoint([1964.2705],INSTANT)
 
 		DisplayStringHead("psTalAc1",@75)
@@ -86,8 +86,8 @@ THEN
 		Wait(6)
 		CreateVisualEffect("SPPORTAL",[2693.2090])
 		Wait(2)
-		
-		
+
+
 		CreateCreature("psLotAc1",[3452.1807],3)
 		CreateCreature("psLotAc2",[3515.1850],3)
 		CreateCreature("psLotAc3",[3514.1793],3)
