@@ -90,23 +90,23 @@ END
 // Cre Files
 COPY_EXISTING	~HELMKNI1.CRE~	~override~
   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN 	// protects against invalid files
-    WRITE_ASCII	0x248		~PSTEMPLE~ #8	// Override 
-    WRITE_ASCII	0x250		~SHT0901~ #8	// Class 
+    WRITE_ASCII	0x248		~PSTEMPLE~ #8	// Override
+    WRITE_ASCII	0x250		~SHT0901~ #8	// Class
   END
 BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING	~LATKNI01.CRE~	~override~
   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN 	// protects against invalid files
-    WRITE_ASCII	0x248		~PSTEMPLE~ #8	// Override 
-    WRITE_ASCII	0x250		~TALWAR~ #8		// Class 
-    WRITE_ASCII	0x258		~SHT0902~ #8	// Race 
+    WRITE_ASCII	0x248		~PSTEMPLE~ #8	// Override
+    WRITE_ASCII	0x250		~TALWAR~ #8		// Class
+    WRITE_ASCII	0x258		~SHT0902~ #8	// Race
   END
 BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING	~TALKNI01.CRE~	~override~
   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN 	// protects against invalid files
-    WRITE_ASCII	0x248		~PSTEMPLE~ #8	// Override 
-    WRITE_ASCII	0x250		~SHT0904~ #8	// Class 
+    WRITE_ASCII	0x248		~PSTEMPLE~ #8	// Override
+    WRITE_ASCII	0x250		~SHT0904~ #8	// Class
   END
 BUT_ONLY_IF_IT_CHANGES
 
@@ -384,6 +384,7 @@ COPY ~PlanarSphereMod/cre/psDem03.cre~ ~override/psDem03.cre~
 COPY ~PlanarSphereMod/cre/psNiSum.cre~ ~override/psNiSum.cre~
   SAY NAME1 @16
   SAY NAME2 @16
+	WRITE_ASCII DEATHVAR ~psNiSum~ (32)
 
 COPY ~PlanarSphereMod/cre/psKhel.cre~ ~override/psKhel.cre~
   SAY NAME1 @538
@@ -434,30 +435,37 @@ COPY ~PlanarSphereMod/cre/psTutor1.cre~ ~override/psTutor1.cre~
 COPY ~PlanarSphereMod/cre/psqhosu.cre~ ~override/psqhosu.cre~
   SAY NAME1 @70
   SAY NAME2 @70
+	WRITE_ASCII DEATHVAR ~psqhosu~ (32)
 
 COPY ~PlanarSphereMod/cre/psqmfh.cre~ ~override/psqmfh.cre~
   SAY NAME1 @71
   SAY NAME2 @71
+	WRITE_ASCII DEATHVAR ~psqmfh~ (32)
 
 COPY ~PlanarSphereMod/cre/psqsksu.cre~ ~override/psqsksu.cre~
   SAY NAME1 @72
   SAY NAME2 @72
+	WRITE_ASCII DEATHVAR ~psqsksu~ (32)
 
 COPY ~PlanarSphereMod/cre/psqssum.cre~ ~override/psqssum.cre~
   SAY NAME1 @73
   SAY NAME2 @73
+	WRITE_ASCII DEATHVAR ~psqssum~ (32)
 
 COPY ~PlanarSphereMod/cre/psqtpa1.cre~ ~override/psqtpa1.cre~
   SAY NAME1 @74
   SAY NAME2 @74
+	WRITE_ASCII DEATHVAR ~psqtpa1~ (32)
 
 COPY ~PlanarSphereMod/cre/psqtpa2.cre~ ~override/psqtpa2.cre~
   SAY NAME1 @74
   SAY NAME2 @74
+	WRITE_ASCII DEATHVAR ~psqtpa2~ (32)
 
 COPY ~PlanarSphereMod/cre/psqtpa3.cre~ ~override/psqtpa3.cre~
   SAY NAME1 @74
   SAY NAME2 @74
+	WRITE_ASCII DEATHVAR ~psqtpa3~ (32)
 
 COPY ~PlanarSphereMod/cre/psApp02.cre~ ~override/psApp02.cre~
   SAY NAME1 @5
@@ -791,6 +799,7 @@ COPY ~PlanarSphereMod/cre/psMystra.cre~ ~override/psMystra.cre~
 COPY ~PlanarSphereMod/cre/psMysEnd.cre~ ~override/psMysEnd.cre~
   SAY NAME1 @14
   SAY NAME2 @14
+	WRITE_ASCII SCRIPT_OVERRIDE ~psMysEnd~ (8)
 
 COPY ~PlanarSphereMod/cre/psPain.cre~ ~override/psPain.cre~
   SAY NAME1 @44
@@ -1108,7 +1117,7 @@ COPY ~PlanarSphereMod/itm/psSands.itm~ ~override/psSands.itm~
     SAY NAME2 @124
     SAY UNIDENTIFIED_DESC @125
     SAY DESC @126
-	
+
 COPY ~PlanarSphereMod/itm/psSCRL01.itm~ ~override/psSCRL01.itm~
     SAY NAME1 @127
     SAY NAME2 @128
@@ -1252,7 +1261,7 @@ COPY ~PlanarSphereMod/itm/psBook04.itm~ ~override/psBook04.itm~
     SAY NAME2 @188
     LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@189" END
     LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@190" END
-	
+
   COPY ~PlanarSphereMod/itm/psRing03.itm~ ~override/psRing03.itm~
     SAY NAME1 @82
     SAY NAME2 @191
@@ -2283,62 +2292,62 @@ COPY ~PlanarSphereMod/spl/psBlur.SPL~ ~override/psBlur.SPL~
     SAY NAME1 @127
     SAY NAME2 @365
     SAY DESC @366
-	
+
  COPY ~PlanarSphereMod/itm/psqrequ.itm~ ~override/psqrequ.itm~
     SAY NAME1 @127
     SAY NAME2 @367
     SAY DESC @368
-	
+
  COPY ~PlanarSphereMod/itm/psqshh.itm~ ~override/psqshh.itm~
     SAY NAME1 @127
     SAY NAME2 @369
     SAY DESC @370
-	
+
  COPY ~PlanarSphereMod/itm/psqslcg.itm~ ~override/psqslcg.itm~
     SAY NAME1 @127
     SAY NAME2 @371
     SAY DESC @372
-	
+
  COPY ~PlanarSphereMod/itm/psqttc.itm~ ~override/psqttc.itm~
     SAY NAME1 @127
     SAY NAME2 @377
     SAY DESC @378
-	
+
  COPY ~PlanarSphereMod/itm/psqtysp.itm~ ~override/psqtysp.itm~
     SAY NAME1 @127
     SAY NAME2 @379
     SAY DESC @380
-	
+
  COPY ~PlanarSphereMod/itm/psqvorp.itm~ ~override/psqvorp.itm~
     SAY NAME1 @127
     SAY NAME2 @381
     SAY DESC @382
-	
+
  COPY ~PlanarSphereMod/itm/sppsbta.itm~ ~override/sppsbta.itm~
     SAY NAME1 @127
     SAY NAME2 @383
     SAY DESC @384
-	
+
  COPY ~PlanarSphereMod/itm/sppsdma.itm~ ~override/sppsdma.itm~
     SAY NAME1 @127
     SAY NAME2 @385
     SAY DESC @386
-	
+
  COPY ~PlanarSphereMod/itm/sppsmoh.itm~ ~override/sppsmoh.itm~
     SAY NAME1 @127
     SAY NAME2 @387
     SAY DESC @390
-	
+
  COPY ~PlanarSphereMod/itm/sppsmsr.itm~ ~override/sppsmsr.itm~
     SAY NAME1 @127
     SAY NAME2 @391
     SAY DESC @392
-	
+
  COPY ~PlanarSphereMod/itm/sppsoif.itm~ ~override/sppsoif.itm~
     SAY NAME1 @127
     SAY NAME2 @395
     SAY DESC @396
-	
+
  COPY ~PlanarSphereMod/itm/sppstpa.itm~ ~override/sppstpa.itm~
     SAY NAME1 @127
     SAY NAME2 @397
@@ -2594,9 +2603,9 @@ END
 
 // PVRZ
  ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
- 
+
  COPY ~PlanarSphereMod/PVRZ~ ~override~
- 
+
 END
 
 

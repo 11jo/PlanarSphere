@@ -49,10 +49,12 @@ END
 
 IF
 	RandomNum(12,1)
+	GlobalGT("psWIZARD_TIME_STOP","LOCALS",1)
 THEN
 	RESPONSE #100
-	ForceSpell(Myself,WIZARD_TIME_STOP)
-	Continue()
+		IncrementGlobal("psWIZARD_TIME_STOP","LOCALS",1)
+		ForceSpell(Myself,WIZARD_TIME_STOP)
+		Continue()
 END
 
 IF

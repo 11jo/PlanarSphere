@@ -3,7 +3,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("Player1Usesorcery","GLOBAL",1)
-		ActionOverride(Player1,StartDialogueNoSet(Player1))		
+//		ActionOverride(Player1,StartDialogueNoSet(Player1))
 		StartDialogue("psq70",Player1)
 END
 
@@ -12,7 +12,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("Player1Usesorcery","GLOBAL",0)
-		ActionOverride(Player1,SetDialog(Player1))
+//		ActionOverride(Player1,SetDialog(Player1))
 		DestroySelf()
 END
 

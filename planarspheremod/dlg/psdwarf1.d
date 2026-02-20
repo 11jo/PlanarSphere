@@ -1,9 +1,7 @@
 BEGIN ~psDwarf1~
 
-IF ~
-OR(2)
-Global("psFinalQuestToKillMelCounter","GLOBAL",0)
-!GlobalLT("psFinalQuestToKillMelCounter","GLOBAL",7)~ THEN BEGIN endOfTheWorld
+IF ~GlobalGT("psFinalQuestToKillMelCounter","GLOBAL",0)
+GlobalLT("psFinalQuestToKillMelCounter","GLOBAL",7)~ THEN BEGIN endOfTheWorld // https://github.com/11jo/PlanarSphere/issues/7
 SAY @10
 ++ @11 GOTO endOfTheWorld-2
 END

@@ -1,0 +1,7 @@
+IF
+	Global("psMysEnd_talk","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("psMysEnd_talk","LOCALS",1)
+		StartDialogNoSet(Player1)
+END

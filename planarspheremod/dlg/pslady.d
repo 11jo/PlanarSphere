@@ -98,7 +98,7 @@ IF ~~ THEN BEGIN 21 // from: 11.0
   SAY @18
   IF ~~ THEN DO ~
 	StartCutSceneMode()
-	CutSceneID(Player1)
+	CutSceneId(Player1)
 	SetGlobal("psFinalQuestToKillMelCounter","GLOBAL",4)
 	GiveItemCreate("psSW2H01",Player1,1,0,0)
 	Wait(2)
@@ -107,9 +107,9 @@ IF ~~ THEN BEGIN 21 // from: 11.0
 	Wait(2)
 	EndCutSceneMode()
 	CreateCreature("psMysEnd",[689.1266],4)
-	DestroySelf()
-	ActionOverride("psMysEnd",StartDialogNoSet(Player1)~ EXIT
+	DestroySelf()~ EXIT
 END
+//	ActionOverride("psMysEnd",StartDialogNoSet(Player1)) Moved with new psMysEnd.baf
 
 IF ~Global("psClimaxOfFinalSpellToggle","GLOBAL",2)
 Global("psLadySpokenToMelToggle","GLOBAL",1)

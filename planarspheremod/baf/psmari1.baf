@@ -33,6 +33,8 @@ THEN
 		Attack("psTanaL")
 END
 
+//
+
 IF
 	See("psTanaUD")
 THEN

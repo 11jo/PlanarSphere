@@ -102,8 +102,9 @@ IF ~~ THEN DO ~
 SetGlobal("psTeosComesBackCounter","GLOBAL",2)
 SetGlobal("psRemoveBelleCounter","GLOBAL",1)~ EXIT
 END
-
-IF ~Global("psTurnedDownTeosToggle","GLOBAL",1)~ THEN BEGIN reconsider
+// https://github.com/11jo/PlanarSphere/issues/7
+IF ~Global("psTurnedDownTeosToggle","GLOBAL",1)
+!GlobalGT("psRemoveBelleCounter","GLOBAL",3)~ THEN BEGIN reconsider
 SAY @31
 ++ @25 DO ~
 SetGlobal("psTeosComesBackCounter","GLOBAL",2)
@@ -128,7 +129,7 @@ IF ~~ THEN BEGIN psReconcile3
 SAY @36
 ++ @37 DO ~
 SetGlobal("psTeosTriesToRecCounter","GLOBAL",1)
-SetGlobal("psRemoveBelleCounter","GLOBAL",5 )
+// SetGlobal("psRemoveBelleCounter","GLOBAL",5)
 SetGlobal("psBelleGoneCounter","GLOBAL",10)
 SetGlobal("psRemoveBelleCounter","GLOBAL",10)
 
