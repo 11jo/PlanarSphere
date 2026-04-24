@@ -1,0 +1,39 @@
+@0    = ~MORTEL... TU T'ÉVEILLES... TU ES PLUS RÉSISTANT QUE JE NE LE PENSAIS. CETTE MAGIE AURAIT DÛ TE RÉDUIRE EN MORCEAUX.~ ~MORTELLE... TU T'ÉVEILLES... TU ES PLUS RÉSISTANTE QUE JE NE LE PENSAIS. CETTE MAGIE AURAIT DÛ TE RÉDUIRE EN MORCEAUX.~
+@1    = ~TA MISSION N'EST PAS ENCORE TERMINÉE, MORTEL. L'ARCHIMAGE EST TOUJOURS EN VIE. IL S'EST ENFUI AINSI QUE RETOURNÉ DANS SA RÉALITÉ PRISONNIÈRE. MAIS IL DOIT ÊTRE VAINCU.~ ~TA MISSION N'EST PAS ENCORE TERMINÉE, MORTELLE. L'ARCHIMAGE EST TOUJOURS EN VIE. IL S'EST ENFUI AINSI QUE RETOURNÉ DANS SA RÉALITÉ PRISONNIÈRE. MAIS IL DOIT ÊTRE VAINCU.~
+@2    = ~Il est sûrement piégé là-bas, et il ne peut pas s'échapper ?~
+@3    = ~Pourquoi n'a-t-il pas été détruit ?~
+@4    = ~NON, MORTEL. JE N'ÉTAIS PAS ASSEZ PUISSANTE POUR SCELLER LA PRISON. Il a juste besoin de se reposer pour reprendre des forces, et alors les plans seront à nouveau menacés... et il ne se laissera pas berner une troisième fois.~ ~NON, MORTELLE. JE N'ÉTAIS PAS ASSEZ PUISSANTE POUR SCELLER LA PRISON. Il a juste besoin de se reposer pour reprendre des forces, et alors les plans seront à nouveau menacés... et il ne se laissera pas berner une troisième fois.~
+@5    = ~Et maintenant, mortel, tu dois le détruire.~ ~Et maintenant, mortelle, tu dois le détruire.~
+@6    = ~Êtes-vous folle ?! J'ai vu sa puissance, et je ne souhaite plus l'affronter !~
+@7    = ~Très bien, mais comment puis-je espérer le vaincre ? Je n'en sais rien.~
+@8    = ~Tu *dois* le combattre. Il n'y a personne d'autre. Il a ancré les dieux à leurs réalités respectives et m'a dépouillé de tout pouvoir. Tu dois traverser ce portail et l'affronter, sinon les plans s'effondreront.~
+@9    = ~Si je dois le faire, je m'en chargerai. Mais comment le vaincre ?~
+@10   = ~Il est affaibli. Sa propre magie s'est retournée contre lui et, bien qu'il n'ait pas été détruit, il est désormais faible. C'est peut-être ta seule chance de l'affronter à armes égales.~
+@11   = ~Mais prends garde, mortel : sa puissance est toujours immense. Plus grande que celle de presque tous les êtres. Je ne m'attends pas à ce que tu reviennes vivant, mais tu dois essayer... Pars  avec ma bénédiction.~ ~Mais prends garde, mortelle : sa puissance est toujours immense. Plus grande que celle de presque tous les êtres. Je ne m'attends pas à ce que tu reviennes vivant, mais tu dois essayer... Pars  avec ma bénédiction.~
+@12   = ~Tu dois comprendre sa puissance... Elle est quasi infinie. La magie que tu viens de voir était assez puissante pour réduire les plans en miettes, et pourtant, non seulement il l'a créée, mais il y a résisté. Il est peu probable que quoi que ce soit puisse le blesser au sommet de sa puissance.~
+@13   = ~TU REVIENS VICTORIEUX... MAIS QU’EST-CE QUE C’EST ? JE SENS QUELQUE CHOSE EN TOI... UN POUVOIR.~ ~TU REVIENS VICTORIEUSE... MAIS QU’EST-CE QUE C’EST ? JE SENS QUELQUE CHOSE EN TOI... UN POUVOIR.~
+@14   = ~LE POUVOIR DE MELANTHIUM... EXPLIQUE-TOI, MORTEL, DE PEUR QUE JE TE DÉTRUISE PENDANT QUE TU TE TIENS DEVANT MOI !~ ~LE POUVOIR DE MELANTHIUM... EXPLIQUE-TOI, MORTELLE, DE PEUR QUE JE TE DÉTRUISE PENDANT QUE TU TE TIENS DEVANT MOI !~
+@15   = ~À la mort de Melanthium, je crois qu’une partie de ses pouvoirs m’a été transmise. Je n’avais pas le choix.~
+@16   = ~Très bien... MAIS JE TE SURVEILLERAI DE PRÈS. NÉANMOINS, TU M’AS RENDU, AINSI QU’AUX PLANS, UN GRAND SERVICE. TU SERAS TOUJOURS LE BIENVENU DANS LA CITÉ DE SIGIL, ET JE TE DOIS UNE GRANDE RECONNAISSANCE.~ ~Très bien... MAIS JE TE SURVEILLERAI DE PRÈS. NÉANMOINS, TU M’AS RENDU, AINSI QU’AUX PLANS, UN GRAND SERVICE. TU SERAS TOUJOURS LA BIENVENUE DANS LA CITÉ DE SIGIL, ET JE TE DOIS UNE GRANDE RECONNAISSANCE.~
+@17   = ~TIENS, PRENDS CECI. ET PUISSE QU’ELLE TE SOIT UTILE. *L'une des lames ornant la tête de la Dame se détache et flotte dans votre main.*~
+@18   = ~ET MAINTENANT, MORTEL, JE DOIS PARTIR. LES PLANS M’ATTENDENT. ET UNE DERNIÈRE CHOSE... NE PARLE JAMAIS DE MOI À PERSONNE. MON IMAGE EST IMPORTANTE, ET SI TU ME TRAHIS, JE N'AURAI AUCUN SCRUPULE DE TE DÉTRUIRE TOUT SIMPLEMENT.~ ~ET MAINTENANT, MORTELLE, JE DOIS PARTIR. LES PLANS M’ATTENDENT. ET UNE DERNIÈRE CHOSE... NE PARLE JAMAIS DE MOI À PERSONNE. MON IMAGE EST IMPORTANTE, ET SI TU ME TRAHIS, JE N'AURAI AUCUN SCRUPULE DE TE DÉTRUIRE TOUT SIMPLEMENT.~
+
+
+@19   = ~MORTEL ! ÉCOUTE VITE ! TU POSSÈDES LA CLÉ, N'EST-CE PAS ?~ ~MORTELLE ! ÉCOUTE VITE ! TU POSSÈDES LA CLÉ, N'EST-CE PAS ?~
+@20   = ~Oui, je l'ai ici.~
+@21   = ~Non, je n'ai pas la clé.~
+@22   = ~ALORS IL Y A ENCORE UNE CHANCE ! VITE, AVEC TA MAGIE, DÉTRUIS LA CLÉ !~
+@23   = ~*Invoquer toute votre puissance magique et la concentrer sur la clé*~
+@24   = ~*Votre magie se propage sur la clé enchantée... Vous concentrez votre esprit au maximum, puis la clé explose. Des étincelles de lumière se dispersent et vous levez les yeux.*~
+@25   = ~ALORS TOUT EST PERDU... CONTEMPLE LA RÉALITÉ S'EFFONDRER !~
+
+
+
+@26   = ~*Une voix semble résonner dans votre tête. Vous vous prenez le crâne dans les mains, la voix semblant transpercer chaque recoin de votre esprit.*~
+@27   = ~COMMENT OSES-TU, SORCIER ! COMMENT OSES-TU INTERFÉRER DANS LE COURS DES PLANS ! TU M'AS DÉPOUILLÉ DE MON SIGIL ET TU AS TUÉ DES DIEUX, SOIT ! MAIS ÇA, JE NE LE PERMETTRAI PAS ! LES PUISSANCES M’ORDONNENT DE T’ARRÊTER !~
+
+@28   = ~Ma chère Dame ! Je suis si heureux que vous ayez pu vous joindre à nous ! Toujours aussi autoritaire, je vois.~
+@29   = ~Vous n'êtes pas en position de me donner des ordres, et les Puissances non plus. Elles n'agissent pas, car elles savent qu'elles ne font pas le poids face à moi. Elles sont impuissantes, et vous l'êtes aussi ! La réalité est mon jouet, et j'ai l'intention de m'en servir !~
+@30   = ~Et maintenant, observez ! Les plans vont fusionner, et tandis que vous serez consumée par l'énergie de la création, réfléchissez, Dame. Réfléchissez à ce que vous avez provoqué, et à cet instant, savourez une éternité de souffrance !~
+
+@31   = ~Qu'attends-tu, mortel ? Une invitation écrite ?~ ~Qu'attends-tu, mortelle ? Une invitation écrite ?~

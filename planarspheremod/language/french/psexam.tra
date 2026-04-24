@@ -1,0 +1,17 @@
+@0    = ~Bien, allez, grand maître, c'est l'heure de l'évaluation.~ ~Bien, allez, grande maîtresse, c'est l'heure de l'évaluation.~
+@1    = ~Pardon ?~
+@2    = ~Il est temps pour vous de venir évaluer certains élèves. Si vous estimez qu'ils ont du potentiel, ils pourront être initiés chez les Mages Cagoulés~
+@3    = ~En quoi cela consistera-t-il ?~
+@4    = ~Oh, pas grand-chose. Ils vous diront ce qu'ils vont faire et, s'ils réussissent, ils réussissent.~
+@5    = ~Pas maintenant. Je suis bien trop occupé.~ ~Pas maintenant. Je suis bien trop occupée.~
+@6    = ~Très bien, je viendrai.~
+@7    = ~Parfait. Je vais dire aux élèves de retourner à leurs études.~
+@8    = ~Merci, grand maître.~ ~Merci, grande maîtresse.~
+
+@9    = ~Alors, ils ont tous échoué ? Bon, ce n'est pas grave. Ils pourront repasser l'examen plus tard.~
+@10   = ~Euh... en fait, je crains que leurs sorts mal lancés ne leur aient été fatals. Si ça peut vous consoler, c'était... disons... explicite.~
+@11   = ~Je ne les ai pas encore tous testés.~
+@12   = ~Oh là là ! Je vais en informer le Conseil.~
+@13   = ~Eh bien, au boulot, grand maître !~ ~Eh bien, au boulot, grande maîtresse !~
+
+@14   = ~Euh... De rien.~

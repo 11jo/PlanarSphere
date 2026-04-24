@@ -1,0 +1,43 @@
+@0    = ~JE SUIS LIBRE !~
+@1    = ~Ah… (inspire profondément) L’air du Plan primaire. Quel délice !~
+@2    = ~Quelle heure est-il ? Ah oui. Mon Dieu, que j’ai été absent longtemps. Voyons voir. Retenir deux, ajouter trois… Hmm, je m’en doutais ; cinq cents ans. Mon Dieu, comme le temps a filé !~
+@3    = ~Euh. Excusez-moi… Qui êtes-vous ?~
+@4    = ~Pour qui vous prenez-vous, à faire irruption dans ma Sphère comme ça ?! Vous mourrez de ma main, imbécile !~
+@5    = ~Oh, pardonnez-moi. Je ne vous avais pas vu là-haut. Vous devez être celui qui m’a libéré, n’est-ce pas ?~
+@6    = ~Non, c’étaient les mages qui vous encerclaient.~
+@7    = ~Ah. Bon, peu importe. J’ai des choses plus importantes à faire. Mais d'abord, voyons si j'ai encore tous mes pouvoirs !~
+@46   = ~Mourrez, mages de pacotilles !~
+@8    = ~Oh là là. Vous croyez vraiment pouvoir me rivaliser ?! Alors périssez, mortel !~ ~Oh là là. Vous croyez vraiment pouvoir me rivaliser ?! Alors périssez, mortelle !~
+
+@9    = ~Hé, je suis content de voir que je n'ai pas perdu la main...~
+@10   = ~Euh... Pourquoi les avez-vous tous tués comme ça ?~
+@11   = ~Oh, je testais juste mes pouvoirs. Et puis, ça fait tellement longtemps que je n'ai pas eu le plaisir de tuer qui que ce soit.~
+@12   = ~Bah ! Il est temps de retourner en enfer, démon !~
+@13   = ~Bon, c'était un peu inutile...~
+@14   = ~Ce n'est pas le sujet.~
+@15   = ~Hum... Vous êtes un aventurier, n'est-ce pas ?~ ~Hum... Vous êtes une aventurière, n'est-ce pas ?~
+@16   = ~Oui, je le suis.~
+@17   = ~Moi ? Non, j'ai juste trouvé tout cet équipement magique dans un... puits ... Oui, dans un puits .~
+@18   = ~Les aventuriers. Le fléau des plans. Votre espèce est partout, faisant le « bien », s'enrichissant, se mettant en travers du chemin des sorciers innocents et maléfiques. Je déteste tellement les aventuriers.~
+@19   = ~Vous feriez mieux d'abandonner maintenant. Les aventuriers gagnent toujours.~
+@20   = ~Hahahaha ! Oh, je ne m'inquiète pas pour vous. Je parlais au nom de la plupart des autres méchants. Vous n’avez aucune chance contre moi, petit mortel. Je possède des pouvoirs capables d'assassiner des dieux et de détruire des plans entiers ! Vous pensez représenter une menace pour moi ?! Comme c'est amusant !~ ~Hahahaha ! Oh, je ne m'inquiète pas pour vous. Je parlais au nom de la plupart des autres méchants. Vous n’avez aucune chance contre moi, petite mortelle. Je possède des pouvoirs capables d'assassiner des dieux et de détruire des plans entiers ! Vous pensez représenter une menace pour moi ?! Comme c'est amusant !~
+@21   = ~Je trouve incroyable que quelqu'un d'aussi puissant que vous ait été emprisonné dans une boule à pointes pendant 500 ans...~
+@22   = ~Silence ! Sinon, j'enverrai vos entrailles aux confins de l'oubli ! Tu ne pouvez absolument pas comprendre ce qui a causé mon emprisonnement ! J'ai été dupée, et mon propre pouvoir a été utilisé contre moi !~
+@45   = ~Mais enfin, l'heure de ma vengeance a sonné ! La Dame paiera. Les plans paieront !~
+@23   = ~Il y a d'abord quelqu'un à qui je dois rendre visite sur ce plan. Celle qui a empêché les autres mortels de me libérer plus tôt. Je prendrai plaisir à la voir brûler... Oui...~
+@24   = ~Bref, que faire de vous maintenant ? Je ne veux pas que vous vous agitiez partout, que vous jouez les sauveurs, que vous me poursuiviez sans cesse, que vous me gêniez. Mais où vous envoyer...?~
+@25   = ~Bien sûr ! Je sens la présence de Bhaal en vous ! Votre âme devrait être un endroit suffisamment désagréable pour vous y envoyer ! Maintenant, disparaissez !~
+@26   = ~Vous ne pouvez pas me duper, Mortel !~ ~Vous ne pouvez pas me duper, Mortelle !~
+
+
+@34   = ~Et voici le fameux Elminster.~
+@35   = ~Et tu as amené un ami ! Quelle gentillesse. Sans doute as-tu dû le sauver du jeu auquel il participait ?~ ~Et tu as amené une amie ! Quelle gentillesse. Sans doute as-tu dû la sauver du jeu auquel elle participait ?~
+@36   = ~Je suis si heureux que tu aies pu assister à la destruction finale de ta pitoyable petite Déesse. Elle se tordra dans les flammes de ma sorcellerie pour avoir osé tenter de me sceller !~
+@37   = ~Jamais ! Par ma main, tu tomberas, Sorcier ! Je suis un Élu de Mystra, et son pouvoir me guidera et me protégera !~
+@38   = ~Mystra ! Aidez-moi dans mon heure de besoin !~
+
+@39   = ~Et ainsi périront tous ceux qui ont osé défier ma volonté. Maintenant, Mystra, ton dernier espoir pathétique est perdu. Je déchirerai la Matière première et disperserai ton essence à travers les plans !~
+@40   = ~Quoi !... Ah, encore des agneaux envoyés à l'abattoir.~
+
+@43   = ~Et ainsi, tous vos pitoyables amis sont morts.~
+@44   = ~Maintenant, voyez-vous mon pouvoir ? La réalité n'est qu'un jouet, et je suis sur le point de le briser. Mais d'abord, Mystra... d'abord, vous allez payer votre dette !~

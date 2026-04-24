@@ -1,0 +1,87 @@
+@0    = ~La fournaise est rougeoyante. Si vous le souhaitez, vous pouvez l'utiliser pour forger un objet.~
+@1    = ~Laisser la fournaise~
+@2    = ~Vous préparer à créer un objet~
+@3    = ~Tenter de créer un autre objet test après votre premier échec~
+@4    = ~Vous préparer à créer un objet test, il vaut mieux qu'il soit petit~
+@5    = ~Quel type d'objet souhaitez-vous enchanter ?~
+@6    = ~Une épée longue~
+@7    = ~Une lance~
+@8    = ~Une baguette~
+@9    = ~Une amulette~
+@10   = ~Une baguette magique~
+@11   = ~Un bâton~
+@12   = ~Un bouclier~
+@13   = ~Une robe de mage~
+@14   = ~Une armure de plates complète~
+@15   = ~Laisser tomber.~
+@16   = ~Une armure de cuir~
+@17   = ~Une hache~
+@18   = ~Quel pouvoir d'enchantement souhaitez-vous appliquer à l'objet ?~
+@19   = ~+1~
+@20   = ~+3~
+@21   = ~+2~
+@22   = ~Quelles autres capacités l'objet aura-t-il ?~
+@23   = ~Étourdir les cibles de l'objet.~
+@24   = ~Infliger des dégâts magiques aux cibles de l'objet.~
+@25   = ~Être une puissante arme vorpale.~
+@26   = ~Forger l'objet ?~
+@27   = ~Oui~
+@28   = ~Non~
+@29   = ~La fournaise s'embrase et vous commencez votre travail.~
+@30   = ~L'objet ne sera pas forgé.~
+@31   = ~Pour étourdir ceux contre qui l'objet est utilisé.~
+@32   = ~Quel pouvoir d'enchantement souhaitez-vous appliquer à l'objet ?~
+@33   = ~<NO TEXT>~
+@34   = ~Laisser la fournaise.~
+@35   = ~Je veux fabriquer une armure de plates offrant une bonne protection physique.~
+@36   = ~Je veux fabriquer une armure de plates capable de repousser les attaques physiques les plus féroces.~
+@37   = ~Je veux fabriquer une armure de plates qui confère à celui qui la porte l'immunité aux armes mineures.~
+@38   = ~Je veux fabriquer une armure de plates qui me permette de combattre n'importe quel ennemi seul.~
+@39   = ~Vous devez d'abord obtenir le composant requis pour forger un objet.~
+@40   = ~Je veux qu'il offre une protection physique impressionnante.~
+@41   = ~Je veux qu'il offre une puissante protection physique.~
+@42   = ~Je veux qu'il protège des sorts lancés contre lui.~
+@43   = ~+4~
+@44   = ~Vous commencez votre travail en prenant soin de ne pas reproduire les mêmes erreurs que la dernière fois.~
+@45   = ~Vous commencez à travailler sur l'objet, mais vous avez l'impression d'avoir besoin de plus de pratique.~
+
+@46   = ~Quel pouvoir d'enchantement souhaitez-vous appliquer à l'objet ?~
+@47   = ~Je veux qu'il me protège des attaques physiques.~
+@48   = ~Je veux qu'il me protège des attaques magiques.~
+@49   = ~Je veux qu'il améliore mes capacités de lancement de sorts.~
+@50   = ~Je veux qu'il inflige des dégâts à mes adversaires.~
+@51   = ~Je veux qu'il confère une immunité aux armes mineures.~
+@52   = ~Souaitez-vous forger l'objet ? ~
+@53   = ~Non~
+@54   = ~Oui~
+@55   = ~Non.~
+@56   = ~La fournaise s'embrase et vous commencez votre travail.~
+
+@57   = ~Je veux qu'il me rende plus sage dans tout ce que j'entreprends.~
+@58   = ~Je veux qu'il me protège des éléments.~
+@59   = ~Je veux qu'il bloque les attaques lancées contre moi.~
+@60   = ~Je veux qu'il me protège de tous les adversaires redoutables que je rencontrerai.~
+@61   = ~Je veux qu'il me protège des attaques physiques.~
+
+@62   = ~Je veux qu'il envoie de puissantes boules de feu.~
+@63   = ~Je veux qu'il libère des décharges d'énergie électrique.~
+@64   = ~Je veux qu'il brûle, gèle et électrocute mes adversaires.~
+@65   = ~Je veux qu'il détruise et sème le chaos parmi ceux qui oseraient défier ma volonté.~
+
+@66   = ~Je veux un bâton de puissance qui m'aidera dans tout ce que j'entreprends.~
+@67   = ~Je veux un bâton qui me permette de manier la force élémentaire du feu.~
+@68   = ~Je veux un bâton qui me permette de manier la force élémentaire de l'air.~
+@69   = ~Je veux un bâton qui améliore ma capacité à lancer des sorts.~
+
+@70   = ~Je veux créer un bouclier qui me confère une protection impressionnante.~
+@71   = ~Je veux créer un bouclier qui me confère une protection puissante.~
+@72   = ~Je veux créer un bouclier qui renvoie les dégâts à mes adversaires.~
+@73   = ~Je veux créer un bouclier qui me protège des sorts.~
+
+@74   = ~Je veux créer une robe qui me protège lors de mes aventures.~
+@75   = ~Je veux créer une robe qui améliore mes capacités de lanceur de sorts.~
+@76   = ~Je veux créer une robe qui me protège des magies puissantes.~
+@77   = ~Je veux créer une robe qui me protège des attaques physiques.~
+@78   = ~Je veux créer une robe qui me protège de mes adversaires.~
+
+@79   = ~Votre niveau est insuffisant pour créer un tel objet. Revenez plus tard, lorsque vous aurez acquis plus d'expérience.~

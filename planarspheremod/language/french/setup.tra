@@ -1,0 +1,2276 @@
+@9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+
+@0    = ~Bastion prolonge du Mage EET~
+@1    = ~TOB Requis~
+@2    = ~Sphère Planaire~
+@3    = ~Mannequin de test~
+@4    = ~Teos~
+@5    = ~Apprenti~
+@6    = ~Tuteur~
+@7    = ~Narrateur~
+@8    = ~Prêtre de Mystra~
+@9    = ~Prêtre de Mystra~
+@10   = ~Élémentaire magique~
+@11   = ~Seigneur Ao~
+@12   = ~Melanthium~
+@13   = ~Portail du Plan Matériel~
+@14   = ~Mystra~
+@15   = ~Mage Cagoulé~
+@16   = ~Cauchemar~
+@17   = ~Couteau cinétique~
+@18   = ~Sorcier~
+@19   = ~Aventurier~
+@20   = ~Mage Rouge~
+@21   = ~Ombre de Vecna~
+@22   = ~Bébé Wyverne~
+@23   = ~Modron~
+@24   = ~Esclave Solaire~
+@25   = ~Marilith~
+@26   = ~Serviteur du Chaos~
+@27   = ~Balor~
+@28   = ~Glabrezu~
+@29   = ~Chevalier de l’Ordre~
+@30   = ~Fanatique~
+@31   = ~Horreur casquée~
+@32   = ~Degrodel~
+@33   = ~Broom~
+@34   = ~Démon~
+@35   = ~Wielter~
+@36   = ~Examinateur~
+@37   = ~Melicamp~
+@38   = ~Thalantyr~
+@39   = ~Cauchemar Supérieur~
+@40   = ~Rêve~
+@41   = ~Portail Planaire~
+@42   = ~Peur~
+@43   = ~Elminster~
+@44   = ~Élémentaire de la souffrance~
+@45   = ~Sorcière de la nuit~
+@46   = ~Chevalier Planaire~
+@47   = ~Sortilège de Globe~
+@48   = ~Magie~
+@49   = ~Divination~
+@50   = ~Illusion~
+@51   = ~Abjuration~
+@52   = ~Altération~
+@53   = ~Nécromancie~
+@54   = ~Conjuration~
+@55   = ~Enchantement~
+@56   = ~Invocation~
+@57   = ~Portail~
+@58   = ~Dame de la douleur ~
+@59   = ~Portail de la prison~
+@60   = ~Demiliche~
+@61   = ~Paysan~
+@62   = ~Prince Démon~
+@63   = ~Furnace~
+@64   = ~Inchantra~
+@65   = ~Mage Cagoulé~
+@66   = ~Flasque de Vase~
+@67   = ~Orage~
+@68   = ~Enfer~
+@69   = ~Vortel~
+@70   = ~Guerrier d’élite Hobgobelin~
+@71   = ~Marteau Magique~
+@72   = ~Squelette~
+@73   = ~Araignée Géante~
+@74   = ~Spectre~
+@75   = ~Amulettete noire~
+@76   = ~La Rage du Nécromancien~
+@77   = ~Les amulettes sont généralement des objets magiques que l'on porte souvent autour du cou, suspendus à une chaîne. Le type de chaîne qui accompagne une amulette en rehausse généralement l'esthétique, sans pour autant en conférer les propriétés magiques. On ne peut porter qu'une seule amulette à la fois.~
+@78   = ~La Rage du Nécromancien 
+  Avant le Temps des Troubles, un puissant Mage Rouge de Thay consacra de nombreuses années à se spécialiser et à étudier l'art de la nécromancie. Finalement, il tenta de s'emparer du pouvoir à Thay et de nombreux mages succombèrent face à son talent. Cependant, alors qu'il approchait de son but de domination de Thay, il fut défié par un puissant illusionniste. Ils s'affrontèrent pendant près d'une heure. L'illusionniste tissa autour de lui de nombreux sorts trompeurs. Le nécromancien, ignorant tout de l'illusion, ne put les percer. Il fut contraint de s'avouer vaincu. Exilé, il maudit la nécromancie et jura de ne plus jamais y recourir. Le sort final qu'il lança fut la création de cette Amulette qui détruisit la magie nécromantique, sa vengeance ultime contre cette école de magie.
+
+  PARAMÈTRES
+  
+  Capacités: +5 à tous les jets de sauvegarde contre la mort
+  Le porteur est immunisé contre toutes les magies nécromantiques~
+@79   = ~Amulette d’argent~
+@80   = ~Badge des Mages Cagoulés~
+@81   = ~Ce badge vous désigne comme membre honorifique des Mages Cagoulés. Il est porté par les plus éminents d'entre eux pour les protéger des mages insensés. Ce badge confère de nombreuses protections et permet à son porteur de lancer les sorts Contingence et Séquenceur de Sorts Mineurs une fois par jour.
+
+   PARAMÈTRES
+  Capacités d'Équipement:
+  1 sortilège supplémentaire du 1er, 2em et 3em niveau.
+   Vocaliser
+   Immunité au drainage de niveaux
+   Utilisable par:
+	Mage~
+@82   = ~Anneau~
+@83   = ~Anneau de Mage Rouge~
+@84   = ~Un anneau est un petit bracelet en métal précieux utilisé en bijouterie. Certains anneaux rares sont enchantés et possèdent des pouvoirs magiques. Ces anneaux sont très recherchés, notamment par les personnes exerçant la profession d'aventurier.~
+@85   = ~C’est un anneau crée par les Mages Rouges of Thay. Il est donné aux sorciers effectuant une tâche considérée d’importance nationale. Il est très rare de trouver cet anneau en possession de quiconque autre qu’un Mage Rouge.
+   PARAMÈTRES:
+  Résistance au feu : +50% 
+  Accroît la rapidité d’incantation d’un sortilège de 2~
+@86   = ~Artefact~
+@87   = ~L'artefact repose de façon inquiétante dans votre main. Sa surface noire et déformée semble vibrer légèrement d'une énergie à peine contenue. Il est évident que cet objet renferme un immense pouvoir magique.~
+@88   = ~<No Text>~
+@89   = ~Lame noire du désastre~
+@90   = ~Épée à deux mains~
+@91   = ~Lame de douleur +6~
+@92   = ~L'épée à deux mains est dérivée de l'épée longue. Les armuriers ont toujours cherché à améliorer les armes existantes. Dans le but d'améliorer l'épée longue, la lame fut allongée. Finalement, la poignée dut être rallongée et l'usage des deux mains devint nécessaire pour manier correctement l'épée. La fonction principale des épées à deux mains est de fendre les cavaliers et de briser les formations de piques.
+  
+   PARAMÈTRES:
+  
+  Dégâts:  1D10
+  Type de dégâts:  tranchant
+  Poids: 15
+  Facteur de vitesse: 10
+  Type de compétence: Épée à deux mains
+  Type:  2 mains
+  Nécessite: 14 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@93   = ~Lame de douleur +6
+  Cette lame scintille d'énergie magique lorsque vous la ramenez dans l'air. Elle semble presque trancher les plans eux-mêmes, ne laissant derrière elle qu'une obscurité profonde. Jadis, cette lame ornait la Dame de la Douleur, la puissante souveraine de Sigil, mais elle vous l'offre en récompense de vos services exceptionnels. Elle protège de nombreux dangers, dont le froid et la mort instantanée, et confère résistance magique et régénération. Lorsqu'elle frappe une cible, il y a de fortes chances qu'elle soit en proie à une douleur insoutenable. La lame ancre également son porteur à son plan d'existence, le rendant immunisé contre les sorts de Labyrinthe et d'Emprisonnement.
+Si tranchante qu'elle fend la réalité elle-même, cette lame offre une faible chance de projeter la cible dans un autre plan d'existence. Son tranchant permet également à son porteur de trancher toute magie susceptible d'entraver ses mouvements. Enfin, la lame renferme une partie du pouvoir de la Dame. Son porteur peut accéder à ce pouvoir, lui permettant ainsi de fendre l'espace et de se téléporter à volonté à l'endroit désiré. Elle leur permet également de lancer le sort de Bannissement une fois par jour, qui envoie une cible dans l'oubli. La lame tranche aussi la magie ; ainsi, à chaque coup, la cible peut perdre sa résistance magique ou voir ses protections physiques contre les sorts annulés.
+
+ EFFETS D’ÉQUIPEMENT:
+  Capacités d'Équipement : cette lame protège le porteur de toutes les formes de mort magique (désintégration et pétrification)
+ Résistance Magique : +25 %
+  Immunité aux sorts d’Emprisonnement et de Labyrinthe
+  +2 à la CA
+
+   PARAMÈTRES
+Capacités de combat : À chaque coup porté, la cible a 50 % de chances de subir un malus cumulatif de 1 point à son THAC0. Durée : 20 rounds.
+À chaque coup porté, la cible perd 5 % de sa résistance à la magie. Durée : 50 rounds.
+À chaque coup porté, la cible doit effectuer un jet de sauvegarde contre les sorts à -3 sous peine de subir une douleur atroce. La douleur réduit sa Dextérité de 2 et ses jets de sauvegarde de 2. Durée : 20 rounds.
+À chaque coup porté, la cible a 10 % de chances d'être emprisonnée dans une réalité planaire extérieure, mais bénéficie d'un jet de sauvegarde contre la mort à +4.
+  THAC0: +6 bonus
+  Dégâts: 1D8 +6
+  Type de dégâts:  tranchant
+  Poids:  10
+  Facteur de vitesse: 6
+  Type de compétence: Épée à deux mains
+  Type:  2 mains
+  Nécessite: 14 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage
+	Voleur~
+@94   = ~Anneau d’Action Libre : « Le Don d'Edventar »
+Cet anneau fut offert à Edventar, le pilleur et chasseur de récifs, par un groupe d'elfes aquatiques qui étaient ses amis de longue date. Son aide pour vaincre la « Reine Pirate », Yenandra de Dambrath, fut déterminante pour leur survie, bien que Yenandra continue d'être crainte partout où l'eau rencontre la terre.
+  
+   PARAMÈTRES:
+  
+  Spécial:  Le porteur est immunisé à tout ce qui altère la vitesse de déplacement. Cela inclut les sorts de hâte et de ralentissement.~
+@95   = ~Bâton~
+@96   = ~Bâton de magicien~
+@97   = ~Réputée être l’arme contondante la moins sophistiquée, le bâton est un bout de bois d’une longueur de 1,80 m à 2,70 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
+  
+   PARAMÈTRES:
+  
+  Dégâts:  1D6
+  Type de dégâts:  contondant
+  Poids: 4
+  Facteur de vitesse: 4
+  Type de compétence: Bâton
+  Type:  2 mains
+  Nécessite: 5 en Force~
+@98   = ~Bâton de magicien +5
+  La plupart des bâtons des Mages partagent des pouvoirs communs. Les plus puissants, comme celui du célèbre Khelben « Bâton Noir » Arunsun, sont rares et appartiennent à de puissants archimage. Ce bâton-ci, cependant, les surpasse tous. Sa surface noire et tortueuse semble briller dans l'obscurité, tout en arborant toutes les couleurs de l'arc-en-ciel. Il n'est composé d'aucun matériau identifiable, mais donne l'impression d'être tissé de brumes solides. On pense que ce bâton a été créé par l'archisorcier Melanthium, l'être le plus puissant ayant jamais existé et ennemi juré de la Dame de la Douleur. Il portait ce bâton simplement parce qu'il le considérait comme faisant partie intégrante de l'image, et ne l'a donc enchanté qu'avec ses sorts mineurs. À l'image du sorcier lui-même, ce bâton est d'une puissance inouïe. Il augmente la capacité de l'utilisateur à lancer des sorts, le protège des armes et sorts mineurs lancés contre lui, et permet de lancer des sorts puissants d'un simple mouvement du Bâton.
+ PARAMÈTRES
+  Classe d’armure: +4
+  Jets de sauvegarde: +4 
+
+Capacités d'équipement :
+  Protection contre la pétrification
+  Protection contre la mort
+  Protection  contre l’emprisonnement
+  Protection   contre les sortilèges du 1er au 3em niveau
+  Protection contre la peur
+  Immunité aux armes ordinaire et magiques +1
+  Immunité au drainage de niveau
+  +15 Points de vie
+  Accorde au porteur la capacité de mémoriser un sort supplémentaire par niveau.
+  
+  Capacités:
+  Cinq fois par jour, le bâton peut libérer des boules de feu.
+  Une fois par jour, le bâton peut être utilisé pour protéger le porteur de moitié contre toute forme de magie pendant une minute. 
+Désintégration Améliorée peut être lancée trois fois par jour.
+Le Bâton peut lancer le sort Chaîne de Contingence.
+Capacité de Combat (chaque coup) : Dissipation de la Magie
+Toute créature extraplanaire ayant moins de 4d10 points de vie mourra (elle bénéficie d'un jet de sauvegarde à -4).
+THAC0 : +5
+Dégâts : 1d6 +5
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : Bâton
+Type : 2 mains
+Nécessite : 5 en Force
+  
+  Utilisable par:
+	Mage~
+@99   = ~Dissipation des Effets~
+@100  = ~Cercle de Protection Infernale~
+@101  = ~Cercle de Protection Infernale
+Ce cercle magique est brûlant au toucher et, lorsqu'on le place sur le doigt, il s'embrase de magie et un Anneau de feu se déploie autour de soi. On pense que cet Anneau a été créé il y a de nombreuses années par un mage étudiant les élémentaires de feu. Malheureusement, la protection conférée par cet Anneau ne le sauva pas lorsqu'un étudiant imprudent libéra ses prisonniers enflammés.
+PARAMÈTRES :
+  
+  Capacités d'équipement:
+Résistance au froid : 30 %
+L’utilisateur bénéficie du sort Bouclier de feu (rouge).
+  ~
+@102  = ~Baguette magique~
+@103  = ~Bâton de foudre dentelée~
+@104  = ~Les baguettes mesurent environ 38 cm de long et sont fines. Elles sont fabriquées en ivoire, en os ou en bois et sont généralement ornées d'un embout en métal, en cristal, en pierre, etc. Elles sont fragiles et se cassent facilement. C'est pourquoi on les conserve souvent dans des étuis.
+  
+  Les baguettes fonctionnent grâce à des charges, chaque utilisation consommant une ou plusieurs charges (selon l'objet). Lorsqu'une baguette n'a plus de charges, elle est détruite.~
+@105  = ~Bâton de Foudre Dentelée
+L'origine de ce type de bâton est inconnue. Plusieurs exemplaires existent, mais ils sont si rares qu'ils sont extrêmement précieux. Ce bâton a été redécouvert récemment lorsqu'un groupe de pirates a détourné le navire d'un mage d’Halruaa à Eauprofonde. Il figurait parmi les objets qu'ils ont « récupérés », mais le sort du mage reste inconnu. Possédant initialement de nombreuses charges, le bâton a été utilisé à maintes reprises. Il n'en reste que très peu.
+
+   PARAMÈTRES:
+  
+  Effet : Chaîne d’éclairs
+Dégâts : 4D6 (jet de sauvegarde contre les baguettes magiques pour réduire les dégâts de moitié)
+Portée : 30 m
+
+Effet : Appel de la Foudre
+Dégâts : 8D8 (jet de sauvegarde contre les baguettes pour réduire les dégâts de moitié)
+Portée : 33,5 m environ
+  
+  Non utilisable par:
+	Guerrier
+	Clerc
+	Druide
+	Voleur~
+@106  = ~Bâton du Mage de Bataille +4~
+@107  = ~Bâton du Mage de Bataille +4
+Trélecar, un puissant guerrier de Tethyr, découvrit ses pouvoirs magiques au milieu de sa carrière d'aventurier. Après plusieurs années d'entraînement, il devint un mage relativement puissant. Cependant, il ne pouvait s'empêcher de se souvenir de ses capacités martiales, et il forgea donc ce puissant bâton qui lui permettait d'utiliser à la fois son talent au combat et ses compétences de lanceur de sorts.
+Le bâton protège son porteur au combat et augmente sa Force et sa Constitution, tout en lui conférant diverses autres capacités magiques. La magie du bâton lui permet d'infliger plus de dégâts qu'un bâton normal.
+  
+   PARAMÈTRES:
++2 en Force et Constitution.
+-3 en CA
++10 % de Résistance à toutes les formes d'attaques physiques.
++5 Points de Vie
+Peut lancer Transformation de Tenser et Protection contre les projectiles normaux une fois par jour.
+THACO : +4
+Dégâts : 2D6 + 4
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : Bâton
+Type : 2 mains
+Nécessite : 5 en Force
+  
+  Utilisable par:
+	Mage 
+	Clerc
+	Druide~
+@108 = ~Amulette~
+@109 = ~Amulette de Progression~
+@110 = ~Amulette de Progression
+Créé avec le sang d'un Orbe Ancien, cet objet augmente la capacité du mage à mémoriser des sorts de haut niveau. Son créateur, bien qu'excellent forgeron d'objets magiques, était trop humain pour son propre bien et choisit de voler le sang de l'Orbe Ancien plutôt que de le tuer. Ce dernier était un peu moins catégorique quant à son attitude tolérante envers le « Vivre et laisser vivre ». Les marques de dents sont encore visibles sur cette amulette.
+
+   PARAMÈTRES:
+  Spécial : Mémorise un sort supplémentaire de niveau 7~
+@111  = ~Bâton d'Avarda Kedarva~
+@112  = ~Les baguettes mesurent environ 38 cm de long et sont fines. Elles sont faites d'ivoire, d'os ou de bois et sont généralement ornées d'un objet (métal, cristal, pierre, etc.). Elles sont fragiles et se cassent facilement. C'est pourquoi on les conserve souvent dans des étuis.
+  
+ Les baguettes fonctionnent grâce à des charges, chaque utilisation consommant une ou plusieurs charges (selon l'objet). Lorsqu'une baguette n'a plus de charges, elle est consommée et détruite. ~
+@113  = ~Bâton d'Avarda Kedarva
+  Avarda Kedarva était un puissant nécromancien de l'ancien Netheril. Archimage maléfique, il souhaitait détruire la cité magique où il résidait. Ses plans restaient un mystère. Cependant, la Baguette entra dans son dessein. Objet puissant et terrifiant, la Baguette était à l'origine dotée de nombreuses charges magiques, mais au fil du temps, elle fut utilisée à bon escient, généralement par les créatures les plus maléfiques des Royaumes. Désormais couverte de brûlures, de fissures et de creux, elle conserve néanmoins une partie de sa puissance originelle.
+  La Baguette libère une puissante décharge d'énergie magique qui consume sa cible dans un éclair aveuglant de lumière verte. Si la cible ne peut résister à la magie, elle meurt instantanément.
+ 
+   PARAMÈTRES:
+  Effets : Tue la cible instantanément, sauf si elle réussit un jet de sauvegarde contre la mort à -3.
+ Portée : 100
+ Zone d'effet : 1 créature
+ Durée : Permanente
+  
+  Non utilisable par:
+	Guerrier
+	Clerc
+	Druide
+	Voleur~
+@114  = ~Carreau~
+@115  = ~Carreau fatal +3~
+@116  = ~Les carreaux sont les munitions tirées par les arbalètes, quelle que soit la taille de l'arme.
+  
+   PARAMÈTRES:
+  
+  Dégâts : 1D8
+ Type de dégâts : projectile (perforant)
+ Poids : 0
+ Arme à projectiles : Arbalète~
+@117  = ~Ce carreau vous met mal à l'aise dès que vous le tenez en main, vous emplissant d'un sentiment de catastrophe imminente. Un millier de ces carreaux magiques furent créés à l'origine pour garder le Haut Temple de Baine. Après le Temps des Troubles, ils se répandirent à travers les Royaumes. Ils furent enchantés pour toucher plus souvent et infliger davantage de dégâts.
+  
+   PARAMÈTRES:
+  Dégâts: 1D8+3
+  THAC0: +3
+Type de dégâts : Projectile (Perforant)
+Spécial : Jet de sauvegarde contre les sorts ou subir l'effet du sort Fatalité.
+Durée : Permanente
+Poids : 0
+Arme à projectiles : Arbalète~
+@118  = ~Fatigue~
+@119  = ~Gants~
+@120  = ~Gants de Tissage de Sorts~
+@121  = ~Ces gants sont tissés de la nuit absolue et rayonnent de puissance.~
+@122  = ~Gants de Tissage de Sorts
+  Ces gants crépitent d'énergie magique. Ils sont faits d'une fine matière noire qui semble être tissée à partir du néant lui-même. Ces gants ont été créés par l'Archisorcier Melanthium et semblent littéralement attirer la magie à eux. Lorsqu'ils sont enfilés, les capacités magiques de l'utilisateur sont grandement augmentées. La vitesse et la durée d'incantation des sorts sont affectées, et la capacité de l'utilisateur à lancer des sorts est grandement améliorée. Curieusement, ils semblent n'avoir jamais été portés. Probablement parce qu'il est peu probable que l'Archisorcier n’en ait jamais eu besoin. Elle permet également à l'utilisateur d'absorber l'énergie d'un adversaire ou de détruire des barrières magiques d'un simple geste de la main.
+  
+   PARAMÈTRES
+ Capacités spéciales :
+ La vitesse d'incantation et le Facteur de vitesse sont augmentés.
+ De plus, le porteur peut mémoriser un sort supplémentaire par niveau.
+ L'Intelligence et la Sagesse du porteur augmentent également de 1 point.
+ Lance Drain d'énergie et Frappe magique une fois par jour.~
+@123  = ~Sablier~
+@124  = ~Sablier du Temps~
+@125  = ~Ce petit sablier contient du sable bleu scintillant qui s'écoule continuellement d'une ampoule à l'autre. étrangement, le niveau de sable dans chaque ampoule semble immuable. En l'observant attentivement, on peut apercevoir d'étranges runes gravées sur le côté.~
+@126  = ~Sablier du Temps
+ Aoskar, le Dieu des Portails détrôné par la Dame de la Douleur, était chargé du passage du temps à travers de nombreux plans. Lors de leur lutte pour le pouvoir, on pense que la puissance qui lui permettait de contrôler le temps fut brisée. Lors de sa chute, les Sables du Temps s'abattirent sur Sigil. Un archimage ingénieux de Sigil en recueillit une partie et l'emprisonna dans ce sablier. Le sable semble s'écouler sans cesse, quelle que soit l'inclinaison ou l'agitation du sablier. Cependant, un Mot de Pouvoir est gravé sur le côté du sablier ; lorsqu'il est prononcé, il arrête le sable et suspend le cours du temps autour de celui qui le prononce, temporairement.
+   
+   PARAMÈTRES:  
+ Capacités Spéciales (une fois par jour) : Arrêt du temps
+  ~
+@127  = ~Parchemin~
+@128  = ~Parchemin de Kaza~
+@129  = ~Ce parchemin irradie une énergie maléfique. La prudence est de mise.~
+@130  = ~Ce parchemin est couvert d'étranges inscriptions tortueuses. Il semble s'agir d'une traduction du Livre de Kaza, qui décrit en détail comment un mage avancé peut se transformer en liche, un puissant lanceur de sorts mort-vivant. Ce parchemin est particulier car, contrairement aux autres transformations de liche, aucun long rituel n'est requis, et le corps du lanceur de sorts devient le réceptacle de l'âme. Prenez garde cependant ! Si la transformation en liche offre de nombreux avantages, elle a aussi de terribles conséquences. L'immortalité prend beaucoup de temps à maîtriser.
+
+  Capacités:
+  L'utilisateur est transformé en liche et acquiert les capacités suivantes :
+  -2 en Dextérité
+  -4 en Charisme
+  +1 en Force, Constitution et Intelligence
+  Vitesse d'incantation augmentée de 1
+  +10 points de vie
+  Un sort supplémentaire de niveau 1 à 4
+  Le feu inflige des dégâts supplémentaires
+  Bonus de +2 aux jets de sauvegarde contre la mort et les sorts
+  Immunité au froid
+  Immunité au drainage de niveaux
+  Immunité à la mort instantanée
+  Immunité au poison
+  Immunité aux armes non magiques
+  Immunité au sommeil
+  Immunité à la métamorphose
+  +50 % de résistance aux perforations
+  +10 % de résistance à toutes les autres formes d'attaque
+  +5 % de résistance à la magie
+  Alignement : Neutre Mauvais
+  Vision infrarouge
+  Le groupe perd 8 points de réputation
+  Acquiert la capacité de contrôler les morts-vivants trois fois par jour. Il acquiert également la capacité d'utiliser Toucher de Liche trois fois par jour, et la nouvelle Liche obtient une Aura de Terreur. Toute créature suffisamment proche pour l'attaquer doit donc réussir un jet de sauvegarde contre les sorts ou fuir de peur.
+  Le lanceur de sorts doit être de niveau supérieur à 18, sous peine de conséquences désastreuses.~
+@131  = ~Grand Bouclier~
+@132  = ~Bouclier de la Faille +5~
+@133  = ~Ce bouclier est d'un noir terne et semble totalement inactif. Cependant, en observant sa surface un instant, vous croyez apercevoir une masse tourbillonnante d'énergie magique qui semble malveillante.~
+@134  = ~Bouclier de la Faille +5
+En observant la surface de ce bouclier noir terne, son enchantement n'est pas immédiatement perceptible. Cependant, au contact du bouclier, un froid étrange vous parcourt le bras, et sa surface semble se déformer et se transformer. Au toucher, le bouclier devient un portail noir et sinueux vers une autre dimension. Les objets peuvent le traverser librement, mais sont irrécupérables, finissant sans doute par flotter dans un autre plan d'existence. Les attaques contre son porteur sont fortement entravées par ce portail magique, et tous les projectiles qui le frappent sont absorbés par la faille. Le bouclier, cependant, est étrangement inquiétant pour quiconque le regarde, car l'observateur a l'impression distincte que quelque chose se tient au-delà de la faille.
+ 
+   PARAMÈTRES:
+Immunité aux armes à distance
++10 % de résistance magique
+-2 Charisme
++6 Classe d'armure
+Poids : 3
+Nécessite : 5 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@135  = ~Conte brisé +4~
+@136  = ~Épée à deux mains +4 - Conte brisé
+  Bien que d’origine non magique, cette lame fut enchantée par certains événements. Les plus sages savent que certains thèmes traversent l'histoire de toutes les réalités et qu'ils sont gravés dans la substance même de la création. L'un des plus connus est celui du prince héritier sauvant la belle princesse des griffes de la sorcière. Cependant, dans ce cas précis, les choses tournèrent mal. Le prince se fraya un chemin à travers des hordes de morts-vivants et traversa l'incontournable Champ d'épines. Il affronta la sorcière en duel et terrassa la créature immonde d'un seul coup d'épée. Il gravit la tour et pénétra dans la chambre de la princesse. Dans un élan de passion, ils se précipitèrent l'un vers l'autre, les bras tendus... Le prince trébucha, projetant la princesse par la fenêtre ouverte sur les ronces acérées en contrebas. Son épée se détacha dans sa chute, le transperçant de part en part et le tuant sur le coup. L'ordre établi était brisé, la force du récit anéantie. Une partie de cette force se condensa dans la lame, la transformant en une arme redoutable. Ce fragment d'histoire emprisonné dans la lame en fait l'arme typique, quoique quelque peu cliché, du bonheur éternel.
+
+   PARAMÈTRES:
+  +1 Charisme et Constitution.
+  Immunité aux sorts particulièrement maléfiques comme Parole Infernale, Malédiction et Fléau Infernal.
+  +5 % de résistance à la magie
+  Cependant, le fait que l'histoire ait mal tourné se reflète également dans la lame et inflige un malus de -2 en Sagesse.
+  THAC0 : +4 bonus, +6 contre le Mal
+  Dégâts : 1D12 +4, +6 contre le Mal
+  Type de dégâts : tranchant.
+  Poids : 11
+  Facteur de vitesse : 6
+  Type de compétence : Épée à deux mains
+  Type : 2 mains
+  Nécessite : 14 en Force
+  
+  Non utilisable par: 
+	Druide
+	Clerc
+	Mage
+	Voleur~
+@137  = ~Gemme~
+@138  = ~Gemme Primus~
+@139  = ~Une étrange brume flotte dans cette gemme. En la contemplant, des chiffres et des symboles semblent défiler devant vos yeux, provoquant un léger mal de tête.~
+@140  = ~Gemme Primus
+Cette gemme provient du centre du corps d'un Modron. Les Modrons sont d'étranges êtres mécaniques qui résident sur le plan de Mechanus. Ces gemmes se trouvent au cœur de leur corps et constituent leur lien avec le plan de Mechanus. De ce fait, il est rare d'en trouver une intacte, car elles sont généralement détruites à la mort du Modron. En brisant la gemme, l'énergie qu'elle renferme peut être libérée et absorbée, conférant ainsi à celui qui l'utilise l'intelligence d'un Modron.
+
+   PARAMÈTRES:
+  Intelligence : Augmentée de 1 point de façon permanente
+ Spécial : La gemme se brise à l'utilisation.
+ Utilisation : Placer dans l'emplacement d'objet rapide~
+@141  = ~L'intelligence a été augmentée de 1 de façon permanente~
+@142  = ~Pierre d'Ioun~
+@143  = ~Pierre d'Ioun Noire Ombreuse~
+@144  = ~Il s'agit d'une petite pierre qui flotte en orbite autour de la tête de son propriétaire. Équipez-la simplement pour la placer sur son orbite. Ces pierres, manifestement magiques, possèdent des propriétés différentes selon leur couleur.~
+@145  = ~Pierre d'Ioun Noire Ombreuse :
+On estime qu'il ne reste qu'environ quatre de ces pierres d'Ioun. Elles ont été interdites par toutes les organisations magiques de Féérune car elles sèment le trouble au sein de la communauté magique. Ces gemmes sont faciles et peu coûteuses à fabriquer. Cependant, la controverse porte sur l'un de leurs ingrédients... le pouvoir d'un mage. Malheureusement, la création de ces objets implique la mort d'un mage. De ce fait, comme vous pouvez l'imaginer, les meurtres et les assassinats se sont multipliés, jusqu'à ce que la communauté magique interdise la fabrication de ces pierres et détruise toutes celles qu'elle a pu trouver. Quiconque est trouvé en possession de cette pierre par une organisation magique s'expose à de lourdes sanctions. La puissance de la pierre est à la hauteur de sa réputation, car elle renforce considérablement les capacités magiques de ses utilisateurs.
+  
+  Capacités: 
+Double les sorts de niveau 1 et 2.
+Immunité aux sorts de niveau 1
+-1 Sagesse
+Poids : 2
+
+  Seulement utilisable par:
+	Mage~
+@146  = ~Bonnet~
+@147  = ~Le Don du Sage~
+@148  = ~Ce petit bonnet effiloché repose sur la tête de celui qui le porte. Il semble avoir beaucoup servi.~
+@149  = ~Le Don du Sage
+  Ce bonnet est utilisé par les sages depuis des siècles pour accroître leurs capacités de réflexion. Bien que de nombreux érudits désapprouvent l'usage de tels objets, il ne fait aucun doute que ce bonnet a été bien utilisé, et qu'il a passé de nombreuses années à la bibliothèque de Château-Suif.
+  Capacités :
+  Intelligence fixée à 19
+  Poids : 1
+
+  Seulement utilisable par:
+	Mage~
+@150  = ~Un livre étrange~
+@151  = ~Comme c'est étrange.~
+@152  = ~Bizarre, vous n'arrivez pas à deviner à quoi sert exactement ce livre. Cela semble magique et confère probablement à son utilisateur un certain pouvoir, mais lequel ? Nul ne le sait.~
+@153  = ~Notre-Dame de la Sérénité~
+@154  = ~La Dame de la Douleur, souveraine de la cité planaire de Sigil. On sait peu de choses sur cet être puissant et on lui pose peu de questions. Ceux qui en posent trop sont soit ensorcelés, soit écorchés vifs par ses lames. Cette dame est une femme de taille gigantesque que l'on voit flotter au-dessus de la cité de Sigil. Son visage est serein, mais sa tête est entourée d'un anneau de lames magiques. Comme mentionné précédemment, elle est un mystère. Apparemment, elle n'existe que pour protéger Sigil et elle expulse tout dieu qui tente d'y entrer. Son pouvoir doit être immense, car elle est capable d'empêcher tous les dieux de tous les plans d'entrer à Sigil. On pourrait donc penser qu'elle serait vénérée comme une déesse, mais quiconque la vénère est instantanément écorché vif. Elle rejette toute forme de culte. La dame demeure un mystère, mais un mystère qu'il ne faut pas percer à jour.~
+@155  = ~Vous vous retournez et fuyez, terrifié, mais pas avant que le fantôme ne vous effleure de son doigt osseux, engourdissant votre corps du contact glacial de la tombe.~
+
+@157  = ~Transformation élémentaire de la Terre~
+@158  = ~Manuel de création d'objets~
+@159  = ~Ce livre est un guide simple et rapide pour la création d'objets magiques. Il décrit un nombre limité d'objets, mais il devrait offrir de quoi occuper un mage.
+  
+  Premier entraînement: Pour enchanter un objet, il faut d'abord en avoir un. L'objet requis varie selon l'objet à créer.
+  Pour créer :
+  Une épée magique : une épée longue non enchantée est nécessaire.
+  Une lance magique : une lance non enchantée est nécessaire.
+  Une bague magique : une bague en or non enchantée est nécessaire.
+  Une amulette magique : une amulette en or non enchantée est nécessaire.
+  Une baguette magique : un bâton en bois non enchanté est nécessaire.
+  Un bâton magique : un bâton en bois non enchanté est nécessaire.
+  Un bouclier magique : un grand bouclier non enchanté est nécessaire.
+  Une robe magique : une armure de cuir non enchantée est nécessaire.
+  Une cotte de mailles magique : une armure de plates complète non enchantée est nécessaire.
+  Une armure de cuir magique : une armure de cuir non enchantée est nécessaire.
+  Une hache magique : une hache non enchantée est nécessaire.
+
+  Ce texte détaille la procédure de création de ces objets. Une forge est toutefois nécessaire. Le livre indique clairement que le pouvoir des objets dépend entièrement du talent du mage.
+  Avertissement : Ce procédé peut être dangereux et est entrepris à vos risques et périls. De plus, il est extrêmement éprouvant. La récupération peut prendre plusieurs jours.~
+@160  = ~Anneau du tuteur~
+@161  = ~Anneau du tuteur :
+Utilisés par les tuteurs des apptentis Mages cagoulés, ces anneaux les protègent des élèves les moins doués, dont les exploits consistent notamment à :
+- Ouvrir des portails vers les plans inférieurs
+- Faire exploser spontanément tous les concombres des environs
+- Utiliser beaucoup de balais (mais cela n'a jamais été prouvé)
+  
+   PARAMÈTRES:
+   Classe d'Armure : +1
+   Jets de sauvegarde contre les sorts : +3
+   Résistance à la magie : +5 %
+   Invoque globe d'invulnérabilité mineur une fois par jour.~
+@162  = ~Ordres du Mage Roublard~
+@163  = ~Notre contact vous retrouvera à Athkatla. Il vous attendra avec l'Artefact. Dès que vous l'aurez en votre possession, tuez-le et revenez immédiatement. Évitez à tout prix d'attirer l'attention de ces stupides Mages cagoulés, mais si vous êtes intercepté, utilisez toute la force nécessaire pour revenir avec l'Artefact. À votre retour, rendez-vous directement à la Salle des Sorts, et nous pourrons  commencer le Rituel de Déverrouillage. Vous ne devez en aucun cas utiliser de sorts ouvrant des Portails Planétaires. Ils pourraient déclencher les défenses de l'Artefact. Attention : si vous échouez dans cette tâche, votre mort sera lente et douloureuse.
+   Signé Zulkir
+ (Le billet est déchiré à cet endroit)~
+@164  = ~Anneau de Free Action : « Le Don d'Edventar »
+ Cet anneau fut offert au pilleur et chasseur de récifs connu sous le nom d'Edventar par un groupe d'elfes aquatiques, ses amis de longue date. Son aide pour vaincre la « Reine Pirate » Yenandra de Dambrath fut déterminante pour leur survie, bien que Yenandra continue d'être crainte partout où l'eau rencontre la terre.
+  
+   PARAMÈTRES:
+
+    Spécial : Celui qui le porte est immunisé contre tout ce qui, magique ou non, affecte sa mobilité. Cela inclut les sorts d'accélération et de ralentissement.~
+@165  = ~Cape~
+@166  = ~Cape spectrale de Vecna~
+@167  = ~La cape peut être confectionnée dans toutes les formes possibles, avec presque tous les types de tissus. Les formes les plus courantes sont un morceau de tissu circulaire avec un trou au centre pour la tête, et un tissu drapé autour du cou, relié par une chaîne, une broche, un cordon ou des épingles.~
+@168  = ~Cape spectrale de Vecna :
+  Un vêtement forgé et porté par l'archiliche Vecna, une puissante liche ayant atteint le statut de demi-dieu sur l'un des plans extérieurs. Cette cape témoigne aisément de la puissance magique de Vecna. Elle est tissée à partir d'une matière provenant du demi-plan des ombres. D'un noir absolu, elle semble étrangement vivante. La cape confère à son utilisateur une puissante protection et est réputée capable d'invoquer des ombres pour aider celui qui lance le sort.
+
+   PARAMÈTRES:
+   +25 % de résistance à la magie
+   +50 % de résistance au froid
+   +1 en classe d'armure
+   +2 aux jets de sauvegarde
+   Immunité à la peur
+   Il y a une faible chance que, lors d'une attaque, une ombre apparaisse pour aider le porteur.~
+@169  = ~Baguette poussiéreuse d'Ust Terran~
+@170  = ~Baguette poussiéreuse d'Ust Terran :
+  Cette baguette vibre d'une magie contenue. Créée sur le plan de Baator par un puissant seigneur démon mineur, son pouvoir est mortel. Le porteur peut la pointer vers sa cible et prononcer le mot de pouvoir. Un tourbillon de désintégration jaillit alors, réduisant la cible en poussière.
+
+   PARAMÈTRES:  
+   Effet : Trois fois par jour, la baguette permet de lancer instantanément le sort Désintégration. La cible doit réussir un jet de sauvegarde contre les sorts ou être désintégrée.
+   Portée : 36 m
+   Zone d'effet : 1 créature
+  
+  Non utilisable par:
+	Guerrier
+	Clerc
+	Barde
+	Voleur~
+@171  = ~Œil~
+@172  = ~L’œil de Vecna~
+@173  = ~Cet œil paraît vieux et pourri. Pourtant, quand on le regarde, on a l'impression distincte qu'il nous regarde en retour.~
+@174  = ~L’œil de Vecna :
+  
+  On raconte de nombreuses histoires sur l'archiliche Vecna.
+  On dit que Vecna était l'un des plus puissants sorciers des Plans, capable d'extraire la vie de la poussière et de la renvoyer, d'éteindre des vies d'un regard et de faire trembler la terre sous son contact. Il était si puissant que, lorsque la fin de sa vie approcha, la mort refusa de l'accueillir dans son royaume.
+  Ainsi Vecna mourut, mais il continua de vivre.
+  Abandonné par la mort, Vecna devint le maître d'un vaste royaume sur un monde primordial nommé Oerth. Ni bienveillant ni juste, le règne du seigneur Vecna fut marqué par l'horreur et la souffrance, et l'on dit que son influence était si grande que même les Puissances d'Oerth craignaient de se frotter à lui, de peur de croiser son regard.
+  Pourtant, tandis que le regard de Vecna voyageait sans cesse vers de nouvelles conquêtes, il ne vit pas sa propre fin venir à lui... sous les traits de son lieutenant, Kas. 
+  Comme il sied au bras droit de Vecna, l'Archiliche avait forgé une arme terrible pour son lieutenant, symbole de son autorité. Vecna la forgea avec une telle habileté que, dit-on, une part du sorcier pénétra dans la lame, et c'est ce fragment de Vecna qui lui insuffla la vie et sa nature perfide. Là où régnait jadis l'acier inerte, naquirent la pensée, l'intention et, plus horrible encore peut-être, une voix.
+  L'épée murmura des trahisons à l'ambitieux Kas, nuit après nuit, mois après mois, année après année, jusqu'à ce qu'une nuit, les derniers vestiges de la discipline de Kas soient séduits par le tranchant ondulant de la lame. Convaincu par son épée qu'il était supérieur à Vecna, Kas affronta son maître redoutable sur son Trône Desséché, et les deux se livrèrent un combat terrible.
+  Au terme de ce combat, Kas fut tué, mais avant de tomber, sa lame avait démembré son ancien maître, dispersant ses restes afin que nul ne puisse les rassembler. Ainsi, des fragments de Vecna se sont répandus à travers les Plans... L’un d’eux est l’Œil de Vecna. Il est porteur d’une histoire sanglante et violente, à tel point que de nombreux érudits refusent d’évoquer ses trahisons, craignant que l’œil ne vienne à eux, cherchant à ajouter une nouvelle victime à sa funeste chronologie.
+  L’Œil de Vecna joua un rôle déterminant dans l’extermination de la Maison d’Hyeric, jadis dynastie régnante de Nyrond. On dit qu’il fut à l’origine de l’Anneau solaire du Conclave de Tyssis-sur-la-Mer, qui déclencha la guerre en trois cycles ayant empoisonné les mers de Malhatai et laissé le monde océanique désert. Sur le plan cendré de Ghalentir, l'Œil possédait le père de Sasaran, un enfant qui aurait pu mener son peuple, les Souffrants, de leurs terres obscures jusqu'aux Portes du Paradis... si l'Œil n'avait poussé le père de Sasaran à assassiner son fils endormi dans son berceau. Tous ces royaumes, tous ces avenirs, l'Œil de Vecna les a anéantis.
+  On dit que les pouvoirs de l'Œil changent avec chaque nouveau possesseur, mais une chose est sûre : nul bien ne peut venir de celui qui a le malheur de le posséder. Il est voué à trahir son porteur au moment critique, le laissant tomber quand il a le plus besoin de sa puissance.
+  Effets :
+  Vous pouvez vous arracher l'œil et le remplacer par l'Œil de Vecna(aïe !). Les effets seront permanents et irréversibles, à moins de trouver un œil de remplacement.
+   
+  Double tous les sorts de mage de niveau 1
+  Double tous les sorts de mage de niveau 2
+  +10 % de résistance à la magie
+  +2 aux jets de sauvegarde contre la mort
+  +2 aux jets de sauvegarde contre les sorts
+  Immunité au Mot de pouvoir mortel
+  -2 au Charisme
+  -2 aux points de vie de base
+  Poids : 0
+  
+  
+  Utilisable par:
+	Mage~
+@175  = ~Casque~
+@176  = ~Casque inamovible sans animation~
+@177  = ~Baguette des merveilles~
+@178  = ~Baguette des merveilles
+  Seuls les plus téméraires osent utiliser cette baguette au combat. Lorsqu'elle est activée, son effet est, au mieux, imprévisible et, au pire, suicidaire. Le mage fantasque Malimak l'a créée comme cadeau pour un rival, plus par plaisanterie que par malice. On ignore la réaction du destinataire, mais Malimak a déménagé peu après. À utiliser avec précaution, voire pas du tout.
+  
+    PARAMÈTRES
+	
+  Capacités spéciales : Des effets aléatoires apparaissent à chaque utilisation de la baguette.~
+@179  = ~Modification de la Force~
+@180  = ~Peau de Pierre~
+@181  = ~Robe de Mage~
+@182  = ~Robe du Chaos~
+@183  = ~Depuis l'âge de Netheril, les mages ont appris à conférer une grande variété de propriétés magiques aux objets du quotidien qui les entourent. La robe commune est un objet de prédilection pour ce type d'enchantement. Légère, abordable et conservant bien son enchantement, elle est l'équipement idéal pour un mage. Cependant, en raison de leur héritage magique, seuls les mages mono, bi et multi-classés peuvent porter ces robes enchantées.~
+@184  = ~Robes du Chaos :
+On pense que ces robes sont apparues pour la première fois dans les plans il y a plus d'un siècle. Elles provenaient du Plan de Pandémonium et appartenaient initialement au bailli mage fou de la cité de Bedlam. Cependant, ce n'est pas de ce plan que les robes tirent leur pouvoir. Les sages pensent que ces robes sont tissées à partir du plan des Limbes lui-même, et que ce plan, à travers elles, tente de répandre le chaos dans le multivers. Cette théorie est étayée par l'immense puissance qui émane de ces robes. Bien que les archives soient rares, il semblerait que les capacités des robes varient d'une personne à l'autre, mais que ces pouvoirs maximisent toujours la capacité de celle-ci à créer le chaos. Les robes sont elles-mêmes totalement chaotiques, variant de style, de couleur, de forme et de transparence selon l'angle de vue. Il est fortement déconseillé à tout mage de porter ces robes, car elles peuvent disparaître à tout moment, se transformer en démon des abysses, ou catapulter celui qui les porte dans un plan de feu éternel. Les robes entourent également celui qui les porte d'une aura de magie sauvage, ce qui rend parfois ses sorts imprévisibles. Plus connues dans les cercles magiques planaires sous le nom de Robes de « Oh mon Dieu, qu'est-ce qui m'arrive ?! », ces robes sont assurément une curiosité magique et leur immense pouvoir peut permettre à un sorcier de rivaliser avec les dieux eux-mêmes, ou de lui causer des maux de gorge particulièrement désagréables.
+  
+   PARAMÈTRES:
+  Classe d'armure : 1
+  Résistance magique : 20 %
+  Bonus de jet de sauvegarde contre la mort : +3
+  Immunité aux armes non magiques.
+  L'utilisateur est affecté par la magie sauvage.
+  Le porteur bénéficie d'un bonus d'attaque contre toutes les créatures loyales.
+  Une protection physique partielle est offerte, mais la nature des robes rend cela impossible à déterminer.
+  Effets aléatoires :
+  La plupart des effets des robes sont totalement aléatoires et chaotiques. Les robes peuvent conférer de puissantes immunités, ou réduire l'utilisateur en cendres.
+  Poids : 6
+
+  Seulement utilisable par:
+	Mage (simple, jumélé & multi-classé)
+	Personnages d'alignement non-loyal~
+@185  = ~Parchemin de vol de sort~
+@186  = ~Ceci est le parchemin qui vous a été donné par le démon dans la sphère planaire. Il faut lancer ce sort près de Wielter pour voler le sort qui libérera les mages démons.~
+@187  = ~Hache de guerre~
+@188  = ~Tueur de mages +3~
+@189  = ~La version la plus courante de la hache de guerre est un manche robuste d'environ 1,20 mètre de long, muni d'une lame à un seul tranchant en forme de trompette à une extrémité. Cette hache en particulier semble être de très mauvaise facture et légèrement plus petite qu'une hache de guerre standard.
+
+   PARAMÈTRES:
+  Dégâts:  1D8
+  Type de dégâts:  tranchant
+  Poids: 7
+  Facteur de vitesse: 7
+  Type de compétence : Hache
+  Type : arme à 1 main
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@190  = ~Tueur de magiciens +3
+  Bien que de nombreuses armes aient porté le nom de Tueur de magiciens au fil des millénaires, celle-ci le mérite amplement. Les runes gravées sur la hache vibrent de magie, ce qui rend d'autant plus ironique le fait qu'elle soit un fléau pour tous ceux qui pratiquent la sorcellerie. L'origine et l'histoire de cette hache demeurent un mystère, mais il ne fait aucun doute que les mages devraient la craindre plus que toute autre.
+
+  PARAMÈTRES:
+    Lorsqu'il est touché, le mage a 20 % de chances de perdre un sort de sa mémoire.
+    La hache confère un bonus d'attaque contre les mages.
+    La hache confère également 25 % de résistance à la magie.
+    Dégâts : 1D8 + 3
+    THAC0 : +3
+    Type de dégâts : tranchant
+    Poids : 6
+    Facteur de vitesse : 7
+    Type de compétence : Hache
+    Type : Arme à une main
+    Nécessite : 4 en Force
+  
+  Non utilisable par:
+  Tout multi-classé /mage jumélé 
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@191  = ~Anneau du Fanatique~
+@192  = ~Anneau du Fanatique :
+  Cet anneau a été créé pour une ligue de fanatiques basée à Amn, qui vénèrent la magie et cherchent à débarrasser Féérune des mages à tout prix. Cet anneau semble avoir été créé par un puissant mage, bien qu'il ait sans doute connu une fin tragique sous les coups d'un fanatique. L'anneau permet au guerrier de combattre efficacement les mages tout en restant en sécurité.
+  
+  
+  PARAMÈTRES:
+  +3 aux jets de sauvegarde contre les sorts
+  +5 % de résistance à la magie
+  Immunité aux sorts de niveau 1 et 2
+  Immunité aux sorts Doigt de mort et Mot de pouvoir: Mort~
+@193  = ~Anneau de Baldurien~
+@194  = ~Cet anneau semble très ancien, et pourtant, il recèle manifestement un certain pouvoir.~
+@195  = ~Anneau de Baldurien :
+  Le légendaire explorateur et aventurier Baldurien, fondateur de la cité de la Porte de Baldur, porta cet anneau jusqu'à son dernier voyage, après quoi il le confia à sa famille. L'anneau, comme la plupart de l'équipement de Baldurien, est fortement enchanté pour protéger son porteur. On ignore pourquoi Baldurien ne l'emporta pas lors de son dernier voyage (sur l'Île des Loups-garous, comme vous le savez). On pense cependant que Baldurien portait tellement d'équipement magique que la magie latente produisait d'étranges effets secondaires.
+  
+  PARAMÈTRES:
+  +1 Constitution
+  +1 aux jets de sauvegarde
+  +10 % de résistance au feu et au froid
+  Immunité aux sorts Boule de feu et Éclair
+  
+  Non utilisable par:
+	Voleur
+	Clerc~
+@196  = ~Cet anneau semble très ancien, et pourtant il recèle un pouvoir insoupçonné~
+@197  = ~Anneau de Baldurien :
+  Le légendaire explorateur et aventurier Baldurien, fondateur de la cité de la Porte de Baldur, porta cet anneau jusqu'à son dernier voyage, après l'avoir confié à sa famille. Comme la plupart de l'équipement de Baldurien, l'anneau est fortement enchanté pour protéger son porteur. On ignore pourquoi Baldurien ne l'emporta pas lors de son ultime voyage (vers l'île aux loups-garous, comme vous le savez). On pense cependant que Baldurien portait tellement d'équipement magique que la magie latente produisait d'étranges effets secondaires.
+  
+  PARAMÈTRES:
+  +1 en Constitution
+  +1 à tous les jets de sauvegarde
+  +10 % de résistance au feu et au froid
+  Immunité aux sorts Boule de feu et Éclair
+  
+  Non utilisable par:
+	Voleur
+	Clerc~
+@198  = ~Robe de voyageur~
+@199  = ~Depuis l'âge de Netheril, les mages ont appris à conférer une grande variété de propriétés magiques aux objets du quotidien qui les entourent. La robe commune est un objet de prédilection pour ce type d'enchantement. Légère, abordable et conservant bien son enchantement, elle est l'équipement idéal pour un mage. Cependant, en raison de leur héritage magique, seuls les mages monoclasses, biclasses et multiclasses peuvent porter ces robes enchantées.~
+@200  = ~Cette robe de mage a été perfectionnée pour tout mage itinérant voyageant de ville en ville. Ses enchantements offrent une protection contre les flèches des bandits et contre le mage-voleur jaloux qui guette avec son Nuage nauséabond. Comme les autres robes de ce type, la robe du voyageur ne peut être portée que par les mages.
+  
+  PARAMÈTRES:
+  CA : Bonus de +1 contre les armes à distance
+  Jet de sauvegarde : Bonus de +1 contre le souffle
+  Poids : 4
+
+  Seulement utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@201  = ~Potion~
+@202  = ~Potion de capacité innée~
+@203  = ~Une potion de capacité innée est imprégnée de puissants pouvoirs magiques. Lorsqu'elle est consommée en entier, elle confère une forme de capacité magique à celui qui la consomme. Cette potion en particulier, d'après ses inscriptions, semble conférer la capacité innée appelée Forge d'objet.~
+@204  = ~Épée longue +1~
+@205  = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+  
+  Capacités:
+  Dégâts:  1D8+1
+  THAC0 bonus: +1
+  Type de dégâts:  tranchant
+  Poids: 4
+  Facteur de vitesse: 5
+  Type de compétence: Épée longue
+  Type : arme à 1 main
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@206 = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+  
+  Capacités:
+  25 % de chances d'étourdir pendant 10 secondes. 
+  Dégâts : 1D8+1 
+  Bonus THAC0 : +1 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 5 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessité : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@207 = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire. 
+  
+  Capacités : 
+  Jet de sauvegarde les sorts ou perte de 10 points de dégâts magiques. 
+  Dégâts : 1D8+1 
+  Bonus THAC0 : +1 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 5 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@208  = ~Épée longue Vorpal +1~
+@209  = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+  
+  Capacités :
+  Dégâts : 1D8+1 
+  Bonus THAC0 : +1 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 5 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@210  = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+  
+  
+  
+  Capacités : 
+  25 % de chances que la cible soit tuée instantanément à moins d'effectuer un jet de sauvegarde contre la mort. 
+  Dégâts : 1D8+1 
+  Bonus THAC0 : +1 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 5 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@211  = ~Épée longue~
+@212  = ~Épée longue +2~
+@213  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l’épée longue a une lame à simple tranchant. Le modèle et la longueur de l’épée varient d’un peuple à un autre et parfois même d’une époque à une autre. L’une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l’épée longue est une arme considérée comme tranchante, et non perforante.
+  
+  PARAMÈTRES:
+  
+  Dégâts : 1D8 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 5 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage
+  ~
+@214  = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire. 
+
+  PARAMÈTRES : 
+  25 % de chances que la cible soit étourdie pendant 10 secondes 
+  THACO : bonus +2 
+  Dégâts : 1D8 +2 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 4 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@215  = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire. 
+
+  PARAMÈTRES : 
+  Jet de sauvegarde les sorts ou perte de 10 points de dégâts magiques.
+  THACO : bonus +2 
+  Dégâts : 1D8 +2 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 4 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@216  = ~Épée longue vorpale +2~
+@217  = ~Cette arme a été créée par <CHARNAME> dans sa sphère planaire. 
+  
+  PARAMÈTRES : 
+  25 % de chances que la cible soit tuée instantanément, sauf si jet de sauvearde contre la mort. 
+  THACO : bonus +2 
+  Dégâts : 1D8 +2 
+  Type de dégâts : tranchant 
+  Poids: 4 
+  Facteur de vitesse : 4 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage~
+@218  = ~Épée longue +3~
+@219  = ~Épée longue +3: 
+  Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  Dégâts : 1D8 +3 
+  25 % de chances que la cible soit étourdie pendant 10 secondes 
+  THACO : bonus +3 
+  Type de dégâts : tranchant 
+  Poids: 3 
+  Facteur de vitesse : 3 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage
+  ~
+@220  = ~Épée longue +3 : 
+  Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES : 
+  Dégâts : 1D8 +3 
+  Jet de sauvegarde contre les sorts ou perte de 10 points de dégâts magiques. 
+  THACO : bonus +3 
+  Type de dégâts : tranchant 
+  Poids: 3 
+  Facteur de vitesse : 3 
+  Type de compétence : Épée longue 
+  Type :  arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage
+  ~
+@221  = ~Épée longue +3: 
+  Cette arme a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES : 
+  Dégâts : 1D8 +3 
+  25 % de chances que la cible soit tuée instantanément à moins d'effectuer un jet de sauvegarde contre les sorts. 
+  THACO : bonus +3 
+  Type de dégâts : tranchant 
+  Poids: 3 
+  Facteur de vitesse : 3 
+  Type de compétence : Épée longue 
+  Type : arme à 1 main 
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage
+  ~
+@222  = ~Anneau de protection +2~
+@223  = ~Anneau de protection +2 
+  Cet Anneau a été créé par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES :
+  CA : +2
+  Jets de sauvegarde : +2~
+@224  = ~Anneau de protection magique~
+@225  = ~Anneau de protection magique :
+  Cet Anneau a été créé par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES :
+  +10 % de résistance à la magie
+  Immunité aux sorts de niveau 1
+  Bonus de sauvegarde contre les sorts : +2~
+@226 = ~Anneau de magie~
+@227 = ~Anneau de magie :
+  Objet puissant forgé par l'archimage <CHARNAME>, il permet à son porteur d'accroître considérablement ses capacités de lancement de sorts.
+  
+  PARAMÈTRES :
+  Sorts : Double le nombre de sorts de niveau 1 et 2 pouvant être mémorisés.
+  
+
+  Seulement utilisable par:
+	Mage~
+@228 = ~Anneau d’énergie~
+@229 = ~Anneau d’énergie :
+  Cet Anneau a été créé par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:  
+  Dégâts : 20 dégâts magiques, pas de jet de sauvegarde.
+  Portée : 120 pieds
+  Zone: 1 créature~
+@230  = ~Anneau de défense~
+@231  = ~Anneau de défense :
+  Cet Anneau a été créé par <CHARNAME> dans sa sphère planaire.
+  
+  PARAMÈTRES:
+  Confère une immunité totale à toutes les armes non magiques~
+@232  = ~Collier~
+@233  = ~Collier de la pensée endurcie~
+@234  = ~Un collier est un bijou ornemental en métal, généralement en argent, en or, en platine ou en d'autres métaux précieux, orné de pierres précieuses. Il se porte toujours autour du cou et peut être de n'importe quelle longueur.~
+@235  = ~Amulette de la pensée endurcie
+  Ce collier a été créé par <CHARNAME> dans sa sphère planaire.
+
+   PARAMÈTRES:
+  +2 de sagesse en capacités d'Équipement~
+@236  = ~Amulette élémentaire~
+@237  = ~Les amulettes sont généralement des objets magiques que l'on porte autour du cou, suspendus à une chaîne. Le type de chaîne qui accompagne une amulette en augmente généralement la valeur esthétique, et non les propriétés magiques. On ne peut porter qu'une seule amulette à la fois.~
+@238  = ~Amulette élémentaire :
+  Cette amulette a été créée par <CHARNAME> dans sa sphère planaire.
+
+   PARAMÈTRES:
+  +25 % de résistance au feu, à la glace et à la foudre.~
+@239  = ~Amulette d'annulation~
+@240  = ~Amulette d'annulation:
+  Cette amulette a été créée par <CHARNAME> dans sa sphère planaire.
+
+   PARAMÈTRES:
+  Absorbe 10 % de toutes les attaques physiques portées contre celui qui la porte.~
+@241  = ~Amulette d’aventurier~
+@242  = ~Amulette d’aventurier:
+  Cette amulette a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES
+  Résistance magique : +10 %
+  Immunité à la peur et à la confusion
+  +20 % de résistance au feu.~
+@243  = ~Baguette d'apprenti~
+@244  = ~Baguette d'apprenti :
+  Cette baguette a été créée à l'académie de magie de <CHARNAME> et lance aléatoirement trois sorts différents, chacun provenant d'une source élémentaire distincte. Elle possède apparemment 50 charges.~
+@245  =~Baguette de chaos~
+@246  = ~Baguette de chaos :
+  Cette baguette a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:  
+  Capacités spéciales : Un sort offensif aléatoire est lancé sur l'ennemi.~
+@247  = ~Bâton de <CHARNAME~
+@248  = ~Bâton de <CHARNAME:
+  Ce bâton a été créé par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  Mémorise un sort supplémentaire de niveau 1 à 4.
+  La vitesse d'incantation est augmentée de 1.
+  THACO: +2 de bonus
+  Dégâts: 1D6+2
+  Type de dégâts:  contondant
+  Poids: 3
+  Facteur de vitesse: 1
+  Type de compétence: Bâton
+  Type: arme à 2 mains
+  Nécessite: 5 en Force~
+@249  = ~Robes de <CHARNAME>~
+@250  = ~Robes de <CHARNAME> 
+Ces robes ont été créées par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  CA: 5
+  Résistance magique: 8%
+  Jets de sauvegarde: +1 
+  Immunité au Poison
+  +5% de résistance à l’électricité
+  Poids:  6
+
+  Seulement Utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@251  = ~Robes d’incantation~
+@252  = ~Robes d’incantation:
+Ces robes sont créées par des mages qui souhaitent développer leurs capacités de lancement de sorts ; une fois portées, elles permettent à celui qui les porte de mémoriser davantage de sorts qu'il ne le pourrait autrement.
+  
+  PARAMÈTRES:
+  Confère un sort de niveau 8 supplémentaire et deux sorts de niveau 7 supplémentaires.
+  Poids:  4
+
+  Seulement Utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@253  = ~Robes de protection~
+@254  = ~Robes de protection
+  Ces robes puissantes sont utiles pour combattre tout être magique puissant, car elles offrent une protection extraordinaire contre les sorts et toutes les formes de magie. Leur seul inconvénient est qu'elles rendent le lancement de sorts plus difficile et n'offrent aucune protection physique.
+
+  PARAMÈTRES:
+  Immunité aux sorts de niveau 1 à 3
+  +15 % de résistance à la magie
+  +3 aux jets de sauvegarde contre les sorts
+  Vitesse d'incantation réduite de 1.~
+@255  = ~Robes de barrière magique~
+@256  = ~Robes de barrière magique :
+  Les robes de barrière magique sont confectionnées par les mages pour se protéger des attaques physiques. Elles sont donc lourdes et encombrantes, mais très efficaces.
+  
+  PARAMÈTRES:
+  CA : 0
+  +25 % de résistance aux attaques contondantes.
+  Dextérité réduite de 2
+  Poids : 10
+
+  Seulement Utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@257  = ~Robes nécromantiques~
+@258  = ~Robes nécromantiques :
+  Ces robes protègent le mage aventurier d'un des ennemis les plus susceptibles de le rencontrer au cours de ses voyages... les morts-vivants. Elles lui confèrent des immunités qui lui seront sans aucun doute utiles lors des combats contre ces créatures.
+  
+  PARAMÈTRES:
+  Immunité à la perte de niveau
+ +2 CA
+ +40 % de résistance au froid
+  Immunité aux sorts et capacités entravant les mouvements
+  Poids : 3
+
+  Seulement Utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@259  = ~Grand bouclier +2~
+@260  = ~Un grand bouclier incrusté d'un griffon doré. Ce bouclier, également appelé bouclier-cerf-volant ou bouclier de la tour, est un imposant bouclier métallique qui couvre presque toute la jambe, du menton aux orteils. Il doit être solidement fixé à l'avant-bras et la main qui le tient doit le maintenir fermement en permanence. Naturellement, cela empêche toute utilisation de la main qui tient le bouclier, sauf pour le maintenir en place. Curieusement, ce bouclier est étonnamment léger pour sa taille.
+  
+  PARAMÈTRES:
+  Bonus de CA : 1
+  Spécial : +1 contre les armes à distance
+  Poids : 15
+  Nécessite : 10 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@261  = ~Grand Bouclier +2 :
+  Créé par un mage de la cité d'Athkatla, ce bouclier confère à son utilisateur une excellente protection contre les attaques.
+  
+  PARAMÈTRES:
+  Bonus de CA : 3
+  Spécial : +1 contre les armes à distance
+  Poids : 10
+  Nécessite : 10 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@262  = ~Bouclier moyen~
+@263  = ~Bouclier de Force +3~
+@264  = ~Un bouclier moyen se porte de la même manière qu'un petit bouclier. Contrairement à ce dernier, son poids empêche le personnage d'utiliser sa main droite pour autre chose que le porter. Les boucliers moyens sont généralement en métal, mesurent entre 90 cm et 120 cm de diamètre et peuvent avoir n'importe quelle forme, ronde, carrée ou même en forme d'ailes de dragon déployées. Un bouclier médiéval typique ressemble à un triangle dont une pointe est dirigée vers le bas.
+  
+  PARAMÈTRES:
+  Bonus de CA : 1
+  Poids : 7
+  Nécessite : 12 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@265 = ~Bouclier de Force +3 
+Ce bouclier a été créé par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  Bonus de CA : 4
+  +15 % de résistance aux dégâts contondants.
+  Poids : 5
+  Nécessite : 15 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@266  = ~Petit Bouclier~
+@267  = ~Bouclier Miroir +2~
+@268  = ~Un petit bouclier est généralement rond et se porte sur l'avant-bras, tenu de la main dominante. Son poids léger, comparé à celui d'un bouclier moyen, permet à l'utilisateur de porter d'autres objets dans cette main, bien qu'il ne puisse ni manier ni porter d'autre arme. 
+  
+  PARAMÈTRES:
+  Bonus de CA : 1
+  Spécial : Aucune protection contre les armes à projectiles
+  Poids : 3
+  Nécessite : 4 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage 
+	Voleur~
+@269 = ~Bouclier miroir +2 :
+Ce bouclier a été créé par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  Capacité : Renvoie les sorts de niveau 1 à 4 à leur lanceur.
+  Bonus de CA : 3
+  Poids : 2
+  Nécessite : 3 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@270  = ~Bouclier Aurique +1~
+@271  = ~Bouclier Aurique +2
+  Contrairement à ce que son nom pourrait laisser penser, ce bouclier n'est pas en or. Cette erreur de formulation est due à son créateur, <CHARNAME>, qui l'a conçu pour aider son groupe à combattre ses ennemis, notamment les ennemis magiques. L'appellation incorrecte provient de l'aura d'antimagie qui entoure le bouclier. Cette aura annule tous les sorts, à l'exception des plus puissants, lancés contre le porteur. Cependant, la magie du porteur est également neutralisée tant que le bouclier est équipé. Seul un sort de dissipation de la malédiction peut le retirer.
+  
+  PARAMÈTRES:
+  Bonus de CA : 2
+  Spécial : +20 % de résistance magique
+  Immunité aux sorts de niveau 1 à 5
+  Le porteur ne peut lancer aucun sort, inné ou autre.
+  Maudit
+  Poids : 2
+  Nécessite : 12 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@272  = ~Armure de Plates~
+@273  = ~Armure de Plates +4~
+@274  = ~L’armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l’abdomen et l’aine. De fabrication semblable à l’armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir.
+  
+  PARAMÈTRES:
+  CA : 3 
+  Poids: 50 
+  Nécessite : 12 en Force
+  
+  Non utilisable par:
+	Barde 
+	Druide
+	Mage
+	Voleur~
+@275  = ~Armure de plaques +4 :
+Cette armure a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  CA : -1
+  +5 % de résistance à toutes les formes d'attaques physiques
+  Poids : 25
+  Nécessite : 15 en Force
+  
+  Non utilisable par:
+	Barde 
+	Druide
+	Mage~
+@276 = ~Armure de plaques d'éthéréité +2~
+@277 = ~Armure de plaques d'éthéréité +2
+Cette armure de plaques a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  Immunité contre les armes non magiques
+  Jet de sauvegarde +1
+  CA : 1
+  Poids : 3
+  Nécessite : 5 en Force
+  Nécessite : 15 en Constitution
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@278  = ~Armure de plates complètes~
+@279  = ~Armure de plates complètes  de <CHARNAME>~
+@280  = ~L’armure de plates complète est la meilleure armure qu’un guerrier puisse acheter, aussi bien d’un point de vue esthétique que pratique. Les plaques parfaitement fixées et imbriquées les unes dans les autres sont inclinées de façon à détourner les flèches et les coups, et l’ensemble de la tunique est soigneusement orné de riches gravures et de détails en relief.
+  
+  PARAMÈTRES:
+  CA : 1
+  Poids : 70
+  Nécessite : 15 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@281  = ~L'armure de plates complète est la meilleure armure qu'un guerrier puisse acquérir, tant par son apparence que par sa protection. Enchantée pour offrir +4 en armure, il ne fait aucun doute que cet ensemble est extrêmement puissant. Forgée dans la cité d'Athkatla par l'Archimage <CHARNAME>, cette armure magique confère une protection massive contre les attaques physiques. Cependant, l'enchantement a manifestement mal tourné, et de ce fait, l'armure draine l'énergie de son porteur en échange de la protection qu'elle confère, probablement parce qu'elle était destinée à un combattant et non à un penseur.
+
+  PARAMÈTRES:
+  +18 % de résistance à toutes les formes d'attaque
+  +3 au jet de sauvegarde contre la mort
+  Immunité à la peur
+  -1 Sagesse, Intelligence et Charisme
+  CA : -3
+  Poids : 50
+  Nécessite : 15 en Force
+  
+  Non utilisable par:
+	Barde
+	Druide
+	Mage
+	Voleur~
+@282  = ~Armure de cuir cloutée~
+@283  = ~Armure de cuir cloutée de <CHARNAME> +5~
+@284  = ~L'armure de cuir cloutée diffère sensiblement d'une armure de cuir classique. Au lieu d'une coque rigide, elle est composée de centaines de rivets métalliques fixés sur un support souple. Ces nombreux rivets forment une couche de métal flexible qui contribue à dévier les attaques tranchantes et coupantes, tandis que le cuir sert principalement à maintenir les rivets en place.
+  
+  PARAMÈTRES:
+  CA: 7
+  Poids: 25
+  Nécessite: 6 en Force
+  
+  Non utilisable par:
+	Mage~
+@285  = ~Cette armure a été créée par <CHARNAME> dans sa sphère planaire.
+
+  Capacités:
+  CA: 2
+  +2 aux jets de sauvegarde contre les sorts
+  +2 % de résistance à la magie
+  Poids : 6
+  Nécessite : 6 en Force
+  
+  Non utilisable par:
+	Mage~
+@286  = ~Armure de cuir~
+@287  = ~Armure parfumée +5~
+@288  = ~Cette armure de cuir est légère et souple, un plaisir à porter.
+  
+   PARAMÈTRES:
+  CA: 8
+  Poids: 15
+  Nécessite: 3 en Force
+  
+  Non utilisable par:
+	Mage~
+@289  = ~Cette armure a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  Immunité contre tous les sorts magiques de « nuage », tels que Nuage Puant, Nuage Mortel et Nuage Incendiaire.
+  CA: 3
+  Poids: 5
+  Nécessite: 3 en Force
+  
+  Non utilisable par:
+	Mage~
+@290  = ~Hache d'armes +3~
+@291  = ~La version la plus répandue de la hache d’armes est une grande hampe d’environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d’armes sont également appelées grandes haches.
+  
+   PARAMÈTRES:
+  Dégâts:  1D8
+  Type de dégâts:  tranchant
+  Poids: 7
+  Facteur de vitesse: 7
+  Type de compétence : Hache 
+  Type : arme à 1 main
+  Nécessite : 10 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@292  = ~Cette hache a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:
+  THAC0: +3 bonus
+  Dégâts: 1D8 +3
+  Type de dégâts: tranchant
+  Poids: 5
+  Facteur de vitesse: 5
+  Type de compétence : Hache
+  Type : arme à 1 main
+  Nécessite : 10 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@293  = ~Hache d'armes +4~
+@294  = ~La version la plus répandue de la hache d’armes est une grande hampe d’environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d’armes sont également appelées grandes haches.
+  
+  PARAMÈTRES:
+  Dégâts: 1D8
+  Type de dégâts: tranchant
+  Poids: 7
+  Facteur de vitesse: 7
+  Type de compétence : Hache 
+  Type : arme à 1 main 
+  Nécessite : 10 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@295  = ~Hache de combat +4
+Cette hache a été créée par <CHARNAME> dans sa sphère planaire.
+
+  PARAMÈTRES:  
+  THAC0: +4 bonus 
+  Dégâts: 1D8 +4
+  10% de chance que la cible soit pétrifiée si absence de jet de sauvegarde contre les sorts. 
+  Type de dégâts (mêlée) : tranchant 
+  Poids: 5 
+  Facteur de vitesse : 4 
+  Type de compétence : Hache 
+  Type : arme à 1 main 
+  Nécessite : 10 en Force
+  
+  Non utilisable par:
+	Druide
+	Clerc
+	Mage 
+	Voleur~
+@296  = ~Énigme de la combustion infernale~
+@297  = ~Énigme de la combustion infernale
+  Niveau: 7
+  Portée:Portée visuelle du lanceur
+  Durée: Instantanée
+  Temps d'incantation: 6
+  Zone d'effet: rayon de 30 pieds
+  
+  L'Énigme de la Combustion Infernale est un sort véritablement dévastateur, bien que son origine demeure un mystère. Lorsqu'il est lancé, une sphère de feu magique jaillit de la main du mage et fonce sur sa cible. À l'impact, la sphère explose, créant un immense mur de flammes magiques autour de la cible. L'air lui-même se transforme en un brasier incandescent, et presque rien ne peut résister à l'intensité de la chaleur dégagée. Les mages doivent faire preuve de la plus grande prudence lorsqu'ils utilisent ce sort, car il peut anéantir aussi bien leurs alliés que leurs adversaires.
+  Effets:
+  Le mur de flammes inflige 2D10 dégâts de feu à tous les ennemis dans sa zone d'effet. Il inflige ensuite 2D10 dégâts magiques supplémentaires, qui peuvent être annulés si la cible réussit un jet de sauvegarde contre les sorts.~
+@298  = ~Tonnerre ~
+@299  = ~Tonnerre
+  (Evocation) 
+  Niveau: 8
+  Portée: 150 mètres
+  Durée: Instantanée
+  Temps d'incantation: 8
+  Zone d'effet: Special 
+  Jet de sauvegarde: aucun
+  
+  Dans certains cercles d'archimages, lancer un Éclair comme un mage débutant est considéré comme pitoyable. C'est ainsi que fut créé le Tonnerre. Ressemblant à un Éclair, il est chargé d'une énergie bien supérieure et capable d'infliger des dégâts considérables à tout ce qu'il touche. Contrairement à l'Éclair, le Tonnerre ne peut cependant pas rebondir, ce qui réduit son pouvoir destructeur. Mais un archimage maîtrisant ce sort peut sans aucun doute terrasser presque n'importe quel adversaire.
+  Effets: 
+  Le tonnerre jaillit et inflige 10D8 dégâts électriques à la cible. Un jet de sauvegarde contre les sorts permet de ne subir que la moitié des dégâts. La puissance du tonnerre est telle qu'il peut également renverser un ennemi et le laisser inconscient.~
+@300  = ~Mot de pouvoir : Flamme~
+@301  = ~Mot de pouvoir : Flamme
+  (Conjuration/Convocation) 
+  Niveau: 9
+  Portée: Portée visuelle du lanceur 
+  Durée: Instantanée
+  Temps d'incantation: 1 
+  Zone d'effet: 1 creature 
+  Jet de sauvegarde: aucun
+  
+Le Mot de Pouvoir le plus redoutable, ou peut-être le plus jouissif, est le Mot de Pouvoir de la Flamme. Il aurait été créé par un mage pyromane du plan d'Ignus, dans la cité planaire de Sigil. Lorsqu'il est prononcé, le mage désigne sa cible du doigt. C'est le jour de malchance de cette dernière, car ce sort est d'une puissance incommensurable. À mesure qu'il agit, la réalité autour de la cible se trouble et se transforme, ouvrant un portail direct vers le Plan Élémentaire du Feu. Ce sort est si puissant que, l'espace d'un instant, la cible se retrouve réellement sur le Plan Élémentaire du Feu et, à moins d'être immunisée contre le feu ou d'appartenir elle-même à ce plan, il y a de fortes chances qu'elle soit vaporisée en un nuage de cendres par la chaleur dégagée par le sort.
+  Effets:
+  La cible subira instantanément 20 points de dégâts de feu sans possibilité de jet de sauvegarde. Elle devra ensuite effectuer un jet de sauvegarde contre la mort à +2 sous peine d'être instantanément vaporisée par la chaleur du Plan Élémentaire du Feu.~
+@302  = ~Fureur abyssale~
+@303  = ~Fureur abyssale 
+  Niveau : 9 
+  Portée : 50 pieds 
+  Durée : Instantanée 
+  Vitesse : 9 
+  Zone d'effet : 1 créature 
+  Jet de sauvegarde : voir ci-dessous
+  
+  Comparés aux Tanar'ri, les Baatezu sont au moins plus civilisés. Il n'y a peut-être rien de plus terrifiant que la fureur débridée de l'Abysse. Grâce à ce sort, le sol s'ouvrira et la cible sera entraînée dans la folie tanar'rienne. Bienvenue en enfer.
+  
+Ce sort ouvre un portail planaire sous une cible désignée et l'entraîne dans l'Abysse. Le portail reste ouvert même après que la cible y ait été engloutie. Les témoins n'entendent alors que les cris incessants de la cible, déchirée par les impitoyables Tanar'ri. Après ce qui semble n'être que quelques secondes (une éternité pour la cible dans l'Abysse), la cible (ou ce qu'il en reste) est recrachée hors du portail.
+  (1) Si la cible réussit son jet de sauvegarde contre la mort à +4, elle sera éjectée du portail « en un seul morceau ». Cependant, bien qu'elle ne ressente rien dans un premier temps, après une fraction de seconde, toute la colère des Tanar'ri se déchaînera. La cible subira 10d3 points de dégâts de Dégâts, encaissant de multiples attaques et coups différés provenant de toutes parts.  
+  (2) Si la cible rate son jet de sauvegarde, c'est la mort instantanée. Il ne reste plus que des morceaux de corps. ~
+@304  = ~Éclat de glace d'Ajundurar~
+@305  = ~Éclat de glace d'Ajundurar
+  Invocation
+  Niveau : 4
+  Portée : Portée visuelle du lanceur
+  Durée : Instantanée
+  Temps d'incantation : 1
+  Zone d'effet : Spéciale
+  Jet de sauvegarde : Aucun
+  
+    L’Éclat de glace d'Ajundurar, un sort extrêmement utile souvent employé par les puissants mages en raison de son temps d'incantation relativement court. Lorsque le mage achève l'incantation, sa main s'illumine brièvement d'une lumière bleue glaciale, puis un éclat de glace magique fonce sur la cible, lui infligeant des dégâts de froid.
+Effets :
+  L'éclat de glace inflige 6d6 dégâts de froid à la cible. Un jet de sauvegarde contre les sorts permet de réduire les dégâts de moitié.~
+@306  = ~Mélange~
+@307  = ~Mélange
+  Niveau : 7
+  Portée : Champ de Portée visuelle du lanceur
+  Durée : Instantanée
+  Temps d'incantation : 8
+  Zone d'effet : Créature ciblée
+  Jet de sauvegarde : -1 contre la métamorphose.
+  
+  Ce sort modifie la composition du corps de la créature ciblée. Les molécules qui la constituent commencent à se déformer et à glisser les unes sur les autres. Les liaisons entre les atomes de la cible sont affaiblies ; en d'autres termes, ils fondent en une flaque visqueuse sur le sol.
+Cependant, la cible ne meurt pas. Même dans cet état gélatineux, elle conserve un certain contrôle, bien que sa capacité d'attaque soit fortement réduite par sa transformation en flaque visqueuse.~
+@308  = ~Le merveilleux rajeunissement de Recemon~
+@309  = ~Le merveilleux rajeunissement de Recemon
+  (Nécromancie)
+  Niveau : 8
+  Portée : 6 mètres
+  Durée : Permanente
+  Temps d'incantation : 5
+  Zone d'effet : 1 créature
+  Jet de sauvegarde : Aucun
+  
+  Même si les mages rechignent à l'admettre, les prêtres ont leur utilité. Leur pouvoir est indéniable, surtout dans l'art de la guérison. Ce sort permet cependant aux magiciens de se défendre. Il crée une magie puissante qui guérit complètement une cible et dissipe tous ses effets néfastes. De ce fait, c'est un sort incroyablement utile pour un magicien aventurier.~
+@310 = ~Rune d'Azuth de la négativité absolue~
+@311 = ~Rune d'Azuth de la négativité absolue
+(Métamorphose)
+Niveau : 9
+Portée : Portée visuelle du lanceur
+Durée : 5 rounds
+Temps d'incantation : 15
+Zone d'effet : Créature ciblée
+Jet de sauvegarde : Aucun
+  
+   Azuth, le seigneur des sorts, était jadis un puissant archimage mortel avant d'accéder à la divinité. Peu avant son ascension, on pense qu'il créa ce sortilège. Il s'agit peut-être de son plus grand accomplissement, plus encore que l'immortalité. Cependant, peu après son ascension, ce sort fut détruit, ou du moins en apparence, par Mystra, car sa puissance était redoutable, même pour les dieux. Ce sort exige un long temps d'incantation. Cependant, une fois lancé, rien ne peut lui résister. Pendant un instant, il enveloppe la cible d'un néant absolu. Ce néant absorbe la magie de la cible, l'affaiblissant considérablement. C'est peut-être le seul moyen pour un mage de combattre un dieu, car seul un sort de cette nature peut rendre un dieu vulnérable à la magie d'un mage.
+  Effets :
+  Ce sort annule les résistances magiques. Lorsqu'il est lancé, la résistance de la cible au feu, à la glace, au froid et aux dégâts magiques est réduite de 25 %. La résistance magique sera réduite à 0. Toutes les protections physiques et magiques entourant le lanceur seront également supprimées.~
+@312  = ~Force de la tempête~
+@313  = ~Force de la tempête
+  (Altération)
+  Niveau : 7
+  Portée : Soi-même
+  Durée : 2 tours
+  Temps d'incantation : 10 rounds
+  Zone d'effet : Spéciale
+  Jet de sauvegarde : Aucun
+  
+   Par ce sort, le magicien invoque les éléments. Une sphère de nuages électriques tourbillonnants apparaît devant lui et, au point culminant du sort, il les déchaîne dans les cieux. Quelques instants plus tard, une tempête d'une puissance incroyable se déchaîne. Le ciel s'obscurcit et le tonnerre gronde de toutes parts. D'énormes éclairs surnaturels s'abattent sur les ennemis du lanceur de sorts, leur infligeant des dégâts colossaux.~
+@314 = ~Anneau d'Invisibilité~
+@315 = ~Invisibilité (Illusion/Fantasme)
+Niveau : 2
+Portée : Contact
+Durée : Spéciale
+Temps d'incantation : 2
+Zone d'effet : Créature touchée
+   Jet de sauvegarde :  Aucun
+  
+  Ce sort rend la créature touchée invisible et indétectable, même par infravision. Bien entendu, la créature invisible n'est pas réduite au silence par magie, et certaines conditions peuvent la rendre détectable. Même les alliés ne peuvent voir la créature invisible ni son équipement, à moins qu'ils ne possèdent la capacité de voir l'invisible ou qu'ils n'utilisent la magie à cet effet. Les objets lâchés ou posés par la créature invisible deviennent visibles, tandis que ceux ramassés disparaissent s'ils sont rangés dans ses vêtements ou ses sacoches. Le sort reste actif jusqu'à ce qu'il soit dissipé par magie, jusqu'à ce que la cible attaque une créature, ou jusqu'à ce que 24 heures se soient écoulées. Le lanceur ne peut effectuer aucune action modifiant son environnement, comme ouvrir des portes, désamorcer un piège ou ouvrir un coffre. Il peut cependant lancer des sorts défensifs sur lui-même et sur les membres de son groupe. Et s'il attaque, il devient immédiatement visible, bien que l'invisibilité lui permette d'attaquer en premier.~
+@316  = ~Mot de pouvoir : Vaporisation prismatique~
+@317  = ~Mot de pouvoir : Vaporisation prismatique
+  (Conjuration/Convocation)
+  Niveau : 8
+  Portée : Champ de Portée visuelle du lanceur
+  Durée : Spéciale
+  Temps d'incantation : 1
+  Zone d'effet : 1 créature
+  Jet de sauvegarde : Aucun
+  
+  Tout comme le sort de mage Désintégration, le Mot de Pouvoir : Vaporisation prismatique est mortel et instantané. Une fois prononcé, la créature ciblée doit réussir un jet de sauvegarde contre les sorts à -2 sous peine de se dissiper lentement. À mesure que le sort agit, la cible s'estompe progressivement et devient immatérielle, jusqu'à disparaître complètement, à jamais.~
+@318  = ~Titillation Tectonique~
+@319  = ~Titillation Tectonique
+(Altération)
+  Niveau : 7
+  Portée : 120 mètres
+  Durée : 10 rounds
+  Temps d'incantation : 10 rounds
+  Zone d'effet : 12 mètres de rayon
+  Jet de sauvegarde : Spécial
+  
+  Grâce à ce sort, le magicien étend son influence profondément dans la terre. Rassemblant toute sa volonté, il manipule les immenses forces tectoniques qui grondent au cœur du sol. La roche se soulève et la terre tremble.
+Effets :
+  Trois secousses se produisent à deux rounds d'intervalle. Chaque secousse inflige 2D8 Dégâts à tous les êtres présents dans la zone d'effet. Au début du tremblement de terre, tous les êtres présents dans la zone d'effet doivent réussir un jet de sauvegarde contre les sorts à -4 sous peine d'être projetés au sol. Ils doivent ensuite réussir un autre jet de sauvegarde contre les souffles à -4 sous peine d'être désorientés par le tremblement de terre.~
+@320  = ~Malédiction flottante de Vestcake~
+@321  = ~Malédiction flottante de Vestcake
+  Invocation
+  Niveau : 5
+  Temps d'incantation : 5
+  Portée : Portée visuelle du lanceur.
+  Ce sort crée une masse tourbillonnante d'énergie magique incontrôlée qui crépite dans la zone d'effet définie par le lanceur. L'énergie magique chaotique libère des décharges d'énergie qui frappent tous les êtres présents dans la zone d'effet tant qu'ils restent dans le nuage magique. Après un certain temps, la magie se dissipe et le sort prend fin. Cependant, le sort est si chaotique que tout lanceur de sorts présent dans la zone d'effet risque fortement de voir ses sorts altérer.
+Effets :
+  À chaque round, toute personne dans la zone d'effet subit 1d8+2 dégâts électriques. De plus, il y a 10 % de chances que les sorts des lanceurs de sorts présents dans le nuage échouent ou deviennent imprévisibles.~
+@322  = ~Vague d'anéantissement~
+@323  = ~Vague d'anéantissement
+  (Évocation)
+  Niveau : 9
+  Portée : 9 m
+  Durée : Permanente
+  Temps d'incantation : 8
+
+  Il s'agit d'une découverte extraordinaire et, pour le mage aventurier, d'une utilité capitale. Le sort Vague d'Oblitération a été utilisé pour la dernière fois il y a environ un siècle. Deux nobles de Tethyr se disputaient le château de leur père, dont la propriété était sujette à controverse dans son testament. Comme c'est souvent le cas dans les conflits, les deux nobles étaient de puissants archimages, tous deux formés à cet art par leur père. Ce sort était apparemment un héritage familial, source de grande jalousie chez les autres familles de mages. Inutile de dire que les deux nobles décidèrent que le duel était la seule issue. Le résultat fut pour le moins brutal. Par la suite, l'analyse des décombres révéla que les deux mages avaient lancé ce sort simultanément. Les effets observés témoignèrent effectivement de sa puissance. La moitié du château fut découverte plusieurs années plus tard dans un étang situé à plusieurs kilomètres de là, mais les serviteurs restèrent introuvables... Les deux mages furent enterrés dans de très petits cercueils.
+  Lorsque le mage achève l'incantation de ce sort, il lève les mains et repousse ses paumes. De ses mains jaillit un mur d'énergie magique pure et incontrôlée. La magie explose, emportant tout sur son passage. Toute créature prise dans cette vague d'énergie subira d'énormes dégâts magiques et devra réussir un jet de sauvegarde contre les sorts sous peine d'être littéralement anéantie par la puissance brute de ce sort.
+Effets :
+  Toutes les créatures sur la trajectoire du sort subissent 10D5+20 points de dégâts magiques sans jet de sauvegarde. Elles doivent ensuite réussir un jet de sauvegarde contre les sorts à -2 sous peine d'être vaporisées par le sort.~
+@324  = ~Sphère de Dissipation~
+@325  = ~Sphère de Dissipation
+  Niveau : 8
+  Abjuration
+  Temps d'incantation : 9
+  Durée : 5 rounds 
+  Ce sort immensément puissant est nimbé de mystère (probablement parce que seulement 4 exemplaires ont été découverts). Ses capacités sont véritablement impressionnantes, ce qui en fait sans doute le sort de protection le plus puissant à la disposition du mage. Cependant, nul ne connaît son origine, bien que certains sages pensent qu'il fut créé à l'époque de Myth Drannor. Lorsque le dernier mot du sort est prononcé, une sphère d'énergies magiques tourbillonnantes se forme autour du lanceur. Cette sphère absorbe toute énergie qui la frappe et la dissipe dans le néant. L'énergie absorbée peut être d'origine physique ou magique et est complètement neutralisée par la sphère. L'intensité de l'énergie que la sphère peut absorber dépend uniquement de la puissance du mage qui lance le sort ; plus le mage est puissant, plus le sort l'est aussi.
+  Au niveau 16, le sort protège des sortilèges de niveau 1 à 3 et des armes non magiques.
+  Au niveau 17, la sphère protège des sortilèges de niveau 1 à 4 et des armes normales, mais confère également une résistance de 25 % à toutes les attaques physiques. 
+  Au niveau 18, la sphère protège des sorts de niveau 1 à 5 et confère l'immunité aux armes normales et +1.
+  Au niveau 19, la sphère protège des sortilèges de niveau 1 à 6, confère l'immunité aux armes normales et +1 et offre une résistance de 25 % à toutes les attaques physiques.
+  Au niveau 20, la sphère protège des sortilèges de niveau 1 à 7 et confère l'immunité aux armes normales, +1 et +2.
+  La sphère ne peut être utilisée conjointement avec d'autres sorts d'immunité aux armes.~
+@326  = ~Flèche fracassante de Shadrick~
+@327  = ~Flèche fracassante de Shadrick
+  (Évocation)
+  Niveau : 2
+  Temps d'incantation : 5
+  Portée : 30 m
+  Évocation
+  Nombreux sont les mages puissants qui ont méprisé ce sort lorsqu'ils n'étaient que de jeunes mages, pour ensuite le voir foncer sur eux avec terreur. À très bas niveau, ce sort est, franchement, pitoyable. Cependant, à mesure que le mage progresse, sa puissance augmente. Le sort crée une flèche magique d'énergie solidifiée qui jaillit de la main du lanceur pour frapper sa cible.
+  Capacités:
+  Aux niveaux 1 à 6, la flèche inflige 1d8 dégâts perforants sans jet de sauvegarde, et 2 dégâts magiques en cas d'échec d'un jet de sauvegarde contre les sorts.
+  Aux niveaux 7 à 12, la flèche inflige 2d6 dégâts perforants et 2 dégâts de feu/froid/électricité sans jet de sauvegarde.
+  Aux niveaux 13 à 18, la flèche inflige 3d8 + 2 dégâts magiques, avec un jet de sauvegarde contre les sorts pour réduire les dégâts de moitié. La cible doit également réussir un jet de sauvegarde contre la mort à -2 sous peine d'être étourdie pendant 2 rounds. Le temps d'incantation des sorts est réduit de 1.
+  À partir du niveau 19, la flèche se transforme en un éclat magique. Elle inflige 5d8 dégâts magiques, avec un jet de sauvegarde contre les sorts pour réduire les dégâts de moitié. La cible doit également réussir un jet de sauvegarde contre la mort à +2 sous peine d'être tuée. Si elle survit, elle est automatiquement étourdie pendant 3 tours.~
+@328  = ~Malédiction aux Épines Noires~
+@329  = ~Malédiction aux Épines Noires
+  Niveau : 4
+  Conjuration/Convocation
+  Les sorcières de la nuit étaient de puissantes sorcières quasi divines qui parcouraient les plans il y a fort longtemps. Bien que la plupart de leurs exploits soient inconnus, une sorcière de la nuit est particulièrement bien documentée : Ravel Puzzelwell, sans doute la plus puissante d'entre elles et la célèbre ennemie de la Dame de la Douleur. On pense que Ravel a tenté de rompre le lien qui unissait la Dame à la cité de Sigil. Ses motivations restent un mystère, mais la rage de la Dame fut immense et Ravel fut projetée dans un demi-plan d'existence, l'un de ses labyrinthes. Ravel dépérit dans sa cage planaire pendant de longues années, tandis que sa haine et sa tristesse se matérialisaient autour d'elle sous la forme d'immenses lianes noires et d’épines. Lorsque Ravel mourut, ce sort se répandit dans les plans. Il invoque les immenses lianes noires et d’épines du labyrinthe de Ravel, qui jaillissent du sol et lacèrent les ennemis du lanceur.
+  Effets :
+  Portée : 30
+  Temps d'incantation : 4
+  Dégâts : 6d6 de dégâts perforants. Jet de sauvegarde contre le sort pour réduire les dégâts de moitié.~
+@330  = ~Logique Impensable~
+@331  = ~Logique Impensable
+  Niveau 6
+  Portée : 50
+  Altération
+  Temps d'incantation : 6
+  Ce sort mathématique invoque de la matière du plan de Mechanus, un demi-plan de Primus. Il imprègne l'espace autour du lanceur de la logique absolue du plan de Mechanus. Le sort révèle brièvement à tous les êtres de non-Primus la nature intrinsèquement logique de la réalité. La plupart des êtres sont incapables de supporter cette révélation et sombrent dans la confusion et le chaos tandis que leur cerveau tente de comprendre ce qu'ils ont vu. Les créatures dont le cerveau est particulièrement peu évolué peuvent même être tuées instantanément par ce sort, car leur cerveau est détruit dans la tentative de comprendre.
+  Effets:
+  Jet de sauvegarde contre les sorts à -3, sinon la cible sera confuse et aveuglée pendant 6 tours.
+  La cible perdra 2 points d'Intelligence et de Sagesse pendant 6 heures sans jet de sauvegarde.
+  Jet de sauvegarde contre les sorts à -2, sinon la cible aura 75 % de chances de rater ses sorts pendant 6 tours.~
+@332  = ~Robes de l'Enfer~
+@333  = ~Robes de l'Enfer :
+  Ce sont les robes du sorcier Inferno, dont l'image projetée astralement les portait, et qui furent ensuite détruites par vous. Les robes émanent une puissante magie et confèrent des protections magiques contre toute attaque visant un mage.
+  
+  PARAMÈTRES :
+  CA : +3
+  +5 % d'immunité à tout
+  Jets de sauvegarde : +1
+  Immunité aux armes non magiques
+  Poids : 3
+
+  Seulement utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@334  = ~Clé du globe magique~
+@335  = ~Cet objet ne contient aucun pouvoir en soi, mais il est la clé de la puissante magie qui contrôle les globes magiques, des sphères d'énergie pure. Si cette clé était brisée, la magie des globes magiques serait sans aucun doute libérée.~
+
+@338  = ~Dague sacrificielle~
+@339  = ~Cette dague semble étrange...~
+@340  = ~Dague sacrificielle
+  Celdarick, un mage, fut capturé par des adorateurs de Shar et, avec le reste de son village, emmené au temple de Shar pour être sacrifié à la déesse maléfique. Celdarick, cependant, avait un plan d'évasion. Dans sa cellule, il utilisa la magie qui lui restait pour créer cette réplique des Dagues sacrificielles utilisées par les prêtres de Shar. La dague, utilisée contre lui, lui aurait permis de se téléporter en lieu sûr. Conduit à l'autel, il parvint à échanger la véritable dague contre celle-ci, mais en vain. Le prêtre avait décidé d'utiliser la magie pour tuer ses cibles ce jour-là.
+
+  PARAMÈTRES :
+  Plongée dans la poitrine de son utilisateur, la dague lui confère la capacité de clignoter une fois par jour. Cependant, cela lui inflige des dégâts et ses points de vie maximum sont réduits de quatre de façon permanente.
+  Spécial : La dague se transforme en fumée à l'utilisation.
+  Utilisation : Placer dans l'emplacement d'objet rapide.~
+@341  = ~Protection d'Avernus~
+@342  = ~Protection d'Avernus :
+  Cette étrange amulette est forgée à partir d'un métal que l'on ne trouve que sur le plan d'Avernus, l'un des plans inférieurs de l'existence. Imprégnée de magie infernale, elle est entièrement liée au plan d'Avernus et, de ce fait, offre à son porteur une protection contre certains des puissants démons qui habitent ce plan. 
+Effets :
++1 CA
++20 % de résistance au feu
++10 % de résistance magique
+  Renvoie les sorts de niveau 1 au lanceur.
+  Infravision.
+  
+  Non utilisable par:
+  Toute personne d'alignement bon.
+	Clerc
+	Druide
+	Mage~
+@343  = ~Une dague typique possède une lame pointue, généralement à double tranchant, contrairement à un couteau, qui a un seul tranchant et est légèrement plus court.
+  
+  PARAMÈTRES:
+  Dégâts : 1D4
+  Type de dégâts : perforant
+  Poids : 1
+  Facteur de vitesse : 2
+  Type de compétence : Dague
+  Type : arme à 1 main
+  Nécessite : 3 en Force
+  
+  Non utilisable par:
+	Clerc~
+@344  = ~Potion de Récupération~
+@345  = ~Les potions se trouvent généralement dans des flacons ou des fioles en céramique, cristal, verre ou métal. Les flacons ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète permettant d'obtenir les effets de la potion.~
+@346  = ~Une fois bue, cette potion permet à un lanceur de sorts de concentrer son esprit sur les magies qu'il a perdues, se rappelant un sort précédemment lancé.
+
+  PARAMÈTRES :
+  Spécial : Une fois bue, le buveur se remémorera à nouveau d'un sort perdu de niveau 6 ou inférieur.
+  
+  Utilisable par:
+	Mages~
+@347  = ~Élixir d'Élysée~
+@348  = ~Une puissante potion faite à partir du sang d'un Deva inférieur. Dans ce verre rouge terne réside une infime fraction de la puissance du Mont Célestia, l'un des plans supérieurs du multivers.     Une fois bue, la gloire pure d'Élysée se répand à travers celui qui la boit. De par la nature des plans supérieurs, si un être maléfique consommait cette potion, cela entraînerait une mort instantanée.
+
+  PARAMÈTRES :
+  Soigne 10 points de vie
+  Force et Constitution augmentées de 1
+  +20 % de résistance aux dégâts magiques et de feu.
+  Toutes les attaques du buveur infligent des dégâts maximums à chaque coup.
+  Durée : une demi-heure.
+  
+  Utilisable par:
+  Guerriers d'alignement loyal bon.~
+@349  = ~Aura de puissance~
+@350  = ~Aura de puissance
+  (Altération)
+  Niveau : 2
+  Portée : Zone du lanceur
+  Durée : 12 heures
+  Temps d'incantation : 20 s
+  Zone d'effet : Zone actuelle
+  Jet de sauvegarde : Aucun
+  
+  Ce sort est souvent employé par les liches et les puissants archimages maléfiques. Il crée une atmosphère de magie noire qui imprègne toute la zone, donnant à toute créature présente l'impression d'être observée et lui hérissant les poils de la nuque. Bien que son effet soit principalement dramatique, il a un léger impact sur les êtres.
+  Effets :
+  Tous les êtres dans la zone subissent un malus de -1 à leurs jets de sauvegarde contre la magie. Il est peu probable que certains soient totalement terrifiés par ce sort et doivent effectuer un jet de sauvegarde contre la magie ou fuir d'horreur, mais ils bénéficient alors d'un bonus de +6.
+  Le mage qui lance le sort reçoit +1 en chance tant que celui-ci est actif.
+  Ce sort ne peut être lancé qu'une seule fois sur une créature.~
+@351  = ~Bouquet Brillant de Berrilium~
+@352  = ~Bouquet Brillant de Berrilium
+  (Altération)
+  Niveau 6
+  Temps d'incantation : 5
+  Berrilium était un magicien de rue dans la ville d’Eauprofonde. Il ne possédait aucun pouvoir magique et se contentait de tours de passe-passe pour amuser la foule. Cependant, c'était un joueur invétéré et, de surcroît, très malchanceux. Un jour, ses créanciers, sous les traits de plusieurs bandits imposants, vinrent réclamer leur dû. On ignore pourquoi Berrilium choisit ce moment précis pour sortir de sa manche un bouquet de fleurs en papier, mais on pense que sa peur, dans un ultime acte de désespoir, imprégna les fleurs de magie, les transformant en boules de lumière magique aveuglantes. Aveuglés par cette lumière éclatante, les bandits permirent à Berrilium de s'enfuir.
+  Ce sort crée un magnifique bouquet de fleurs magiques scintillantes qui jaillit du corps du lanceur.
+Effets :
+  Toute créature dans la zone d'effet doit réussir un jet de sauvegarde contre le sort (malus de -2) sous peine d'être aveuglée pendant 2 tours. Même s'ils résistent à cet effet, ils sont stupéfaits pendant 2 rounds par la beauté saisissante des fleurs.~
+@353  = ~Éviscération~
+@354  = ~Éviscération
+  (Altération)
+  Niveau : 8
+  Portée : 50 mètres
+  Durée : Instantanée
+  Temps d'incantation : 5
+  Zone d'effet : Une cible
+  Jet de sauvegarde : Spécial
+  
+  Lorsqu'il est lancé, ce puissant sort permet au magicien d'atteindre et de retirer une partie ou la totalité d'un organe interne d'un être vivant.
+  L'un des organes suivants sera affecté, mais le magicien ne peut pas choisir lequel. La cible effectue toujours un jet de sauvegarde contre la mort avec un bonus de +1.
+  Les organes affectés sont les suivants :
+  Le cœur : la cible meurt instantanément.
+  Le foie : la cible subit 30 points de dégâts de poison.
+  Le cerveau : la cible est définitivement affaiblie mentalement et incapable de lancer des sorts.
+  L'estomac : la cible subit 35 points de dégâts d'acide. 
+  L'œil : La cible sera aveuglée de façon permanente.
+  Les poumons : La cible perdra connaissance temporairement, puis sera ralentie.~
+@355  = ~Sphère d'iridium~
+@356  = ~Sphère d'iridium
+  (Évocation)
+  Niveau : 5
+  Portée : 30 mètres
+  Durée : Spéciale
+  Temps d'incantation : 5
+  Zone d'effet : Une créature
+  Jet de sauvegarde : Spécial
+  
+  Lorsque le mage achève l'incantation de ce sort, une sphère d'une substance semblable à du mercure apparaît devant lui.
+  D'un geste de la main, le mage peut projeter cette sphère sur une cible. À l'impact, la sphère semble être totalement absorbée par la cible. Elle affecte également tout métal présent sur celle-ci, le magnétisant et le rendant extrêmement attractif pour les autres métaux.
+Effets :
+  2D10 de dégâts magiques, +3 Dégâts par tranche de 3 niveaux, à partir du niveau 9.
+  La cible doit réussir un jet de sauvegarde contre les sorts à -2 sous peine d'être magnétisée. 
+  Si la cible est magnétisée, elle subit un malus de -1 en Dextérité, -2 en Attaque et -8 en CA contre les armes à distance.~
+@357  = ~Flammes Pourpres de Karsus~
+@358  = ~Flammes Pourpres de Karsus
+  Niveau : 8
+  Portée : Visible
+  Durée : 4 rounds
+  Temps d'incantation : 8
+  Zone d'effet : Une créature
+  Jet de sauvegarde : Aucun
+  
+  Karsus était peut-être le plus puissant des archimages à avoir accédé au pouvoir dans l'ancien Netheril, et l'un des plus insensés, car il tenta de s'emparer de la divinité par la magie, et échoua, étant condamné à une éternité de tourments. Les sorts de Karsus sont réputés pour leur puissance, et celui-ci ne fait pas exception, étant l'un de ses sorts de mort les plus redoutables.
+  Lorsqu'il est lancé, la cible est entourée d'une aura de flammes pourpres magiques qui la consument littéralement. Les flammes durent 4 rounds, et à chaque round, la cible doit réussir un jet de sauvegarde contre la mort sous  peine d'être tuée instantanément. Même si la cible résiste à la magie mortelle, elle est submergée par la peur d'être entourée de flammes et s'enfuira jusqu'à ce que celles-ci s'éteignent. Tant qu'une cible est entourée de flammes, sa régénération (le cas échéant) cesse et elle est immunisée contre tous les sorts de guérison.~
+@359  = ~Annulation de pouvoir de Killimer~
+@360  = ~Annulation de pouvoir de Killimer
+  (Altération)
+  Niveau : 7
+  Temps d'incantation : 11
+  Durée : 2 tours
+  Jet de sauvegarde : Annule
+  
+  Killimer était un mage aventurier ordinaire. Il n'était pas particulièrement puissant et passait sa vie au sein de bandes d'aventuriers, combattant les morts-vivants et toutes sortes d'ennemis maléfiques. Après quatre ans passés avec la même bande d'aventuriers, il s'était lié d'amitié avec ses compagnons d'armes, et réciproquement. Un jour, le mage et ses compagnons furent assaillis par un groupe de puissants lanceurs de sorts qui avaient pris le contrôle d'une ville voisine et dominaient toutes les routes commerciales. Les compagnons de Killimer étaient impuissants face à l'attaque combinée de tant de magiciens. Deux furent anéantis par le feu magique, et un troisième transformé en un petit amphibien. Killimer, à court de sorts, lança une prière désespérée à Mystra, déesse de la magie, pour obtenir de l'aide. La Dame, entendant son appel, lui accorda ce sort, et ses mots jaillirent dans son esprit comme des flammes. Tandis qu'il l'incantait, la magie dans les environs commença à fluctuer. Les mages adverses eurent beaucoup de difficultés à lancer leurs sorts, offrant ainsi aux compagnons de Killimer l'occasion de réduire les lanceurs de sorts en miettes.
+  Effets :
+  Pendant la durée du sort, toute magie est ralentie et altérée, et la vitesse d'incantation de tous les mages ennemis est augmentée de 5. Les mages ennemis doivent effectuer un jet de sauvegarde contre les sorts pour éviter cet effet, mais ils subissent un malus de -3.~
+@361  = ~Lacs cinétiques de Kelton~
+@362  = ~Lacs cinétiques de Kelton
+  (Conjuration/Convocation)
+  Niveau : 4
+  Portée : vue
+  Durée : 1 heure
+  Temps d'incantation : 9 rounds
+  Zone d'effet : Spéciale
+  Jet de sauvegarde : Aucun
+
+  Grâce à ce sort, le mage fait apparaître des lames scintillantes de force magique. Les lames tournoient et, lorsqu'elles touchent un ennemi, explosent dans une brève décharge magique. Le mage peut contrôler chaque lame individuellement ; elles persistent pendant 1 heure avant de disparaître. Une fois qu'elles ont touché un adversaire, elles disparaissent définitivement. 
+  Effets :
+  Chaque couteau inflige 5 à 10 Dégâts magiques. Ils fonctionnent comme des armes +3 et étourdissent brièvement la cible en cas d'échec d'un jet de sauvegarde contre les sorts à +2.
+  Le mage reçoit un couteau tous les cinq niveaux, jusqu'à un maximum de 8 au niveau 37. Les couteaux sont insensibles aux attaques physiques et magiques, mais peuvent être détruits par un sort de Dissipation de la magie.~
+@363  = ~Syndrome du Cauchemar~
+@364  = ~Syndrome du Cauchemar
+  (Conjuration/Convocation)
+  Niveau : 8
+  Portée : 4,5 mètres
+  Durée : 30 minutes
+  Temps d'incantation : 15 rounds
+  Zone d'effet : Spéciale
+  Jet de sauvegarde : Aucun
+
+  Les ténèbres semblent envelopper le mage tandis qu'il lance ce sort, et un frisson s'installe. Au moment où les derniers mots du rituel sont prononcés, un nexus planaire s'ouvre sur le Demi-plan de la Peur et invoque une créature terrifiante. Le cauchemar est une créature spectrale qui prend la forme de la pire crainte de sa cible et l'attaque, semant la terreur et la fuite.
+  Effets :
+  Invoque un cauchemar au service du lanceur pendant une demi-heure.~
+@365  = ~Pyrotechnie polarisée de Nagath~
+@366  = ~Pyrotechnie polarisée de Nagath
+  Niveau : 9
+  Portée : Portée visuelle du lanceur
+  Durée : Instantanée
+  Temps d'incantation : 3 rounds
+  Zone d'effet : Immense !
+  Jet de sauvegarde : 1/2
+  
+  Voici le sort ultime de l'archiliche Nagath. Après avoir parcouru le multivers pendant des centaines d'années, il aurait croisé, lors de son dernier voyage, le chemin d'un Dieu supérieur  (semblable au seigneur Ao) sur le plan astral. Inutile de préciser que l'archiliche ne pouvait l'emporter, mais lorsque le dieu l'exila sur un plan de feu éternel, l'archiliche lança ce terrible sort. Le dieu en sortit indemne, mais une onde de choc d'une violence sismique traversa le plan astral, décimant nombre de ses habitants. Ce sort, une fois invoqué, conjure des éléments provenant de plus de dix plans différents, déchaînant un maelström d'une violence inouïe. Sa principale force réside dans le fait qu'il puise son énergie dans ses cibles : plus elles sont nombreuses, plus le sort est puissant et plus sa zone d'effet est étendue. Pour chaque être touché, 2d10 dégâts sont infligés sans jet de sauvegarde, et 1d10 dégâts sont infligés dans la zone d'effet, ce dernier pouvant être évité avec un jet de sauvegarde contre les sorts à -2. La puissance brute de ce sort est telle que tous ceux qui se trouvent dans sa zone d'effet (s'ils survivent) seront désorientés pendant les 5 prochains rounds.~
+@367  = ~Requiem des Élysées~
+@368  = ~Requiem des Élysées
+  (Invocation)
+  Niveau : 9
+  Portée : 100
+  Temps d'incantation : 10
+  Zone d'effet : Portée visuelle du lanceur
+  Jet de sauvegarde : Aucun
+  
+  Le mage lève les mains vers le ciel et crée un portail vers les plans supérieurs des Élysées. L'énergie vertueuse des dévas et des grands dévas, habitants de ce plan, se déverse en un raz-de-marée d'énergie magique. Les feux des Élysées purifient le mal et détruisent les ténèbres ; c'est un sort puissant.
+  Effets :
+  6D10 dégâts de feu et 6D10 dégâts magiques. Jet de sauvegarde contre les sorts pour réduire les dégâts de moitié. 
+  Toute créature dans la zone d'effet doit réussir un jet de sauvegarde contre le sort (malus de -4) sous peine d'être aveuglée et assourdie pendant 1 tour.
+  Les créatures des Ténèbres, telles que les morts-vivants, les ombres et les démons, doivent réussir un jet de sauvegarde contre la mort (malus de -2) sous peine d'être instantanément détruites.~
+@369  = ~Invocation d'Horreur Casquée~
+@370  = ~Invocation d'Horreur Casquée :
+  (Conjuration/Convocation)
+  Temps d'incantation : 4
+  Portée : Lanceur de sorts
+  Durée : 2 heures
+  
+  Le mage Degrodel était l'un des personnages les plus désagréables que vous ayez rencontrés lors de vos voyages à la Porte de Baldur. Il était apparemment obsédé par les objets de Baldurien, le grand explorateur. Il pensait que Dradeel, le mage personnel de Baldurien, avait dissimulé des fragments du secret d'un grand sort dans chacun des objets de Baldurien. Malheureusement, vous l'avez tué avant qu'il ne puisse achever ses recherches. Ce sort était l'un de ses préférés, lui permettant d'invoquer 1 à 3 Horreurs Casquées à son service. Les horreurs servent le lanceur sans broncher pendant deux heures, puis disparaissent.~
+@371 = ~Emprisonnement d'Âme~
+@372 = ~Emprisonnement d'Âme
+  (Nécromancie)
+  Niveau : 8
+  Temps d'incantation : 1 tour
+  Cible : Une
+
+  Ce sort est véritablement terrible. Il est considéré comme si horrible que de nombreuses sociétés magiques l'ont banni (les recherches menées sur ce sort seraient l'une des raisons pour lesquelles les Mages Rouges de Thay se sont séparés des Haluraans). Une fois lancé, l'âme de la cible est entourée d'une cage d'énergie crépitante qui se rétrécit lentement, aspirant l'âme de la cible vers un autre plan où elle est détruite (peut-être un plan d'antimatière, ou le plan de l'énergie négative). La mort est atroce : l'âme est littéralement arrachée au corps, détruisant corps et âme dans le processus. La cible bénéficie d'un jet de sauvegarde contre la mort pour éviter la destruction de son âme. Même s'ils réussissent leur jet de sauvegarde contre le sort, ils subissent tout de même 2D10 Dégâts et sont nauséeux pendant un court instant.~
+@373  = ~Invocation d’un serviteur~
+@374  = ~Invocation d’un serviteur
+  (Conjuration/convocation)
+  Niveau : 9
+  Temps d'incantation : 3 rounds
+  Portée : Champ de Portée visuelle du lanceur
+  
+    Normalement, invoquer des monstres ou des morts-vivants de façon permanente exige beaucoup de préparation et de nombreux rituels. Cependant, ce sort, d'une puissance exceptionnelle, permet au mage d'invoquer un serviteur de façon permanente en un seul sort. Le lanceur de sorts peut choisir le type de monstre à invoquer ; même les morts-vivants peuvent être invoqués. Le nombre de créatures invocables est illimité, ce qui permet à un mage patient de constituer facilement une armée.
+  ~
+@375  = ~Triple Explosion de Boule de Feu~
+@376  = ~Triple Explosion de Boule de Feu
+  Niveau : 7
+  Portée : Portée visuelle du lanceur
+  Durée : Instantanée
+  Temps d’incantation : 7
+  Zone d’effet : 9 mètres de rayon x3
+  Jet de sauvegarde : 1/2
+  
+  Une boule de feu est une explosion de flammes qui détonne dans un grondement sourd et inflige des dégâts proportionnels au niveau du magicien qui la lance : 1d6 points de dégâts par niveau d’expérience (jusqu’à un maximum de 10d6). Le magicien pointe du doigt et énonce la portée (distance et hauteur) à laquelle la boule de feu doit exploser. Un éclair jaillit du doigt pointé et, à moins qu’il ne percute un corps matériel ou une barrière solide avant d’atteindre la cible, se transforme en boule de feu (un impact prématuré provoque une détonation prématurée). Les créatures qui ratent leur jet de sauvegarde subissent chacune des Dégâts complets. Ceux qui réussissent leurs jets de sauvegarde peuvent esquiver, tomber à plat ventre ou rouler sur le côté, recevant chacun la moitié des dégâts. Il s'agit d'une version plus puissante du sort Boule de feu : lorsque le dernier mot de l'invocation est prononcé, trois boules de flammes jaillissent pour frapper trois cibles respectives.~
+@377  = ~Compresseur Temporel de Tyndal~
+@378  = ~Compresseur Temporel de Tyndal
+  Niveau : 7
+  Altération
+  Durée : 1 tour
+  Cible : Soi-même
+  Temps d'incantation : 8
+  
+  Un sort intra-combat efficace pour le mage aventurier. Lorsqu'il est lancé, la réalité semble se déformer et se tordre autour du lanceur, qui disparaît visiblement. En réalité, le lanceur est légèrement décalé du flux temporel normal.
+  L'effet de ce décalage temporel est de rendre le mage plus difficile à affecter par la réalité normale. Les armes semblent incapables de l'atteindre et toute arme non magique est incapable de l'affecter. Sous l'effet de ce sort, le mage n'est plus soumis au cours normal des événements. Le vieillissement est donc impossible, et les sorts d'accélération, d'emprisonnement ou de labyrinthe sont inefficaces contre lui. De son point de vue, le monde semble se déplacer au ralenti, tandis que pour les autres, il se déplace à une vitesse fulgurante, devenant un adversaire redoutable.
+  Effets :
+  Immunité aux armes non magiques.
+  40 % de résistance à toutes les formes d'attaques physiques.
+  +2 à tous les jets de sauvegarde.
+  +2 en capacité de combat.
+  Immunité aux sorts d'accélération, d'emprisonnement et de labyrinthe.~
+@379  = ~Compresseur Spatial de Tyndal~
+@380  = ~Compresseur Spatial de Tyndal
+  Niveau 2 :
+  Altération
+  Temps d'incantation : 1
+
+  Pour lancer ce sort, le mage claque simplement des doigts. Un souffle d'air se fait entendre et le mage disparaît. En réalité, il s'est téléporté. Cependant, le mage ne contrôle pas sa téléportation et pourrait se retrouver nez à nez avec un ennemi encore plus puissant. Un sort mineur utile, néanmoins.
+  Effets :
+  Téléportation aléatoire ~
+@381  = ~Trait vorpal~
+@382  = ~Trait vorpal
+  Conjuration/Invocation
+  Niveau : 5
+  Temps d'incantation : 6
+  Portée : Portée visuelle du lanceur
+  Jet de sauvegarde : Aucun
+
+  Grâce à ce puissant sort, le mage invoque de la matière du plan éthéré et la façonne en une lance d'énergie magique. À l'apogée du sort, ce trait magique jaillit des mains du mage et frappe un adversaire de son choix. Le trait est d'une acuité quasi infinie et tranche facilement chair et os. Ainsi, lorsqu'il atteint sa cible, il y a de fortes chances qu'il la tue instantanément. Et même s'il ne la tue pas, il est capable de la traverser de part en part, infligeant des dégâts considérables. 
+  Effets :
+  Le trait vorpal inflige 6d8 points de dégâts perforants à la cible. Il y a également 25 % de chances que le trait tue instantanément la cible. Un jet de sauvegarde contre la mort est autorisé.~
+@383 = ~Sang acide~
+@384 = ~Sang acide
+  (Altération)
+  Niveau : 6
+  Portée : 0
+  Durée : 20 rounds
+  Temps d'incantation : 8
+  Zone d'effet : Le lanceur
+  Jet de sauvegarde : Aucun
+  
+  Lorsqu'il est lancé, le sang du mage bouillonne et se déforme, se transformant en un acide hautement concentré. étrangement, cela n'a aucun effet néfaste sur le lanceur. En revanche, cela constitue un puissant moyen de dissuasion. En cas d'attaque réussie, le sang du lanceur gicle sur l'attaquant. Ce sang, désormais très acide, brûle et lacère la chair de l'attaquant, la rongeant. Tout en blessant l'attaquant, l'acide contenu dans le sang neutralise tous les poisons susceptibles d'affecter le lanceur.
+  Effets :
+  Chaque attaque portée contre le lanceur inflige 2d8+3 dégâts d'acide à l'attaquant.
+  Immunité au poison
+  Résistance à l'acide : 100 %~
+@385  = ~Danse Macabre~
+@386  = ~Danse Macabre
+  (Altération)
+  Niveau : 9
+  Temps d'incantation : 4
+  Portée : Visible
+  Jet de sauvegarde : Aucun
+
+  Ce sort est généralement accompagné d'un rire maléfique. Apparemment, ce sortilège avait été créé par une fée marraine (qui, comme chacun sait, est généralement une personne assez étrange) devenue folle. La servante de cuisine venait d'épouser le prince. La fée marraine lançait un sort pour leur permettre de danser dans les airs, entourés de musique et de lumières magiques. Cependant, au moment où elle levait les yeux, sans raison apparente, la fée marraine sombra dans la folie. Le sortilège refléta ce changement soudain d'état mental et les corps de la servante et du prince se transformèrent en cadavres en décomposition, dansant pour l'éternité (curieusement, personne ne semblait s'en soucier, puisque le mariage n'avait d'autre but que de permettre au roi de remplir une clause de son testament et de toucher un immense héritage). Malgré la situation stressante, le mage de la cour parvint à recopier le sortilège tandis que la fée marraine le hurlait. Par chance, il eut la prévoyance de le recopier sur un parchemin ignifugé. Heureusement, car quelques secondes plus tard, la fée marraine se transforma en une petite citrouille atomique violette. Plusieurs années plus tard, lorsque les ruines du château eurent cessé de luire d'un mauve éclatant, un mage d'aventure trouva le parchemin, et le sort se propagea depuis lors.
+  Ce sort provoque la décomposition du corps de la cible, le transformant en un cadavre putréfié qui se convulse et se tord de douleur en dansant au son d'une musique infernale obscène. La cible peut effectuer un jet de sauvegarde contre la mort à -4 ; sinon, elle dansera éternellement ou jusqu'à ce qu'elle soit tuée. Même si elle résiste à l'effet du sort, elle est maudite et frappée de malchance pendant 6 heures.~
+@387  = ~Marteau Puissant de Mordenkainen~
+@388  = ~Ça ne me dit rien ! Dites-moi, <CHARNAME>... avez-vous détruit l'Emprisonné ou non ?! Si vous l’avez fait, alors vous l’avez imprudemment libéré pour qu'il retourne dans l'Abysse... Je dois savoir !~
+@389  = ~« L'Abysse » ?  Vous avez dit que vous ne saviez rien de l'Emprisonné ! Vous m’avez menti !~
+@390  = ~Marteau Puissant de Mordenkainen (Évocation)
+  Niveau : 8
+  Portée : 0
+  Durée : 30 rounds
+  Temps d'incantation : 9
+  Zone d'effet : Spéciale
+  Jet de sauvegarde : Aucun
+  
+  Ce puissant sort provoque un plissement et une distorsion de l'espace, lui donnant la forme d'un immense marteau magique. Le marteau scintille de puissance et est animé par magie. Il est totalement sous le contrôle du lanceur et obéira à tous ses ordres. Le marteau agit comme une arme +5 et inflige 2d4 +5 Dégâts contondants +3 Dégâts magiques à chaque coup. Chaque coup a également une faible chance d'étourdir et de rendre inconscient la cible.~
+@391  = ~Régénération de sort de Melectar~
+@392  = ~Régénération de sort de Melectar
+  (Invocation)
+  Niveau : 8
+  Temps d'incantation : 15
+  Portée : Lanceur de sorts
+  Durée : 5 tours
+  Jet de sauvegarde : Aucun
+
+  Un mage qui fréquentait assidûment la région d’Eauprofonde était un fervent adepte des duels magiques. Dans cette activité dangereuse, des objets magiques étaient mis en jeu et deux mages s'affrontaient jusqu'à ce que l'un d'eux abandonne, le vainqueur remportant les objets. Ce mage s'appelait Belfarst. Il avait mis au point une stratégie gagnante : il estimait les capacités de son adversaire et comptait le nombre de sorts qu'il avait lancés, afin d'en avoir toujours à disposition lorsque son adversaire était à court de sorts. Cependant, cette méthode lui échoua lors de sa rencontre avec Melectar.
+  Melectar avait longuement étudié les pouvoirs permettant à un mage de mémoriser les sorts. Cet enchantement était le fruit de ses recherches ; il lui permettait de se souvenir des sorts après les avoir lancés. Bien que l'incantation fût très difficile, Melectar parvint à lancer le sort avant le duel. Belfarst fut horrifié de constater que, alors qu'il ne lui restait que quelques projectiles magiques, Melectar lançait encore des éclairs en chaîne. Melectar remporta le duel, tuant accidentellement Belfarst d'un sort de désintégration. Ce sort est son héritage magique, bien que ses applications dépassent largement le cadre du duel.
+  Ce sort permet de se souvenir d'un sort de magicien de niveau 6 ou inférieur à chaque tour, pendant toute sa durée. En raison des énergies impliquées, il existe une faible chance que le sort inflige 5d10 Dégâts lors de son incantation ; la régénération du sort aura néanmoins lieu.~
+@393  = ~Bulles rebondissantes d'Otiluke~
+@394  = ~Bulles rebondissantes d'Otiluke
+  (Abjuration)
+  Niveau : 7
+  Portée : Visible
+  Durée : 5 rounds
+  Temps d'incantation : 6
+  Zone d'effet : 3 créatures 
+  Jet de sauvegarde : Aucun
+
+  Ce sort permet au lanceur de créer 3 bulles de force magique autour de 3 créatures qu'il souhaite protéger. Les bulles sont caoutchouteuses et semi-solides. Les armes qui les frappent sont ralenties et ne peuvent donc infliger que des Dégâts minimes. Les armes non magiques sont totalement incapables de pénétrer les bulles. Une seule bulle peut être lancée sur une créature. Au-delà, le sort devient inefficace.
+Effets :
+  +3 en CA
+  +40 % de résistance à tous les Dégâts physiques.
+  +90 % de résistance à tous les Dégâts à distance.
+  Immunité aux armes non magiques~
+@395  = ~Filtre intangible d'Otiluke~
+@396  = ~Filtre intangible d'Otiluke
+  (Abjuration)
+  Niveau : 3
+  Portée : 0
+  Durée : 3 rounds
+  Temps d'incantation : 1
+  Zone d'effet : Lanceur
+  Jet de sauvegarde : Aucun
+  
+  L'un des sorts de protection les plus spécialisés d'Otiluke. Ce sort entoure le lanceur d'une aura magique qui filtre toutes les toxines gazeuses jugées nocives. À l'intérieur de cette aura, les sorts créant des nuages ??toxiques sont inefficaces. Ce sort protège notamment contre :
+  Nuage puant, Nuage mortel, Brouillard mortel, Nuage incendiaire et Miasme. Ce sort est inefficace sur le plan des limbes et, malheureusement, ne protège pas des souffles de dragon ou de polyhydre.~
+@397  = ~L'armée de poche de Tereledra~
+@398  = ~L'armée de poche de Tereledra
+  (Invocation)
+  Niveau : 8
+  Temps d'incantation : 12
+  Portée : Lanceur
+  Jet de sauvegarde : Aucun
+
+  Tereledra était un puissante archimage qui résidait sur le plan de la poussière, un plan qui aspire la vie de ses habitants. Tereledra avait longtemps parcouru les plans et s'était fait  de nombreux ennemis, notamment au sein de la faction anarchiste de Sigil. Attaqué par un groupe de mages sauvages anarchistes, il décida de tout abandonner, de changer de nom et de disparaître.
+  Pendant de longues années, il erra dans les plans intérieurs, libre de ses anciens ennemis. Il rejoignit un groupe de mercenaires respectés et voyagea longtemps avec eux. Finalement, il leur confia son ancienne identité secrète, se sentant en confiance. Il était loin d'imaginer l'ampleur de la prime offerte par les anarchistes pour sa tête. Le groupe de mercenaires se retourna contre lui. Ils sous-estimèrent sa puissance et, dans un accès de rage, Tereledra les massacra tous, condamnant leurs âmes à un plan de poche pour le servir pour l'éternité. Ce sort était leur unique porte d'entrée vers les autres plans. On pense que Tereledra fut tué plus tard lorsqu'un membre de la compagnie spectrale fut ressuscité par un prêtre compatissant ; le spectre libéré abattit Tereledra d'un seul coup. Ce sort invoque 5 à 10 spectres de l'ancien groupe de mercenaires de Tereledra. Les spectres servent le lanceur de sorts pendant 2 heures avant de retourner dans leur plan de poche. Ce sont des guerriers de niveau 7 à 10 équipés d'un équipement +1. Ils obéissent au lanceur de sorts, mais ne peuvent communiquer avec personne d'autre. Ils servent également Tereledra en priorité, ce qui les empêche de le combattre ou de le gêner de quelque manière que ce soit.~
+@399  = ~Robe de Vecna~
+@400  = ~Robe de Vecna
+  Cette robe est loin d'égaler la puissance des deux célèbres artefacts, la Main et l'Œil de Vecna. Cependant, portée par la puissante liche, elle a absorbé suffisamment d'énergie magique pour devenir un objet magique puissant.
+  
+  PARAMÈTRES :
+  Capacités d'équipement :
+  CA : base fixée à 5
+  Améliore la vitesse d'incantation de 4
+ +10 % de résistance magique
+  Poids : 3
+
+  Seulement utilisable par:
+	Mage (simple, jumélé & multi-classé)~
+@401  = ~Objet de forge~
+@402  = ~Allumer la torche avec l'huile rouge.~
+@404  = ~Presque immédiatement, vous réalisez que l'homme est le créateur du jeu. L'image esquisse un sourire et vous fait un signe de tête, tapotant la balance de ses mains desséchées.~
+@405  = ~Ce qui reste du Jeu des Mille Choses commence soudainement à s'estomper... et en un instant, il disparaît à jamais.~
+@406  = ~Ouvrir le portail vers les niveaux inférieurs du temple.
+
+  Il semblerait que pour accéder au niveau suivant, il faille accomplir une sorte de rituel. Puisqu'il s'agit d'un temple, j'imagine que l'autel y est pour quelque chose.~
+@407  = ~Froid, si froid...~
+@409  = ~Ouvrir le portail vers les niveaux inférieurs du temple
+
+  Le fantôme de l'archiviste du temple m'a suggéré de retrouver le vieux prêtre étourdi, même si je doute qu'il soit encore en vie.~
+@410  = ~Ouvrir le portail vers les niveaux inférieurs du temple
+
+  Avant de pouvoir accomplir le rituel qui ouvrira le passage vers le niveau suivant, je dois trouver le chapitre et le verset appropriés à lire dans le Livre des Rituels.~
+@411  = ~Vous sursautez : l'image d'un rocher incandescent semble jaillir de la carte, sa traînée dorée s'enfonçant profondément dans le fond noir. La carte est intitulée « COMÈTE ».~
+@412  = ~Miasme~
+@413  = ~Trois femmes tiennent un fil entre elles, vous regardant toutes de travers. L'une est jeune et belle, l'autre d'âge mûr et matrone, la troisième une vieille femme. La carte est intitulée « ÉRINYES ».~
+@414  = ~La carte représente un homme assis sur un trône de fer, le visage à la fois autoritaire et royal. Un instant, vous êtes sûr que la figure vous adresse un signe de tête solennel. La carte est intitulée « TRÔNE ».~
+@415  = ~La carte montre un vieil homme aux cheveux roux flamboyants et aux yeux de feu qui vous fixe. Il tient une balance, dont les petits bols d'argent sont parfaitement équilibrés. La carte porte clairement la mention « ÉQUILIBRE ».~
+@416  = ~Tissage de brèche~
+@417  = ~Libérer Carston
+
+  Comme je le soupçonnais, la clé pour quitter ce niveau est la Machine de Lum le Fou. Je suppose qu'en manipulant les leviers, les cadrans et les boutons, je pourrai trouver un moyen d'activer la porte vers le niveau suivant. Mais avant de pouvoir expérimenter avec cette machine infernale, il me faudra traverser cette bulle de verre de Carston.~
+@418  = ~Zone de magie sauvage~
+@419  = ~Bouclier d'oubli de Melanthium~
+@420  = ~Manchettes de Melanthium~
+@421  = ~Déva~
+@422  = ~Note griffonnée~
+@428  = ~Météorite~
+@429  = ~Comète
+  (Toute école)
+  Niveau : 10
+  Portée : 90 mètres
+  Durée : Instantanée
+  Temps d'incantation : 3
+  Zone d'effet : 9 mètres de rayon
+  Jet de sauvegarde : Aucun
+
+Version plus puissante et spécialisée de Nuée de météores : un énorme météore ou une comète frappe la Terre, infligeant des dégâts à tous les ennemis sur son passage et générant une puissante onde de choc qui repousse tous les adversaires dans la zone d'effet. Ceux qui sont mis à terre doivent réussir un jet de sauvegarde contre la paralysie, sous peine d'être étourdis pendant 1D4 rounds. La comète elle-même inflige 10D10 dégâts.
+
+  Ce sort n'affecte pas les membres du groupe.~
+@430  = ~Implosion~
+@431  = ~Implosion (Évocation)
+  Niveau : Quête
+  Portée : Portée visuelle du lanceur
+  Durée : 2 rounds
+  Temps d'incantation : 5
+  Zone d'effet : 1 créature
+  Jet de sauvegarde : Spécial
+
+  Ce sort crée une faille dans le sol sous la cible. La faille implose et se referme sur elle-même, la consumant et la brûlant pendant 1 round. Le sort inflige 10D10 dégâts de feu et 10D10 dégâts contondants. La cible doit effectuer un jet de sauvegarde contre les sorts pour réduire les dégâts de moitié.
+~
+@432  = ~Pluie de terreur de Melanthium~
+@435  = ~Bouclier de feu (Rouge) (Évocation, Altération)
+  Niveau : 4
+  Portée : 0
+  Durée : 3 rounds + 1 round/niveau
+  Temps d'incantation : 4
+  Zone d'effet : Le lanceur se sorts
+  Jet de sauvegarde : Aucun
+
+ Le bouclier de feu rouge protège l'utilisateur des dégâts de feu en l'entourant d'un bouclier de flammes. Ce bouclier lui confère non seulement 50 % de résistance au feu, mais le protège également des attaques effectuées dans un rayon de 1,5 m autour de lui. Un adversaire qui touche le lanceur de sorts avec une arme ou un sort dans ce rayon subit 1d8 + 2 dégâts de feu.~
+@436  = ~Jugement des Dieux Suprêmes~
+@437  = ~Sortilège~
+@438  = ~Un sort incroyable~
+@439  = ~Sphère planaire~
+@441  = ~Résistance à la magie~
+@445  = ~Toucher de liche~
+@446  = ~Qu'est-ce que c'est ? Une construction ? Encore un combat ?~
+@447  = ~Contrôle des morts-vivants par la liche~
+@448  = ~Contrôle des morts-vivants (Nécromancie)
+Niveau : 7
+Portée : Champ de Portée visuelle du lanceur de sorts
+Durée : 6 rounds + 1 round/niveau
+Temps d'incantation : 7
+Zone d'effet : 1 à 4 créatures
+Jet de sauvegarde : Spécial
+
+Le sort de contrôle des morts-vivants permet au lanceur de prendre le contrôle de 1 à 4 créatures mortes-vivantes dans la zone d'effet. Ceci crée un lien télépathique entre le lanceur et les morts-vivants, leur conférant un contrôle total. Si les morts-vivants ont 3 dés de vie ou moins, aucun jet de sauvegarde n'est nécéssaire. En revanche, s'ils ont 4 dés de vie ou plus, un jet de sauvegarde contre les sorts est obligatoire pour annuler l'effet. Les morts-vivants restent sous le contrôle du lanceur pendant toute la durée du sort ou jusqu'à ce qu'ils soient affectés par un sort de dissipation de la magie.~
+@449  = ~Aura de peur de la liche~
+@450  = ~Vous avez misé une partie de votre expérience... Je prends mon prix. Et non... vous ne la récupérerez pas. Revenez si vous souhaitez rejouer.~
+@451  = ~Main du Destin de Melanthium~
+@452  = ~Flèche de Sorcier~
+@454  = ~Rage de Melanthium~
+@456  = ~Bénédiction de Mystra~
+@457  = ~Bonus permanent de +2 aux jets de sauvegarde contre les sorts.~
+@463  = ~Miasme
+(Conjuration)
+Niveau : 7
+Portée : 9 mètres
+Durée : 1 tour
+Temps d'incantation : 7
+Zone d'effet : 9 mètres de rayon
+Jet de sauvegarde : Aucun
+Lorsque le dernier mot de ce sort est prononcé, le sol sous la cible se met à bouillonner et à se fissurer, et des vapeurs nauséabondes s'échappent en un immense nuage bouillonnant. Le gaz du nuage exhale une odeur de mort et de décomposition ; tous ceux qui s'y trouvent sont nauséeux et se sentent très faibles. Les vapeurs sont extrêmement toxiques et empoisonnent lentement quiconque les respire. Elles piquent et brûlent les yeux, rendant la visibilité dans le brouillard extrêmement difficile.
+Effets : À chaque round, toute personne se trouvant dans le nuage subit 3d8 de dégâts de poison sans jet de sauvegarde. Tant qu'elle reste dans le nuage, elle est nauséeuse et ralentie. 
+À chaque round, elle doit effectuer un jet de sauvegarde contre les sorts sous peine d'être aveuglée pendant un round.~
+@471  = ~Clignotement~
+@477  = ~Invocation de monstre~
+@478  = ~On verra bien, <CHARNAME>.~
+@479  = ~Invocation de mort-vivant~
+@480  = ~Pose de piège à pieux~
+@481  = ~Invocation d'araignée~
+@482  = ~Pose de piège explosif~
+@483  = ~Invocation de loup de l'ombre~
+@484  = ~Évasion~
+@486  = ~Les menaces ne sont pas la solution ici. Restez calmes, nous pouvons trouver une solution ensemble.~
+@487  = ~Invocation d'un bébé wyverne~
+@488  = ~Que savez-vous exactement de la prophétie ?~
+@496  = ~Soigné~
+@499  = ~Protections anti-sorts levées~
+@507  = ~Projectile magique~
+@508  = ~Projectile magique (Évocation)
+Niveau : 1
+Portée : Portée visuelle du lanceur
+Durée : Instantanée
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+
+L'utilisation du sort Projectile magique, l'un des sorts de niveau 1 les plus populaires, crée jusqu'à cinq projectiles d'énergie magique qui jaillissent du bout des doigts du magicien et frappent leur cible, qui doit être une créature quelconque. Chaque projectile inflige 1d4+1 points de dégâts. Tous les deux niveaux d'expérience supplémentaires, le magicien gagne un projectile supplémentaire : il en a deux au niveau 3, trois au niveau 5, quatre au niveau 7 et un maximum de cinq projectiles au niveau 9.~
+@532  = ~Attaque magique de Melanthium~
+@533  = ~Alors que vous vous enfoncez dans les bas-fonds, la réalité commence à vaciller et à se brouiller autour de vous. Au moment où vous commencez à perdre connaissance, vous vous retrouvez soudain ailleurs.~
+@534  = ~Sympa, ce démon. Voyez, les élèves, si vous leur donnez assez d'amour et d'attention, les démons sont totalement inoffensifs !~
+@535  = ~Attention, professeur !~
+@536  = ~Ne vous inquiétez pas, il veut juste une caresse. N'est-ce pas, mon grand ? Viens par ici, papa va te gratter.~
+@537  = ~Bon, je l'avais prévenu. Vous ne pouvez pas dire le contraire. Maintenant, puis-je aller ailleurs ? Dans un endroit moins déPortéeant ?~
+@538  = ~Khelben~
+@539  = ~Vous ne franchirez pas ce point, rejeton du mal !~
+@540  = ~Et qui va m'arrêter... prêtre. Toi ? Ta foi est faible. Ton pouvoir a décliné. Incline-toi devant ton nouveau maître et je te laisserai peut-être vivre !~
+@541  = ~Jamais ! Vous êtes une abomination à ses yeux ! Ma foi est peut-être faible, mais elle suffit amplement à vous arrêter !~
+@542  = ~Helm, je me suis peut-être égaré, mais je vous en supplie, même si cela doit me coûter la vie, aidez-moi à sauver ces gens !~
+@543  = ~Hahahahaha ! Tu ne sais donc pas, petit mortel, que les dieux sont... occupés ailleurs. Il ne peut pas t'aider maintenant.~
+@545  = ~Prêtre de Helm~
+@546  = ~Bon, je crois que je vais attaquer ces gentils aventuriers sans raison particulière... Enfin... aucune raison, en fait. C'est ce que font les gens dans ce jeu. Ils attaquent des inconnus. MOURREZ !~
+@547  = ~Urp. Excusez-moi.~
+@548  = ~Beurk ! Je crois que ce démon a un morceau du Professeur coincé entre les dents !~
+@549  = ~Aïe !~
+@550  = ~Hé, cool, un autre moi !~
+@551  = ~Allez, on va botter les fesses de ces Aventuriers !~
+@552  = ~Vu le nombre de fois où je me suis dédoublé, on pourrait croire que j'aurais déjà gagné.~
+
+@553  = ~Aide du Clerc~
+@554  = ~Aide du Clerc
+Ce heaume étrange augmente la puissance divine d'un clerc/mage au détriment de sa capacité magique.
+
+PARAMÈTRES :
+  +1 sorts de clerc pour les niveaux 1 à 7
+  -1 sorts de mage pour les niveaux 1 à 8
+  +1 à la vitesse d'incantation
+
+Utilisable par :
+  Guerriers/Mages/Clercs et Clercs/Mages~
+@555  = ~Portée visuelle du Mage~
+@556  = ~Portée visuelle du Mage
+Ce heaume étrange augmente la capacité magique d'un clerc/mage au détriment de sa puissance divine.
+
+PARAMÈTRES :
+  +1 sorts de mage de niveau 1 à 8
+  -1 sorts de clerc de niveau 1 à 7
+  +1 à la vitesse d'incantation
+
+ Utilisable par :
+  Guerrier/Mage/Clerc et Clerc/Mage~
+@557  = ~Ami des voleurs, Ennemi des voleurs~
+@558  = ~Ami des voleurs, Ennemi des voleurs
+Une épée très étrange, cette arme confère à son porteur des bonus considérables, compensés par des effets handicapants.
+
+  PARAMÈTRES :
+  Chaque coup est une attaque sournoise
+  +2 au modificateur d'attaque sournoise
+
+  Attaques par round : 1
+  Immunité du porteur à la hâte et à la hâte supérieure
+  Impossibilité pour le porteur de lancer des sorts de niveau 6, 7, 8 et 9
+
+Utilisable par :
+  Guerrier/Voleur/Mage et Voleur/Mage~
+@559  = ~Traits de dragon~
+@560  = ~Traits de dragon
+Imbibés de la puissance d'un dragon, ces carreaux projettent leur cible en arrière, comme si elle était emportée par les ailes d'un dragon.
+
+  Enchantement : +4
+  Dégâts : 1d10 +5
+  THACO : +4
+  Type de dégâts : Projectile (perforant)
+  Poids : 0
+  Type de compétence : Arbalète
+  
+Spécial : Inflige Coup d'aile à la cible visée.~
+
+@561  = ~Pratique vs Potentiel~
+@562  = ~Pratique vs Potentiel
+Que vaut-il mieux ? Être prêt à toute éventualité ou être mieux préparé au scénario le plus probable ?
+
+PARAMÈTRES :
+  Rend le porteur immunisé contre :
+  Flèche de feu
+  Flèche acide
+  Projectile magique
+  Orbe chromatique
+    
+  Réduit la résistance du porteur aux dégâts de feu, d'acide et magiques de 15 %.
+
+Inutilisable par:
+  Tueur de magiciens~
+
+@563  = ~Ceinture~
+@564  = ~Les bâtons et les pierres peuvent me briser les os, mais pas les flèches.~
+@565  = ~C'est une ceinture. Que voulez-vous savoir de plus ?~
+@566  = ~Je suppose que ça devrait être du bâton, des pierres et quelque chose de tranchant...
+Bon, d’accord, les noms n’ont aucun sens, je plaide la fatigue.
+
+PARAMÈTRES :
+  80 % de résistance aux projectiles
+  -20 % de résistance aux contondants/perforants/tranchants
+
+Inutilisable par :
+  Tueur de magiciens~
+
+@574  = ~Triomphe du lanceur de sorts~
+@575  = ~Triomphe du lanceur de sorts
+  Cette épée a été conçue pour permettre aux guerriers/mages de lancer plusieurs sorts par round. Son seul défaut est son manque de tranchant. De plus, elle rend impossible le maniement de deux armes simultanément.
+
+Bonus de dégâts : -5
+Bonus de THACO : -5
+
+Dégâts : 1d3
+Vitesse : 2
+Type de compétence : Épée courte
+
+PARAMÈTRES:
+  Confère une purification d'aura permanente
+  Bonus THACO en main gauche : -20
+
+Utilisable par :
+  Guerrier/Mage
+  Guerrier/Mage/Voleur
+  Guerrier/Mage/Clerc~
+
+@576  = ~C'est une épée courte. Un peu émoussée peut-être, mais une épée courte tout de même.~
+
+@593 = ~Les Éléments~
+@594 = ~Les Éléments
+Qui a besoin de résistances quand on peut régénérer les Dégâts ?
+
+PARAMÈTRES : 
+  Régénération de 1 point de vie par seconde 
+  -50 à TOUTES les résistances
+
+Inutilisable par : 
+Tueur de magiciens~
+
+@567  = ~Capitaine Githyanki~
+@568  = ~Githyanki~
+@569  = ~Illithid~
+
+@570  = ~Objets étranges d'Avernus~
+@571  = ~Professeur~
+@572  = ~Assistant Scott~
+@573  = ~Belle~
+
+@577  = ~Prêtre de Helm~
+@578  = ~Chevalier Bouclier~
+@579  = ~Tanar'ri~
+@580  = ~Mage Tanar'ri~
+@581  = ~Prêtre de Talos~
+@582  = ~Guerrier de Talos~
+@583  = ~Tanar'ri Raver~
+@584  = ~Numéro~
+@585  = ~Baatezu~
+@586  = ~Traqueur Tanar'ri~
+@587  = ~Liche Baatezu~
+@588  = ~Paladin du cœur radieux~
+@589  = ~Traqueur Baatezu~
+@590  = ~Aventurier solennel~
+@591  = ~Acolyte de l’aventurier solennel~
+@592  = ~Aventurier voyageant dans les plans~
+@595  = ~Chef Tanar'ri~
+@596  = ~Chef Baatezu~
+@597  = ~Expression ultime de la haine~
+@598  = ~Expression ultime de la colère~
+@599  = ~Lathandre~
+@600  = ~Casque~
+@601  = ~Talos~
+@602  = ~Non ! Il ne peut en être ainsi!~
+@603  = ~Kobold~
+@604  = ~Nooooon ! Vous ne pouvez pas me faire ça !!!!!!!~
+@605  = ~Ah. Vous venez avec moi. Je suis sûr que Belle sera ravie de vous revoir !~ ~Ah. Vous venez avec moi. Je suis sûre que Belle sera ravie de vous revoir !~
+@606  = ~Acolyte de Talos~
+@607  = ~Acolyte de Lathandre~
+@608  = ~Vos pitoyables protections ne vous sauveront pas ! ~
+@609  = ~HA ! Croyez-vous que cela peut m'arrêter ?~
+@610  = ~Oui, Professeur ! Tout de suite !~
+@611  = ~Professeur ! Il y a un problème ! ~
+@612  = ~AHHH!!!!~
+@613  = ~Assistant Scott !! Nooooon !~
+@614  = ~Teos, le poulet~
+@615  = ~Teos vous a finalement poussé à bout. Alors vous l’avez transformé en poulet. Maintenant, il faut le livrer à Belle. ~
+@616  = ~Nooooon !!!!!~
+@617  = ~Au revoir Teos. Bon voyage.~
+
+@618   = ~Forgeron Nain~
+@619   = ~Lamentations~
+@620   = ~Parlez à chacun des apprentis à tour de rôle ; ils vous feront une démonstration d’ un sort de leur choix. Une fois que vous aurez parlé à chacun d'eux, revenez me voir. ~
+@621   = ~Assistant Scott! Démarrez l’ouverture du portail !~
+
+// Traification manquante pour tp2 (Remerciements à ArcaneCoast)
+@622   = ~Épée courte~
+@623   = ~Archives de la Sphère~
+@624  = ~Magasin de la Promenade de Waukyne~
+@625  = ~Retour à la Sphère Planaire v2~
+@626  = ~Retour~
+@627  = ~Sphère Planaire~
+
+
+//Emprunté au mod Spell Revision 
+
+@628 = ~Invocation de monstres IV~
+@629 = ~Invocation de monstres IV
+Niveau: 4
+École: Conjuration
+Portée: Moyenne
+Durée: 3 tours
+Temps d'incantation: 1 round
+Zone d'effet: Spécial
+Jet de sauvegarde: aucun
+
+Grâce à ce sort, le lanceur invoque des monstres qui lui servent en toutes circonstances. Le type et le nombre de créatures invoquées dépendent du niveau du magicien. Les créatures invoquées restent sous son contrôle jusqu'à leur mort ou jusqu'à l'expiration de la durée du sort.
+
+7em : 2 araignées géantes
+9em : 3 araignées géantes
+12em et + : 3 araignées géantes, 1 araignée sabre
+
+Araignée géante (4 Dés de vie):
+FOR 15, DEX 17, CON 12, INT -, SAG 10, CHA 2;  Loyal Neutre
+PV 32, AC 6, THAC0 16, Jet de sauvegardes 10/13/10/13/13
+1 attaque par round, 1d8 dégâts perforants (Morsure +1) 
+
+
+Araignée sabre (5 Dés de vie):
+FOR 17, DEX 10, CON 15, INT -, SAG 11, CHA 3;  Loyal Neutre
+PV 45, AC 3, THAC0 14, Jet de sauvegardes 9/12/9/12/12
+4 attaques par round, 1d8+2 dégâts perforants (jambes et morsure +1) 
+
+
+Capacités de combat (toutes les araignées) :
+Poison : les morsures d’araignées injectent un venin qui inflige 3 PV/round pendant 1 tour (un jet de sauvegarde contre le poison annule les dégâts).
+
+Qualités spéciales (toutes les araignées) :
+Immunisées contre le poison et les effets de toile.~
+
+@628 = ~PlanarSphereMod, composant principal requis.~
+
+
+@666 = ~Vous devez désinstaller l’ancien mod Planar Sphere Return avant d’installer la nouvelle version de PSM !~

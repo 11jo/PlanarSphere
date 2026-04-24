@@ -1,0 +1,36 @@
+@0    = ~Vous vous réveillez.~
+@1    = ~Quoi... que s’est-il passé ?~
+@2    = ~Vous êtes apparu il y a peu, provenant d’une sorte de portail planaire qui s’est ouvert pendant que j’enquêtais.~
+@3    = ~Maintenant, vous devez me dire ce qui s’est passé. C’est d’une importance capitale.~
+@4    = ~Est-ce vous, Elminster ?~
+@5    = ~Oui, c’est moi, mon enfant. Mais s’il vous plaît, pouvez-vous me dire ce qui s’est passé ici ?~
+@6    = ~Je ne suis pas sûr... Les Mages cagoulés tissaient un Sort de Libération autour de l’Artefact... Puis un homme est apparu... Il a tué les Mages et a parlé de « vengeance » et de « la Dame », mais qu’il devait d’abord faire quelque chose à quelqu’un sur le Plan Matériel Primaire. Puis il m’a envoyé dans un demi-plan construit à partir de mes propres pensées.~
+@7    = ~A-t-il dit son nom ? C’est vital.~
+@8    = ~Non ; Il n'a mentionné aucun nom.~
+@9    = ~Alors, nous devons envisager le pire, ce qui signifie que vous avez commis une grave erreur. Vous avez parlé d'un Sort de Libération ? Quel était votre rôle exact dans tout cela ?~
+@10   = ~Les Mages cagoulés m'ont envoyé récupérer un artefact auprès d'un Mage Rouge. Je l'ai tué et leur ai rendu l'artefact. Ils voulaient libérer son pouvoir et détruire l'île de Thay.~
+@11   = ~Oui, ce sort de libération aurait suffi... Eh bien, maintenant, vous devez m'aider. Vos actions ont mis Toril en danger, et si nous tardons encore, tous les plans d'existence suivront.~
+@12   = ~Cet artefact a été créé il y a environ cinq cents ans dans la cité de Sigil. Je ne sais que ce que Mystra m'a révélé, mais je sais qu'un sorcier, un sorcier incroyablement puissant, est venu à Sigil. Peu après, un combat a éclaté entre le sorcier et la Dame de la Douleur. Un combat titanesque s'ensuivit, et de nombreux plans furent détruits.~
+@13   = ~Le combat prit fin lorsque la Dame parvint à retourner le pouvoir du Sorcier contre lui, l'emprisonnant dans une minuscule réalité, où il passerait l'éternité scellée loin de tous.~
+@14   = ~Qui est la Dame de la Douleur ?~
+@15   = ~La Dame ? C'est un être puissant, plus puissant que n'importe quel dieu. Elle contrôle la Cité du Sceau, puisant son pouvoir d'une manière ou d'une autre dans tous les plans.~
+@16   = ~Comment un simple sorcier pouvait-il espérer défier un tel être ?~
+@17   = ~Ne vous y trompez pas, jeune homme. Il n'est pas comme les sorciers de notre monde. Eux ne sont que des êtres dotés d'une affinité naturelle pour la magie. Lui... il est différent. Il est peut-être l'être le plus puissant de tous les plans. Même la Dame n'a pu le vaincre sans le tromper.~
+@18   = ~Les plans et toutes les réalités sont tissés d'énergie. Cette énergie est diluée et dissipée pour créer les plans. Ce sorcier, cependant, peut manipuler cette énergie pure. Il peut créer des réalités d'un mot, ou les détruire d'une pensée. C'est un être à craindre plus que tout autre. ~
+@19   = ~Que pouvons-nous faire contre un être aussi puissant ?~
+@20   = ~Hors de question que je ne joue pas avec un être d'une telle puissance !~
+@21   = ~Il est faible pour le moment. Les pouvoirs des Mages cagoulés n'ont que légèrement ébranlé les défenses de sa prison. Il a dû utiliser toute sa puissance pour s'échapper. C'est le moment de frapper, avant qu'il ne se rétablisse.~
+@22   = ~Pourquoi êtes-vous ici, d'ailleurs ?~
+@23   = ~Moi, ainsi que beaucoup d'autres, avons perçu la vaste magie qu'il a utilisée pour s'échapper. De plus, il attaque ma Maîtresse.~
+@24   = ~Votre Maîtresse ?~
+@25   = ~Mystra, la Déesse de la Magie. Il l'attaque de toutes ses forces. Nous devons l'arrêter avant qu'elle ne soit détruite. Seuls les mortels peuvent la sauver. Il a interdit à tous les autres dieux, y compris le Seigneur Ao lui-même, de l'aider.~
+@26   = ~Pourquoi souhaite-t-il la destruction de Mystra ?~
+@27   = ~Elle a tissé de puissantes protections autour de l'artefact, lorsque la Dame l'a jeté dans la matière première, afin d'empêcher quiconque d'en libérer le pouvoir. Il aurait pu être libéré il y a des années sans elle.~
+@28   = ~Que faire alors ?~
+@29   = ~Il se trouve au Bastion des Harpistes, dans la ville. Il utilise le Sanctuaire de Mystra pour l'attaquer. Si nous parvenons à le distraire, Mystra pourra peut-être, avec l'aide des autres dieux, le détruire pendant qu'il est encore faible. Mais nous devons faire vite !~
+@30   = ~Très bien. Allons-y !~
+@31   = ~Je vais nous téléporter là-bas.~
+@32   = ~Vous n'avez pas le choix, sous peine d'affronter la colère de Mystra ! Vous avez libéré ce sorcier, et vous contribuerez à l'arrêter.~
+@33   = ~Très bien.~
+
+
