@@ -2,9 +2,8 @@ IF
 	True()
 THEN
 	RESPONSE #100
-		CutSceneID(Player1)
+		CutSceneId(Player1)
 		ClearAllActions()
-		
 		CreateCreatureDoor("psBelle",[500.500],0)
 		Wait(5)
 		ActionOverride("psTeos",StartDialogNoSet("psBelle"))

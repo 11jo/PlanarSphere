@@ -1,7 +1,7 @@
 /* Planar Sphere Mod v2.6c; 2.6a with Ieldra's, Ikki's, and ScuD's fixes incorporated, plus erebusant's and Duality's continued work */
 /* Planar Sphere Mod v2.8.5; still work in progress */
 
-BACKUP ~planarspheremod/backup~
+BACKUP ~weidu_external/planarspheremod/backup~
 
 AUTHOR ~See_The_Readme (Org: Inferno & M, Updates: Hlid, Duality, Malbolgia)~
 
@@ -9,7 +9,7 @@ AUTHOR ~See_The_Readme (Org: Inferno & M, Updates: Hlid, Duality, Malbolgia)~
 //MODDER
 
 /* WeiDU v204 allows tp2 level version listing in the .log, so no more tra changes  */
-VERSION ~v2.9~
+VERSION ~v2.9.1~
 
 /* launch the readme file immediately. If you want to disable the ReadMe, place two slashes before it, like //README  */
 README ~PlanarSphereMod/readme/readme-planarsphere.html~
@@ -18,13 +18,13 @@ README ~PlanarSphereMod/readme/readme-planarsphere.html~
 ALWAYS
       //Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~planarspheremod/language/english~  ~planarspheremod/language/autotra/%LANGUAGE%~
-      COPY ~planarspheremod/language/%LANGUAGE%~  ~planarspheremod/language/autotra/%LANGUAGE%~
+      COPY ~planarspheremod/language/english~  ~weidu_external/planarspheremod/language/autotra/%LANGUAGE%~
+      COPY ~planarspheremod/language/%LANGUAGE%~  ~weidu_external/planarspheremod/language/autotra/%LANGUAGE%~
     END
 
     LAF autotra_workaround END
 
-
+	ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
   ACTION_DEFINE_ARRAY ps_noconvert BEGIN install END
 
  ACTION_DEFINE_ARRAY ps_reload BEGIN setup END
@@ -33,9 +33,14 @@ ALWAYS
       INT_VAR
         infer_charsets = 1
       STR_VAR
-        tra_path = EVAL ~planarspheremod/language/autotra~
+        tra_path = EVAL ~weidu_external/planarspheremod/language/autotra~
+        out_path = EVAL ~weidu_external/planarspheremod/Language/autotra/UTF8~
+        iconv_path = ~planarspheremod/language/autotra/iconv~
         noconvert_array = ps_noconvert
         reload_array = ps_reload
+    END
+	// UTF8 only
+	COPY ~weidu_external/planarspheremod/language/autotra/UTF8/%LANGUAGE%~				~weidu_external/planarspheremod/language/autotra/%LANGUAGE%~
  END
 
 //
@@ -43,7 +48,7 @@ INCLUDE ~planarspheremod/lib/gw_functions.tpa~
 
 END
 
-AUTO_TRA ~PlanarSphereMod/language/autotra/%s~
+AUTO_TRA ~weidu_external/PlanarSphereMod/language/autotra/%s~
 
 LANGUAGE ~English~
 ~english~
@@ -57,6 +62,12 @@ LANGUAGE ~Simplified Chinese(Translation by anca_qin; Proofread by lzw1045227733
 ~schinese~
 ~PlanarSphereMod/language/schinese/setup.tra~
 ~PlanarSphereMod/language/schinese/install.tra~
+
+/*
+LANGUAGE ~French (Traduction par Streen)~
+~french~
+~PlanarSphereMod/language/french/setup.tra~
+*/
 
 BEGIN @0
 DESIGNATED 0
@@ -2483,31 +2494,31 @@ COMPILE ~PlanarSphereMod/dlg~  // Full dialogs
 COMPILE ~PlanarSphereMod/baf~  // Full Scripts
 
 COMPILE ~PlanarSphereMod/baf/psCut41.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COPY_EXISTING ~TEMAMN01.CRE~ ~override/TEMAMN01.CRE~
   WRITE_ASCII 0x280 ~TEMAMN01~ (32) // Script name / Death variable
 
 COMPILE ~PlanarSphereMod/baf/psCut42.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COMPILE ~PlanarSphereMod/baf/psCut43.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COMPILE ~PlanarSphereMod/baf/psCut44.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COMPILE ~PlanarSphereMod/baf/psCut45.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COMPILE ~PlanarSphereMod/baf/psCut46.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COMPILE ~PlanarSphereMod/baf/psCut47.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0900.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0900.tra~
 
 COMPILE ~PlanarSphereMod/baf/psCut39.baf~
-USING ~PlanarSphereMod/language/autotra/%s/ar0300.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/ar0300.tra~
 
 // Extending existing scripts and possibly existing scripts
 
@@ -2546,7 +2557,7 @@ EXTEND_TOP    ~AR0500.bcs~  ~PlanarSphereMod/snip/psAR0500.baf~
 
 COPY_EXISTING ~AR0700.bcs~ ~Override/AR0700.bcs~
 EXTEND_TOP    ~AR0700.bcs~  ~PlanarSphereMod/snip/psAR0700.baf~
-USING ~PlanarSphereMod/language/autotra/%s/AR0700.tra~
+USING ~weidu_external/PlanarSphereMod/language/autotra/%s/AR0700.tra~
 
 COPY_EXISTING ~AR0709.bcs~ ~Override/AR0709.bcs~
 EXTEND_TOP    ~AR0709.bcs~  ~PlanarSphereMod/snip/psAR0709.baf~
