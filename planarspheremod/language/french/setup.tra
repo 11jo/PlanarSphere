@@ -1,7 +1,7 @@
-@9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
-@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9001 = ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 
-@0    = ~Bastion prolonge du Mage EET~
+@0    = ~PlanarSphereMod~
 @1    = ~TOB Requis~
 @2    = ~Sphère Planaire~
 @3    = ~Mannequin de test~
@@ -2270,7 +2270,7 @@ Poison : les morsures d’araignées injectent un venin qui inflige 3 PV/round pend
 Qualités spéciales (toutes les araignées) :
 Immunisées contre le poison et les effets de toile.~
 
-@628 = ~PlanarSphereMod, composant principal requis.~
+@628 = ~Le composant principal de PlanarSphereMod est requis.~
 
 
 @666 = ~Vous devez désinstaller l’ancien mod Planar Sphere Return avant d’installer la nouvelle version de PSM !~
